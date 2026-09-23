@@ -4687,21 +4687,21 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Cálculo e interpretação do risco relativo em coorte sobre atividade física e diabetes tipo 2",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Uma coorte acompanhou 2.400 adultos sedentários e 2.400 adultos fisicamente ativos por oito anos, para avaliar a incidência de diabetes tipo 2. Entre os sedentários, 288 desenvolveram diabetes; entre os ativos, 96 desenvolveram a doença. Qual alternativa calcula e interpreta corretamente o risco relativo dessa associação, segundo o material?",
+    "prompt": "Uma coorte acompanhou 2.400 adultos sedentários e 2.400 adultos fisicamente ativos por oito anos, para avaliar a incidência de diabetes tipo 2. Entre os sedentários, 288 desenvolveram diabetes; entre os ativos, 96 desenvolveram a doença. Qual alternativa calcula e interpreta corretamente o risco relativo dessa associação?",
     "options": [
       {
         "letter": "A",
         "text": "O risco relativo e calculado dividindo o risco (incidência) no grupo exposto pelo risco no grupo não exposto; nesse caso, risco nos sedentários = 288/2.400 = 12%, risco nos ativos = 96/2.400 = 4%, resultando em RR = 12/4 = 3,0, indicando que os sedentários tiveram o triplo do risco de desenvolver diabetes tipo 2 em comparação aos fisicamente ativos.",
-        "rationale": "CORRETA. O material define o risco relativo como o risco (incidência) no grupo exposto dividido pelo risco no grupo não exposto; calculando, 288/2.400 = 12% nos sedentários e 96/2.400 = 4% nos ativos, obtém-se RR = 12/4 = 3,0, indicando que o sedentarismo triplicou o risco de desenvolver diabetes tipo 2 nessa coorte ao longo dos oito anos de seguimento."
+        "rationale": "CORRETA. Risco relativo é o risco (incidência) no grupo exposto dividido pelo risco no grupo não exposto; calculando, 288/2.400 = 12% nos sedentários e 96/2.400 = 4% nos ativos, obtém-se RR = 12/4 = 3,0, indicando que o sedentarismo triplicou o risco de desenvolver diabetes tipo 2 nessa coorte ao longo dos oito anos de seguimento."
       },
       {
         "letter": "B",
-        "text": "O risco relativo, segundo o material, e calculado dividindo o número absoluto de casos entre sedentários pelo número absoluto de casos entre ativos, sem relativizar pelo tamanho de cada grupo, resultando em RR = 288/96 = 3,0.",
-        "rationale": "Incorreta. Embora o resultado numerico coincida nesse caso específico por os grupos terem o mesmo tamanho, o material define o risco relativo como a razão entre os riscos (incidências relativizadas por cada grupo), e não como a razão direta entre números absolutos de casos, que so coincidem quando os grupos comparados tem exatamente o mesmo tamanho."
+        "text": "O risco relativo é calculado dividindo o número absoluto de casos entre sedentários pelo número absoluto de casos entre ativos, sem relativizar pelo tamanho de cada grupo, resultando em RR = 288/96 = 3,0.",
+        "rationale": "Incorreta. Embora o resultado numérico coincida nesse caso específico por os grupos terem o mesmo tamanho, risco relativo é a razão entre os riscos (incidências relativizadas por cada grupo), e não a razão direta entre números absolutos de casos, que só coincidem quando os grupos comparados têm exatamente o mesmo tamanho."
       },
       {
         "letter": "C",
-        "text": "Um RR igual a 3,0 indica, segundo o material, que o sedentarismo reduz o risco de diabetes tipo 2 em 3 vezes na população estudada, caracterizando um fator de proteção contra a doença.",
+        "text": "Um RR igual a 3,0 indica que o sedentarismo reduz o risco de diabetes tipo 2 em 3 vezes na população estudada, caracterizando um fator de proteção contra a doença.",
         "rationale": "Incorreta. RR maior que 1 indica aumento do risco associado à exposição, caracterizando fator de risco, e não fator de proteção; um efeito protetor corresponderia a RR menor que 1, o que não é o caso nesse cálculo de RR=3,0."
       },
       {
@@ -5121,16 +5121,16 @@ const QUESTIONS_DATABASE = [
       {
         "letter": "B",
         "text": "A taxa de ataque entre os que consumiram maionese é (54/60) x 100 = 90%, calculada erroneamente sobre o número de expostos do outro grupo, e não sobre os próprios expostos à maionese — invertendo os denominadores corretos.",
-        "rationale": "Incorreta. O material define a taxa de ataque de cada grupo específico utilizando o próprio número de expostos daquele grupo como denominador (90 para quem consumiu maionese, e não 60, que e o número de expostos do outro grupo de comparação)."
+        "rationale": "Incorreta. A taxa de ataque de cada grupo específico utiliza o próprio número de expostos daquele grupo como denominador (90 para quem consumiu maionese, e não 60, que é o número de expostos do outro grupo de comparação)."
       },
       {
         "letter": "C",
-        "text": "Não e possível calcular e comparar taxas de ataque entre dois grupos de exposição alimentar diferentes dentro do mesmo evento, segundo o material, sendo essa medida aplicável apenas ao cálculo de uma única taxa geral do evento como um todo.",
-        "rationale": "Incorreta. O material descreve exatamente esse tipo de comparação de taxas de ataque entre diferentes grupos de exposição alimentar dentro de um mesmo surto como uma ferramenta central da investigação epidemiológica de surtos, e não restringe seu uso a uma única taxa geral do evento."
+        "text": "Não é possível calcular e comparar taxas de ataque entre dois grupos de exposição alimentar diferentes dentro do mesmo evento, sendo essa medida aplicável apenas ao cálculo de uma única taxa geral do evento como um todo.",
+        "rationale": "Incorreta. Esse é exatamente o tipo de comparação de taxas de ataque entre diferentes grupos de exposição alimentar dentro de um mesmo surto usado como ferramenta central da investigação epidemiológica de surtos; seu uso não se restringe a uma única taxa geral do evento."
       },
       {
         "letter": "D",
-        "text": "A razão de 6,0 entre as taxas de ataque indica, segundo o material, que a maionese tem efeito protetor contra a gastroenterite, reduzindo o risco de adoecimento entre os que a consumiram.",
+        "text": "A razão de 6,0 entre as taxas de ataque indica que a maionese tem efeito protetor contra a gastroenterite, reduzindo o risco de adoecimento entre os que a consumiram.",
         "rationale": "Incorreta. Uma razão de taxas de ataque maior que 1, como o valor de 6,0 calculado nesse caso, indica maior risco entre os expostos, caracterizando associação positiva e não efeito protetor, que corresponderia a uma razão menor que 1."
       }
     ],
@@ -5168,27 +5168,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Distinção entre significância estatística e relevância clínica de uma associação",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Um grande estudo com dezenas de milhares de participantes encontra uma associação estatisticamente significativa entre o consumo de um determinado aditivo alimentar e um discreto aumento na pressão arterial sistolica, de apenas 0,5 mmHg em média, com intervalo de confiança de 95% que não inclui o valor nulo devido ao tamanho expressivo da amostra. Qual alternativa avalia corretamente essa situação, segundo os princípios de interpretação de resultados estatísticos descritos no material?",
+    "prompt": "Um grande estudo com dezenas de milhares de participantes encontra uma associação estatisticamente significativa entre o consumo de um determinado aditivo alimentar e um discreto aumento na pressão arterial sistólica, de apenas 0,5 mmHg em média, com intervalo de confiança de 95% que não inclui o valor nulo devido ao tamanho expressivo da amostra. Qual alternativa avalia corretamente essa situação, segundo os princípios de interpretação de resultados estatísticos?",
     "options": [
       {
         "letter": "A",
         "text": "Embora estatisticamente significativa, uma diferença média de apenas 0,5 mmHg na pressão arterial tem relevância clínica questionável, ilustrando que a significância estatística, mesmo confirmada por um intervalo de confiança que exclui o valor nulo, não substitui a avaliação do impacto prático e clínico do achado.",
-        "rationale": "CORRETA. O material orienta explicitamente que decisões importantes exigem mais do que significância estatística, sendo necessário considerar também a relevância clínica e o impacto prático do achado; um aumento médio de apenas 0,5 mmHg, mesmo estatisticamente significativo gracas ao grande tamanho amostral, tem relevância clínica questionável para a saúde individual dos pacientes."
+        "rationale": "CORRETA. Decisões importantes exigem mais do que significância estatística, sendo necessário considerar também a relevância clínica e o impacto prático do achado; um aumento médio de apenas 0,5 mmHg, mesmo estatisticamente significativo graças ao grande tamanho amostral, tem relevância clínica questionável para a saúde individual dos pacientes."
       },
       {
         "letter": "B",
-        "text": "Como o intervalo de confiança de 95% não inclui o valor nulo, esse achado deve ser automaticamente considerado clinicamente relevante e suficiente para orientar mudanças imediatas na recomendação de consumo desse aditivo alimentar, segundo o material.",
-        "rationale": "Incorreta. O material orienta justamente o contrário, que a significância estatística não deve ser automaticamente equiparada a relevância clínica; um efeito estatisticamente significativo, mas de pequena magnitude, como 0,5 mmHg, exige avaliação cuidadosa antes de orientar mudanças práticas de recomendação."
+        "text": "Como o intervalo de confiança de 95% não inclui o valor nulo, esse achado deve ser automaticamente considerado clinicamente relevante e suficiente para orientar mudanças imediatas na recomendação de consumo desse aditivo alimentar.",
+        "rationale": "Incorreta. Justamente o contrário: a significância estatística não deve ser automaticamente equiparada à relevância clínica; um efeito estatisticamente significativo, mas de pequena magnitude, como 0,5 mmHg, exige avaliação cuidadosa antes de orientar mudanças práticas de recomendação."
       },
       {
         "letter": "C",
-        "text": "Estudos com amostras muito grandes nunca conseguem atingir significância estatística para efeitos de pequena magnitude, segundo os princípios descritos no material, o que tornária esse resultado necessariamente um erro de análise.",
-        "rationale": "Incorreta. O material relaciona justamente o oposto: amostras muito grandes aumentam a capacidade de detectar como estatisticamente significativos até mesmo efeitos de pequena magnitude, o que explica, e não invalida, o resultado descrito nesse caso."
+        "text": "Estudos com amostras muito grandes nunca conseguem atingir significância estatística para efeitos de pequena magnitude, o que tornaria esse resultado necessariamente um erro de análise.",
+        "rationale": "Incorreta. Justamente o oposto: amostras muito grandes aumentam a capacidade de detectar como estatisticamente significativos até mesmo efeitos de pequena magnitude, o que explica, e não invalida, o resultado descrito nesse caso."
       },
       {
         "letter": "D",
-        "text": "A relevância clínica de um achado de pesquisa não e mencionada como criterio relevante pelo material, que considerária a significância estatística, isoladamente, suficiente para qualquer tomada de decisão em saúde.",
-        "rationale": "Incorreta. O material menciona explicitamente que decisões importantes exigem, além da significância estatística, a consideração da relevância clínica e do impacto na saúde, e não trata a significância estatística isolada como suficiente para qualquer decisão."
+        "text": "A relevância clínica de um achado de pesquisa não é um critério relevante a considerar, bastando a significância estatística, isoladamente, para qualquer tomada de decisão em saúde.",
+        "rationale": "Incorreta. Decisões importantes exigem, além da significância estatística, a consideração da relevância clínica e do impacto na saúde; a significância estatística isolada não é suficiente para qualquer decisão."
       }
     ],
     "correctLetter": "A",
@@ -5201,27 +5201,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Escolha da medida de tendência central mais adequada diante de distribuição assimetrica de renda",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Um pesquisador analisa a renda familiar mensal de moradores de um bairro, encontrando uma distribuição bastante assimetrica, com a maiória das famílias ganhando valores próximos e um pequeno número de famílias com renda extremamente elevada, distorcendo o valor da média aritmética para cima em relação ao que a maiória das famílias efetivamente recebe. Qual alternativa expressa a conduta mais coerente com os princípios de interpretação de medidas de tendência central descritos no material?",
+    "prompt": "Um pesquisador analisa a renda familiar mensal de moradores de um bairro, encontrando uma distribuição bastante assimétrica, com a maioria das famílias ganhando valores próximos e um pequeno número de famílias com renda extremamente elevada, distorcendo o valor da média aritmética para cima em relação ao que a maioria das famílias efetivamente recebe. Qual alternativa expressa a conduta mais coerente com os princípios de interpretação de medidas de tendência central?",
     "options": [
       {
         "letter": "A",
         "text": "Diante de uma distribuição assimetrica com valores extremos, e recomendável considerar outras medidas além da média, ja que essa e sensível a valores extremos e pode não descrever bem a renda tipica da maiória das famílias desse bairro.",
-        "rationale": "CORRETA. O material orienta explicitamente que, ao analisar dados, e preciso sempre verificar se há valores extremos e considerar outras medidas além da média, justamente porque a média e sensível a esses valores e pode não representar bem a experiência tipica da maiória dos dados, como no caso da renda desse bairro."
+        "rationale": "CORRETA. Ao analisar dados, é preciso sempre verificar se há valores extremos e considerar outras medidas além da média, justamente porque a média é sensível a esses valores e pode não representar bem a experiência típica da maioria dos dados, como no caso da renda desse bairro."
       },
       {
         "letter": "B",
-        "text": "A média aritmética e sempre a melhor medida de tendência central para descrever qualquer distribuição de dados, segundo o material, independentemente da presença de valores extremos ou da assimetria da distribuição.",
-        "rationale": "Incorreta. O material alerta explicitamente sobre a sensibilidade da média a valores extremos e recomenda considerar outras medidas complementares diante dessas situações, e não trata a média como sempre a melhor opção independentemente da distribuição dos dados."
+        "text": "A média aritmética é sempre a melhor medida de tendência central para descrever qualquer distribuição de dados, independentemente da presença de valores extremos ou da assimetria da distribuição.",
+        "rationale": "Incorreta. A média é sensível a valores extremos, o que recomenda considerar outras medidas complementares diante dessas situações; ela não é sempre a melhor opção independentemente da distribuição dos dados."
       },
       {
         "letter": "C",
-        "text": "As famílias com renda extremamente elevada devem ser automaticamente excluídas da análise sem qualquer justificativa adicional, segundo os princípios descritos no material, para que a média reflita apenas a maiória da população.",
-        "rationale": "Incorreta. O material não recomenda a exclusão automática e sem criterio de valores extremos; ele recomenda a verificação cuidadosa desses valores e a consideração de medidas complementares, e não simplesmente descarta-los da análise."
+        "text": "As famílias com renda extremamente elevada devem ser automaticamente excluídas da análise sem qualquer justificativa adicional, para que a média reflita apenas a maioria da população.",
+        "rationale": "Incorreta. Não se recomenda a exclusão automática e sem critério de valores extremos; recomenda-se a verificação cuidadosa desses valores e a consideração de medidas complementares, e não simplesmente descartá-los da análise."
       },
       {
         "letter": "D",
-        "text": "A assimetria da distribuição de renda descrita no caso não tem qualquer relação com a sensibilidade da média a valores extremos, sendo esses dois fenômenos completamente independentes segundo os princípios descritos no material.",
-        "rationale": "Incorreta. O material relaciona diretamente a presença de valores extremos, como as famílias de renda elevada nesse caso, a distorção da média e a consequente assimetria da distribuição, não os tratando como fenômenos independentes e sem relação entre si."
+        "text": "A assimetria da distribuição de renda descrita no caso não tem qualquer relação com a sensibilidade da média a valores extremos, sendo esses dois fenômenos completamente independentes.",
+        "rationale": "Incorreta. A presença de valores extremos, como as famílias de renda elevada nesse caso, relaciona-se diretamente à distorção da média e à consequente assimetria da distribuição; não são fenômenos independentes e sem relação entre si."
       }
     ],
     "correctLetter": "A",
@@ -5234,27 +5234,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Cálculo da razão de prevalência em exposição com efeito protetor",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Em um estudo transversal sobre o uso de repelente e a presença de lesoes de dengue em uma comunidade, observou-se que, entre os que usavam repelente regularmente, 15 de 300 pessoas tiveram a doença no último ano, enquanto entre os que não usavam, 60 de 300 pessoas tiveram a doença. Qual alternativa calcula e interpreta corretamente a razão de prevalência dessa exposição, segundo o material?",
+    "prompt": "Em um estudo transversal sobre o uso de repelente e a presença de lesões de dengue em uma comunidade, observou-se que, entre os que usavam repelente regularmente, 15 de 300 pessoas tiveram a doença no último ano, enquanto entre os que não usavam, 60 de 300 pessoas tiveram a doença. Qual alternativa calcula e interpreta corretamente a razão de prevalência dessa exposição?",
     "options": [
       {
         "letter": "A",
         "text": "A prevalência entre os que usavam repelente e 15/300 = 5%, e entre os que não usavam e 60/300 = 20%; a razão de prevalência e RP = 5/20 = 0,25, valor menor que 1, indicando que o uso regular de repelente teve efeito protetor, reduzindo a prevalência de dengue entre os expostos a essa prática.",
-        "rationale": "CORRETA. Calculando as prevalências em cada grupo (15/300=5% e 60/300=20%) e a razão entre elas (RP=5/20=0,25), obtém-se um valor menor que 1, o que o material interpreta como prevalência menor entre os expostos, ou seja, efeito protetor do uso regular de repelente contra a dengue nessa comunidade."
+        "rationale": "CORRETA. Calculando as prevalências em cada grupo (15/300=5% e 60/300=20%) e a razão entre elas (RP=5/20=0,25), obtém-se um valor menor que 1, interpretado como prevalência menor entre os expostos, ou seja, efeito protetor do uso regular de repelente contra a dengue nessa comunidade."
       },
       {
         "letter": "B",
         "text": "A razão de prevalência calculada nesse caso e RP = 20/5 = 4,0, invertendo o cálculo ao colocar a prevalência dos não usuários no numerador, o que indicária, segundo essa alternativa, que o repelente e um fator de risco, e não de proteção.",
-        "rationale": "Incorreta. O material define a razão de prevalência como a prevalência nos expostos (usuários de repelente) dividida pela prevalência nos não expostos, e não o contrário; inverter essa relação produz uma interpretação equivocada sobre o papel do repelente nesse cenário."
+        "rationale": "Incorreta. Razão de prevalência é a prevalência nos expostos (usuários de repelente) dividida pela prevalência nos não expostos, e não o contrário; inverter essa relação produz uma interpretação equivocada sobre o papel do repelente nesse cenário."
       },
       {
         "letter": "C",
-        "text": "Um valor de RP igual a 0,25 indica, segundo o material, que a associação entre uso de repelente e dengue não e estatisticamente relevante, devendo ser descartada da análise por ser menor que 1.",
-        "rationale": "Incorreta. O material não descarta como irrelevante um valor de RP menor que 1; pelo contrário, valores menores que 1 são interpretados como evidência de efeito protetor da exposição, uma associação relevante e distinta de RP=1, que indicária ausência de associação."
+        "text": "Um valor de RP igual a 0,25 indica que a associação entre uso de repelente e dengue não é estatisticamente relevante, devendo ser descartada da análise por ser menor que 1.",
+        "rationale": "Incorreta. Um valor de RP menor que 1 não é descartado como irrelevante; pelo contrário, valores menores que 1 são interpretados como evidência de efeito protetor da exposição, uma associação relevante e distinta de RP=1, que indicaria ausência de associação."
       },
       {
         "letter": "D",
-        "text": "A razão de prevalência so pode assumir valores maiores que 1 segundo o material, o que tornária esse cálculo de RP=0,25 matematicamente impossível para os dados apresentados nesse estudo.",
-        "rationale": "Incorreta. O material admite explicitamente valores de razão de prevalência menores que 1 como indicativos de efeito protetor da exposição, o que torna perfeitamente possível, e não impossível, o cálculo de RP=0,25 nesse cenário."
+        "text": "A razão de prevalência só pode assumir valores maiores que 1, o que tornaria esse cálculo de RP=0,25 matematicamente impossível para os dados apresentados nesse estudo.",
+        "rationale": "Incorreta. Valores de razão de prevalência menores que 1 são admitidos como indicativos de efeito protetor da exposição, o que torna perfeitamente possível, e não impossível, o cálculo de RP=0,25 nesse cenário."
       }
     ],
     "correctLetter": "A",
@@ -5291,27 +5291,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Interpretação conjunta de força de associação e intervalo de confiança em estudo sobre vacina",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Um estudo de efetividade vacinal encontra um risco relativo de 0,15 para o desfecho de hospitalização por uma doença específica entre vacinados em comparação a não vacinados, com intervalo de confiança de 95% variando de 0,08 a 0,29. Qual alternativa interpreta corretamente esse resultado, integrando força de associação e precisão da estimativa, segundo o material?",
+    "prompt": "Um estudo de efetividade vacinal encontra um risco relativo de 0,15 para o desfecho de hospitalização por uma doença específica entre vacinados em comparação a não vacinados, com intervalo de confiança de 95% variando de 0,08 a 0,29. Qual alternativa interpreta corretamente esse resultado, integrando força de associação e precisão da estimativa?",
     "options": [
       {
         "letter": "A",
         "text": "O risco relativo de 0,15 indica uma forte associação protetora, com os vacinados apresentando cerca de 85% menos risco de hospitalização em comparação aos não vacinados; o intervalo de confiança relativamente estreito (0,08 a 0,29), sem incluir o valor nulo 1, reforca tanto a significância estatística quanto a boa precisão dessa estimativa de efetividade.",
-        "rationale": "CORRETA. Um risco relativo de 0,15 indica uma redução de aproximadamente 85% no risco entre os vacinados (1-0,15=0,85), caracterizando forte associação protetora; o intervalo de confiança de 0,08 a 0,29, relativamente estreito e que não inclui o valor nulo 1, reforca tanto a significância estatística da associação quanto a boa precisão dessa estimativa de efetividade vacinal, coerente com os princípios de interpretação de força de associação e intervalo de confiança descritos no material."
+        "rationale": "CORRETA. Um risco relativo de 0,15 indica uma redução de aproximadamente 85% no risco entre os vacinados (1-0,15=0,85), caracterizando forte associação protetora; o intervalo de confiança de 0,08 a 0,29, relativamente estreito e que não inclui o valor nulo 1, reforça tanto a significância estatística da associação quanto a boa precisão dessa estimativa de efetividade vacinal."
       },
       {
         "letter": "B",
-        "text": "O risco relativo de 0,15 indica que a vacina aumenta o risco de hospitalização em 15% entre os vacinados, segundo o material, interpretação que corresponderia a um risco relativo próximo de 1,15, e não de 0,15.",
+        "text": "O risco relativo de 0,15 indica que a vacina aumenta o risco de hospitalização em 15% entre os vacinados, interpretação que corresponderia a um risco relativo próximo de 1,15, e não de 0,15.",
         "rationale": "Incorreta. Um risco relativo de 0,15 e substancialmente menor que 1, o que indica efeito protetor (redução de risco), e não aumento de risco; a interpretação de aumento de 15% corresponderia a um valor próximo de 1,15, distinto do valor de 0,15 apresentado nesse estudo."
       },
       {
         "letter": "C",
-        "text": "Como o valor do risco relativo (0,15) esta contido dentro do próprio intervalo de confiança (0,08 a 0,29), isso indica, segundo o material, que essa associação não e estatisticamente significativa.",
+        "text": "Como o valor do risco relativo (0,15) está contido dentro do próprio intervalo de confiança (0,08 a 0,29), isso indica que essa associação não é estatisticamente significativa.",
         "rationale": "Incorreta. O criterio de significância estatística depende de o intervalo de confiança incluir ou não o valor nulo (1, no caso do risco relativo), e não do valor pontual estar contido dentro do próprio intervalo, o que e sempre esperado matematicamente."
       },
       {
         "letter": "D",
-        "text": "Um intervalo de confiança de 0,08 a 0,29 e considerado amplo e impreciso pelo material, indicando incerteza significativa sobre a real efetividade da vacina nesse estudo.",
-        "rationale": "Incorreta. Um intervalo de confiança de 0,08 a 0,29, com amplitude relativamente pequena em termos absolutos e distante do valor nulo, e interpretado como uma estimativa relativamente precisa, e não amplo e impreciso, segundo os princípios de interpretação descritos no material."
+        "text": "Um intervalo de confiança de 0,08 a 0,29 é considerado amplo e impreciso, indicando incerteza significativa sobre a real efetividade da vacina nesse estudo.",
+        "rationale": "Incorreta. Um intervalo de confiança de 0,08 a 0,29, com amplitude relativamente pequena em termos absolutos e distante do valor nulo, é interpretado como uma estimativa relativamente precisa, e não amplo e impreciso."
       }
     ],
     "correctLetter": "A",
@@ -5324,27 +5324,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Cálculo do risco atribuível populacional integrado a decisão de politica pública",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Em um município, a incidência de acidentes de trânsito com vitimas fatais e de 25 por 100 mil habitantes ao ano; estima-se que, se toda a população adotasse o uso de cinto de segurança de forma consistente, essa incidência cairia para 10 por 100 mil habitantes. Um gestor de trânsito deseja quantificar o impacto potencial de uma campanha de conscientização sobre o uso do cinto de segurança na incidência geral de óbitos por acidentes no município. Qual alternativa expressa corretamente esse raciocinio, integrando o conceito de risco atribuível descrito no material?",
+    "prompt": "Em um município, a incidência de acidentes de trânsito com vítimas fatais é de 25 por 100 mil habitantes ao ano; estima-se que, se toda a população adotasse o uso de cinto de segurança de forma consistente, essa incidência cairia para 10 por 100 mil habitantes. Um gestor de trânsito deseja quantificar o impacto potencial de uma campanha de conscientização sobre o uso do cinto de segurança na incidência geral de óbitos por acidentes no município. Qual alternativa expressa corretamente esse raciocínio, integrando o conceito de risco atribuível?",
     "options": [
       {
         "letter": "A",
         "text": "A diferença entre a incidência atual (25 por 100 mil) e a incidência estimada com uso consistente do cinto (10 por 100 mil) representa o risco atribuível a não adesão ao cinto de segurança na população geral do município, ou seja, 15 óbitos por 100 mil habitantes que poderiam potencialmente ser evitados com essa mudança comportamental, informação útil para dimensionar o impacto potencial da campanha.",
-        "rationale": "CORRETA. Coerente com a lógica do risco atribuível descrita no material, que mede o impacto absoluto de uma exposição (nesse caso, a não adesão ao cinto de segurança) subtraindo a incidência esperada na ausência dessa exposição da incidência observada, a diferença de 15 óbitos por 100 mil habitantes (25-10) representa o número de óbitos potencialmente evitáveis com a mudança de comportamento, informação diretamente útil para o gestor dimensionar o impacto potencial da campanha de conscientização."
+        "rationale": "CORRETA. Coerente com a lógica do risco atribuível, que mede o impacto absoluto de uma exposição (nesse caso, a não adesão ao cinto de segurança) subtraindo a incidência esperada na ausência dessa exposição da incidência observada, a diferença de 15 óbitos por 100 mil habitantes (25-10) representa o número de óbitos potencialmente evitáveis com a mudança de comportamento, informação diretamente útil para o gestor dimensionar o impacto potencial da campanha de conscientização."
       },
       {
         "letter": "B",
         "text": "O impacto potencial da campanha deve ser calculado multiplicando a incidência atual pela incidência estimada com uso do cinto, resultando em 25 x 10 = 250 óbitos por 100 mil habitantes, valor que representária o risco atribuível nesse cenário.",
-        "rationale": "Incorreta. O material define o risco atribuível como uma diferença entre incidências, e não como uma multiplicação direta entre elas, o que produziria um valor sem qualquer sentido epidemiológico como medida de impacto de uma exposição."
+        "rationale": "Incorreta. Risco atribuível é uma diferença entre incidências, e não uma multiplicação direta entre elas, o que produziria um valor sem qualquer sentido epidemiológico como medida de impacto de uma exposição."
       },
       {
         "letter": "C",
-        "text": "Não e possível estimar o impacto potencial de uma mudança comportamental futura, como a adesão ao uso do cinto de segurança, a partir do conceito de risco atribuível descrito no material, que se aplicária apenas a exposições ja ocorridas no passado.",
-        "rationale": "Incorreta. O material utiliza o risco atribuível justamente para quantificar o impacto potencial de reduzir ou eliminar uma exposição, o que sustenta, e não invalida, seu uso para dimensionar o impacto esperado de uma mudança comportamental futura, como o aumento da adesão ao cinto de segurança."
+        "text": "Não é possível estimar o impacto potencial de uma mudança comportamental futura, como a adesão ao uso do cinto de segurança, a partir do conceito de risco atribuível, que se aplicaria apenas a exposições já ocorridas no passado.",
+        "rationale": "Incorreta. O risco atribuível é usado justamente para quantificar o impacto potencial de reduzir ou eliminar uma exposição, o que sustenta, e não invalida, seu uso para dimensionar o impacto esperado de uma mudança comportamental futura, como o aumento da adesão ao cinto de segurança."
       },
       {
         "letter": "D",
         "text": "O risco atribuível nesse cenário deve ser calculado dividindo a incidência atual pela incidência estimada com uso do cinto, resultando em 25/10 = 2,5, valor que corresponderia, segundo essa alternativa, ao número de óbitos evitáveis por 100 mil habitantes.",
-        "rationale": "Incorreta. O material define o risco atribuível como uma diferença de incidências (subtração), e não como uma razão entre elas (divisão); a divisão proposta nessa alternativa corresponde ao cálculo do risco relativo, medida distinta do risco atribuível."
+        "rationale": "Incorreta. Risco atribuível é uma diferença de incidências (subtração), e não uma razão entre elas (divisão); a divisão proposta nessa alternativa corresponde ao cálculo do risco relativo, medida distinta do risco atribuível."
       }
     ],
     "correctLetter": "A",
@@ -5357,26 +5357,26 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Comparação entre razão de prevalência e odds ratio calculadas a partir dos mesmos dados de um estudo transversal",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Um pesquisador, ao analisar os dados de um estudo transversal sobre exposição ocupacional a poeira e doença pulmonar, calcula tanto a razão de prevalência quanto a odds ratio a partir da mesma tabela de dados, obtendo valores próximos, mas não identicos, entre as duas medidas. Ele questiona por que, mesmo utilizando os mesmos dados, os valores não são exatamente iguais. Qual alternativa explica corretamente essa diferença, integrando os conceitos de razão de prevalência e odds ratio descritos no material?",
+    "prompt": "Um pesquisador, ao analisar os dados de um estudo transversal sobre exposição ocupacional a poeira e doença pulmonar, calcula tanto a razão de prevalência quanto a odds ratio a partir da mesma tabela de dados, obtendo valores próximos, mas não idênticos, entre as duas medidas. Ele questiona por que, mesmo utilizando os mesmos dados, os valores não são exatamente iguais. Qual alternativa explica corretamente essa diferença, integrando os conceitos de razão de prevalência e odds ratio?",
     "options": [
       {
         "letter": "A",
         "text": "A razão de prevalência compara diretamente as prevalências (proporções) entre expostos e não expostos, enquanto a odds ratio compara as odds (chances) de exposição entre os grupos; embora relacionadas, essas duas medidas tem construção matemática distinta, e seus valores tendem a se aproximar apenas quando o desfecho estudado e raro na população.",
-        "rationale": "CORRETA. O material diferência claramente a razão de prevalência, que compara diretamente proporções (prevalências) entre expostos e não expostos, da odds ratio, que compara odds (razões entre a proporção de ocorrência e a proporção de não ocorrência); embora relacionadas matematicamente, essas duas medidas tem fórmulas distintas, e seus valores numericos coincidem de forma mais próxima apenas quando o desfecho e raro, explicando por que o pesquisador encontrou valores próximos, mas não identicos, ao calcular ambas a partir dos mesmos dados."
+        "rationale": "CORRETA. Razão de prevalência, que compara diretamente proporções (prevalências) entre expostos e não expostos, difere claramente de odds ratio, que compara odds (razões entre a proporção de ocorrência e a proporção de não ocorrência); embora relacionadas matematicamente, essas duas medidas têm fórmulas distintas, e seus valores numéricos coincidem de forma mais próxima apenas quando o desfecho é raro, explicando por que o pesquisador encontrou valores próximos, mas não idênticos, ao calcular ambas a partir dos mesmos dados."
       },
       {
         "letter": "B",
-        "text": "A razão de prevalência e a odds ratio são exatamente a mesma medida com nomes diferentes, segundo o material, o que tornária inexplicável qualquer diferença numerica entre os dois valores calculados pelo pesquisador.",
-        "rationale": "Incorreta. O material diferência claramente razão de prevalência e odds ratio como medidas distintas, com fórmulas e interpretações próprias, ainda que relacionadas matematicamente, o que explica justamente a diferença numerica encontrada pelo pesquisador, e não a torna inexplicável."
+        "text": "A razão de prevalência e a odds ratio são exatamente a mesma medida com nomes diferentes, o que tornaria inexplicável qualquer diferença numérica entre os dois valores calculados pelo pesquisador.",
+        "rationale": "Incorreta. Razão de prevalência e odds ratio são medidas distintas, com fórmulas e interpretações próprias, ainda que relacionadas matematicamente, o que explica justamente a diferença numérica encontrada pelo pesquisador, e não a torna inexplicável."
       },
       {
         "letter": "C",
-        "text": "A diferença entre os dois valores calculados pelo pesquisador indica necessariamente um erro de cálculo em uma das duas medidas, ja que, segundo o material, ambas deveriam produzir exatamente o mesmo resultado numerico a partir dos mesmos dados.",
-        "rationale": "Incorreta. O material não afirma que razão de prevalência e odds ratio devem produzir exatamente o mesmo resultado numerico a partir dos mesmos dados; pequenas diferenças entre os valores são esperadas devido a construção matemática distinta dessas duas medidas, e não indicam necessariamente um erro de cálculo."
+        "text": "A diferença entre os dois valores calculados pelo pesquisador indica necessariamente um erro de cálculo em uma das duas medidas, já que ambas deveriam produzir exatamente o mesmo resultado numérico a partir dos mesmos dados.",
+        "rationale": "Incorreta. Razão de prevalência e odds ratio não precisam produzir exatamente o mesmo resultado numérico a partir dos mesmos dados; pequenas diferenças entre os valores são esperadas devido à construção matemática distinta dessas duas medidas, e não indicam necessariamente um erro de cálculo."
       },
       {
         "letter": "D",
-        "text": "A odds ratio so pode ser calculada a partir de estudos caso-controle, e nunca a partir de dados de um estudo transversal, segundo o material, o que tornária o cálculo do pesquisador metodologicamente invalido nesse cenário.",
+        "text": "A odds ratio só pode ser calculada a partir de estudos caso-controle, e nunca a partir de dados de um estudo transversal, o que tornaria o cálculo do pesquisador metodologicamente inválido nesse cenário.",
         "rationale": "Incorreta. Embora a odds ratio seja classicamente mais associada aos estudos caso-controle, ela também pode ser calculada matematicamente a partir de dados de outros desenhos, como o transversal, ainda que a razão de prevalência seja a medida mais tipicamente reportada nesse tipo de estudo."
       }
     ],
@@ -5390,27 +5390,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Integração entre risco relativo, risco atribuível percentual e decisão de saúde pública sobre tabagismo",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Um estudo de coorte encontra que fumantes tem incidência de cancer de laringe de 45 por 100 mil pessoas-ano, enquanto não fumantes tem incidência de 5 por 100 mil pessoas-ano. Um gestor de saúde pública precisa decidir entre duas formas de comunicar esse resultado a população: uma enfatizando quantas vezes maior e o risco entre fumantes, e outra enfatizando qual fração dos casos entre fumantes poderia ser evitada com a cessação do tabagismo. Qual alternativa calcula corretamente essas duas formas de comunicar o mesmo resultado, segundo o material?",
+    "prompt": "Um estudo de coorte encontra que fumantes têm incidência de câncer de laringe de 45 por 100 mil pessoas-ano, enquanto não fumantes têm incidência de 5 por 100 mil pessoas-ano. Um gestor de saúde pública precisa decidir entre duas formas de comunicar esse resultado à população: uma enfatizando quantas vezes maior é o risco entre fumantes, e outra enfatizando qual fração dos casos entre fumantes poderia ser evitada com a cessação do tabagismo. Qual alternativa calcula corretamente essas duas formas de comunicar o mesmo resultado?",
     "options": [
       {
         "letter": "A",
         "text": "O risco relativo e RR = 45/5 = 9,0, indicando que fumantes tem nove vezes mais risco de cancer de laringe; o risco atribuível percentual e RA% = [(45-5)/45] x 100 = 88,9%, indicando que quase 89% dos casos de cancer de laringe entre fumantes poderiam ser evitados caso eles não fumassem, ambas leituras validas e complementares do mesmo conjunto de dados.",
-        "rationale": "CORRETA. Aplicando as fórmulas descritas no material, o risco relativo (incidência nos expostos dividida pela incidência nos não expostos) e RR=45/5=9,0, e o risco atribuível percentual (diferença de incidências dividida pela incidência nos expostos, multiplicada por 100) e RA%=[(45-5)/45]x100=88,9%; ambas as medidas são leituras validas e complementares dos mesmos dados, uma enfatizando a força relativa da associação (nove vezes mais risco) e outra o impacto potencial evitável entre os fumantes (quase 89% dos casos)."
+        "rationale": "CORRETA. O risco relativo (incidência nos expostos dividida pela incidência nos não expostos) é RR=45/5=9,0, e o risco atribuível percentual (diferença de incidências dividida pela incidência nos expostos, multiplicada por 100) é RA%=[(45-5)/45]x100=88,9%; ambas as medidas são leituras válidas e complementares dos mesmos dados, uma enfatizando a força relativa da associação (nove vezes mais risco) e outra o impacto potencial evitável entre os fumantes (quase 89% dos casos)."
       },
       {
         "letter": "B",
-        "text": "O risco relativo e o risco atribuível percentual são sempre numericamente identicos, segundo o material, o que tornária desnecessário calcular ambas as medidas separadamente para comunicar esse resultado a população.",
-        "rationale": "Incorreta. O material diferência claramente risco relativo (uma razão entre incidências) de risco atribuível percentual (uma proporção calculada a partir da diferença entre incidências), medidas que respondem a perguntas diferentes e raramente coincidem numericamente, como demonstrado pelos valores de 9,0 e 88,9% calculados nesse caso."
+        "text": "O risco relativo e o risco atribuível percentual são sempre numericamente idênticos, o que tornaria desnecessário calcular ambas as medidas separadamente para comunicar esse resultado à população.",
+        "rationale": "Incorreta. Risco relativo (uma razão entre incidências) difere claramente de risco atribuível percentual (uma proporção calculada a partir da diferença entre incidências); são medidas que respondem a perguntas diferentes e raramente coincidem numericamente, como demonstrado pelos valores de 9,0 e 88,9% calculados nesse caso."
       },
       {
         "letter": "C",
         "text": "O risco atribuível percentual nesse caso deveria ser calculado dividindo a incidência nos não fumantes pela diferença de incidências, resultando em 5/40 x 100 = 12,5%, valor que representária a fração de casos evitáveis entre os fumantes.",
-        "rationale": "Incorreta. O material define o denominador do risco atribuível percentual especificamente como a incidência nos expostos (fumantes), e não a incidência nos não expostos; usar o denominador incorreto produz um valor que não corresponde a fração real de casos evitáveis entre os fumantes."
+        "rationale": "Incorreta. O denominador do risco atribuível percentual é especificamente a incidência nos expostos (fumantes), e não a incidência nos não expostos; usar o denominador incorreto produz um valor que não corresponde à fração real de casos evitáveis entre os fumantes."
       },
       {
         "letter": "D",
-        "text": "Apenas uma dessas duas medidas, o risco relativo ou o risco atribuível percentual, pode ser calculada corretamente a partir dos dados desse estudo de coorte, sendo a outra medida inaplicável a esse tipo de desenho, segundo o material.",
-        "rationale": "Incorreta. O material descreve tanto o risco relativo quanto o risco atribuível percentual como medidas classicamente calculáveis a partir de dados de incidência obtidos em estudos de coorte, como o descrito nesse caso, e não restringe a aplicabilidade a apenas uma delas."
+        "text": "Apenas uma dessas duas medidas, o risco relativo ou o risco atribuível percentual, pode ser calculada corretamente a partir dos dados desse estudo de coorte, sendo a outra medida inaplicável a esse tipo de desenho.",
+        "rationale": "Incorreta. Tanto o risco relativo quanto o risco atribuível percentual são medidas classicamente calculáveis a partir de dados de incidência obtidos em estudos de coorte, como o descrito nesse caso; a aplicabilidade não se restringe a apenas uma delas."
       }
     ],
     "correctLetter": "A",
@@ -5441,27 +5441,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Diferenciação entre prevalência e incidência como medidas de frequência de doença",
     "origem": "nova",
     "difficulty": "Intermediaria",
-    "prompt": "Um pesquisador deseja saber quantas pessoas desenvolveram uma doença específica ao longo do último ano numa população previamente sadia, enquanto outro pesquisador deseja saber quantas pessoas estão vivendo com essa mesma doença no momento atual, independentemente de quando foram diagnosticadas. Qual alternativa diferência corretamente essas duas medidas de frequência, segundo o material?",
+    "prompt": "Um pesquisador deseja saber quantas pessoas desenvolveram uma doença específica ao longo do último ano numa população previamente sadia, enquanto outro pesquisador deseja saber quantas pessoas estão vivendo com essa mesma doença no momento atual, independentemente de quando foram diagnosticadas. Qual alternativa diferencia corretamente essas duas medidas de frequência?",
     "options": [
       {
         "letter": "A",
         "text": "O primeiro pesquisador busca a incidência, que mede os casos novos surgidos num período entre pessoas previamente sadias sob risco; o segundo busca a prevalência, que mede todos os casos existentes num momento, independentemente de quando surgiram.",
-        "rationale": "CORRETA. O material diferência exatamente dessa forma incidência, que mede a ocorrência de casos novos entre indivíduos previamente sadios e sob risco durante um período definido, de prevalência, que mede o total de casos existentes num determinado momento ou período, sem essa exigência de serem necessariamente casos novos."
+        "rationale": "CORRETA. Incidência, que mede a ocorrência de casos novos entre indivíduos previamente sadios e sob risco durante um período definido, difere exatamente dessa forma de prevalência, que mede o total de casos existentes num determinado momento ou período, sem essa exigência de serem necessariamente casos novos."
       },
       {
         "letter": "B",
-        "text": "Ambos os pesquisadores buscam exatamente a mesma medida de frequência, segundo o material, que não diferenciária incidência de prevalência como conceitos distintos.",
-        "rationale": "Incorreta. O material diferência claramente incidência e prevalência como conceitos distintos, com finalidades e interpretações próprias, e não os trata como equivalentes ou intercambiáveis entre si."
+        "text": "Ambos os pesquisadores buscam exatamente a mesma medida de frequência, já que incidência e prevalência não se diferenciariam como conceitos distintos.",
+        "rationale": "Incorreta. Incidência e prevalência são conceitos distintos, com finalidades e interpretações próprias; não são equivalentes ou intercambiáveis entre si."
       },
       {
         "letter": "C",
-        "text": "O primeiro pesquisador busca a prevalência, e o segundo busca a incidência, invertendo a definição correta desses dois conceitos descritos no material.",
-        "rationale": "Incorreta. O material atribui a incidência a medida de casos novos ao longo de um período, compatível com a busca do primeiro pesquisador, e a prevalência a medida de casos existentes num momento, compatível com a busca do segundo, e não a combinação invertida proposta nesta alternativa."
+        "text": "O primeiro pesquisador busca a prevalência, e o segundo busca a incidência — invertendo a definição correta desses dois conceitos.",
+        "rationale": "Incorreta. A incidência é a medida de casos novos ao longo de um período, compatível com a busca do primeiro pesquisador, e a prevalência é a medida de casos existentes num momento, compatível com a busca do segundo — não a combinação invertida proposta nesta alternativa."
       },
       {
         "letter": "D",
-        "text": "A prevalência, segundo o material, so pode ser calculada em populações previamente sadias e sob risco, exatamente como a incidência, o que tornária essas duas medidas equivalentes quanto a população de referência utilizada.",
-        "rationale": "Incorreta. O material relaciona a exigência de população previamente sadia e sob risco especificamente ao cálculo da incidência, e não ao cálculo da prevalência, que soma todos os casos existentes independentemente dessa condição previa."
+        "text": "A prevalência só pode ser calculada em populações previamente sadias e sob risco, exatamente como a incidência, o que tornaria essas duas medidas equivalentes quanto à população de referência utilizada.",
+        "rationale": "Incorreta. A exigência de população previamente sadia e sob risco relaciona-se especificamente ao cálculo da incidência, e não ao cálculo da prevalência, que soma todos os casos existentes independentemente dessa condição prévia."
       }
     ],
     "correctLetter": "A",
@@ -5474,27 +5474,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Cálculo de razão de prevalência com valor próximo de 1 indicando ausência de associação relevante",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Em um estudo transversal sobre a associação entre o tipo sanguíneo O e a ocorrência de enxaqueca, observou-se que, entre 400 pessoas com tipo sanguíneo O, 92 relataram enxaqueca, enquanto entre 400 pessoas com outros tipos sanguíneos, 88 relataram a mesma condição. Qual alternativa calcula e interpreta corretamente a razão de prevalência dessa associação, segundo o material?",
+    "prompt": "Em um estudo transversal sobre a associação entre o tipo sanguíneo O e a ocorrência de enxaqueca, observou-se que, entre 400 pessoas com tipo sanguíneo O, 92 relataram enxaqueca, enquanto entre 400 pessoas com outros tipos sanguíneos, 88 relataram a mesma condição. Qual alternativa calcula e interpreta corretamente a razão de prevalência dessa associação?",
     "options": [
       {
         "letter": "A",
         "text": "A prevalência entre o tipo O e 92/400 = 23%, e entre os outros tipos e 88/400 = 22%; a razão de prevalência e RP = 23/22 = 1,05, valor muito próximo de 1, o que indica ausência de associação relevante entre o tipo sanguíneo O e a enxaqueca nessa amostra.",
-        "rationale": "CORRETA. Calculando as prevalências em cada grupo (92/400=23% e 88/400=22%) e a razão entre elas (RP=23/22=1,05), obtém-se um valor muito próximo de 1, que o material interpreta como ausência de associação relevante entre a exposição (tipo sanguíneo O) e o desfecho (enxaqueca) nessa amostra, ja que RP=1 significária prevalências identicas entre os grupos."
+        "rationale": "CORRETA. Calculando as prevalências em cada grupo (92/400=23% e 88/400=22%) e a razão entre elas (RP=23/22=1,05), obtém-se um valor muito próximo de 1, interpretado como ausência de associação relevante entre a exposição (tipo sanguíneo O) e o desfecho (enxaqueca) nessa amostra, já que RP=1 significaria prevalências idênticas entre os grupos."
       },
       {
         "letter": "B",
-        "text": "Um valor de RP igual a 1,05 indica, segundo o material, uma associação extremamente forte entre o tipo sanguíneo O e a enxaqueca, praticamente equivalente a uma relação causal direta entre essas duas variáveis.",
-        "rationale": "Incorreta. O material interpreta valores de RP próximos de 1 como indicativos de ausência de associação relevante, e não como evidência de associação extremamente forte; associações fortes corresponderiam a valores de RP bem mais distantes de 1, para cima ou para baixo."
+        "text": "Um valor de RP igual a 1,05 indica uma associação extremamente forte entre o tipo sanguíneo O e a enxaqueca, praticamente equivalente a uma relação causal direta entre essas duas variáveis.",
+        "rationale": "Incorreta. Valores de RP próximos de 1 são indicativos de ausência de associação relevante, e não evidência de associação extremamente forte; associações fortes corresponderiam a valores de RP bem mais distantes de 1, para cima ou para baixo."
       },
       {
         "letter": "C",
         "text": "A razão de prevalência nesse caso deveria ser calculada dividindo o número absoluto de casos de enxaqueca entre os dois grupos (92/88 = 1,05), sem relativizar pelo tamanho de cada grupo, resultando coincidentemente no mesmo valor apresentado nesta alternativa como se fosse o método correto.",
-        "rationale": "Incorreta. Embora o resultado numerico coincida nesse caso específico por os grupos terem exatamente o mesmo tamanho (400 pessoas cada), o método correto definido pelo material exige relativizar os casos pelo total de cada grupo (calculando as prevalências) antes de compara-las, e não apenas dividir os números absolutos de casos diretamente."
+        "rationale": "Incorreta. Embora o resultado numérico coincida nesse caso específico por os grupos terem exatamente o mesmo tamanho (400 pessoas cada), o método correto exige relativizar os casos pelo total de cada grupo (calculando as prevalências) antes de compará-las, e não apenas dividir os números absolutos de casos diretamente."
       },
       {
         "letter": "D",
-        "text": "Não e possível calcular uma razão de prevalência quando os dois grupos comparados tem exatamente o mesmo tamanho amostral, segundo o material, sendo necessário que os grupos tenham tamanhos diferentes para esse cálculo.",
-        "rationale": "Incorreta. O material não impoe essa restrição; a razão de prevalência pode ser calculada normalmente independentemente de os grupos comparados terem tamanhos iguais ou diferentes, desde que se calculem corretamente as prevalências relativizadas em cada grupo."
+        "text": "Não é possível calcular uma razão de prevalência quando os dois grupos comparados têm exatamente o mesmo tamanho amostral, sendo necessário que os grupos tenham tamanhos diferentes para esse cálculo.",
+        "rationale": "Incorreta. Não há essa restrição; a razão de prevalência pode ser calculada normalmente independentemente de os grupos comparados terem tamanhos iguais ou diferentes, desde que se calculem corretamente as prevalências relativizadas em cada grupo."
       }
     ],
     "correctLetter": "A",
@@ -5531,7 +5531,7 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Integração entre densidade de incidência e risco relativo em coorte com pessoas-tempo variáveis",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Numa coorte ocupacional, trabalhadores expostos a um solvente químico acumularam 8.000 pessoas-anos de observação, com 64 casos novos de uma doença hepática; trabalhadores não expostos acumularam 12.000 pessoas-anos de observação, com 36 casos novos da mesma doença. Qual alternativa calcula corretamente as densidades de incidência em cada grupo e a razão de densidades de incidência entre eles, segundo o material?",
+    "prompt": "Numa coorte ocupacional, trabalhadores expostos a um solvente químico acumularam 8.000 pessoas-anos de observação, com 64 casos novos de uma doença hepática; trabalhadores não expostos acumularam 12.000 pessoas-anos de observação, com 36 casos novos da mesma doença. Qual alternativa calcula corretamente as densidades de incidência em cada grupo e a razão de densidades de incidência entre eles?",
     "options": [
       {
         "letter": "A",
@@ -5540,18 +5540,18 @@ const QUESTIONS_DATABASE = [
       },
       {
         "letter": "B",
-        "text": "A densidade de incidência, segundo o material, deve ser calculada dividindo o número de pessoas-anos de observação pelo número de casos novos, invertendo a relação correta, resultando em 8.000/64 = 125 para o grupo exposto.",
-        "rationale": "Incorreta. O material define a densidade de incidência como o número de casos novos dividido pelo total de pessoas-tempo sob risco, e não o inverso dessa relação, que produziria um valor sem o sentido epidemiológico de uma taxa de incidência por unidade de tempo."
+        "text": "A densidade de incidência deve ser calculada dividindo o número de pessoas-anos de observação pelo número de casos novos, invertendo a relação correta, resultando em 8.000/64 = 125 para o grupo exposto.",
+        "rationale": "Incorreta. Densidade de incidência é o número de casos novos dividido pelo total de pessoas-tempo sob risco, e não o inverso dessa relação, que produziria um valor sem o sentido epidemiológico de uma taxa de incidência por unidade de tempo."
       },
       {
         "letter": "C",
-        "text": "Como os dois grupos tem números diferentes de pessoas-anos de observação (8.000 e 12.000), segundo o material, não seria possível compara-los por meio de uma razão de densidades de incidência, sendo necessário que ambos os grupos tivessem exatamente o mesmo total de pessoas-tempo.",
-        "rationale": "Incorreta. A densidade de incidência e justamente a medida indicada pelo material para permitir comparações entre grupos com diferentes totais de pessoas-tempo de observação, ja que ela relativiza os casos pelo próprio total de pessoas-tempo de cada grupo, tornando essa comparação valida mesmo com totais diferentes."
+        "text": "Como os dois grupos têm números diferentes de pessoas-anos de observação (8.000 e 12.000), não seria possível compará-los por meio de uma razão de densidades de incidência, sendo necessário que ambos os grupos tivessem exatamente o mesmo total de pessoas-tempo.",
+        "rationale": "Incorreta. A densidade de incidência é justamente a medida indicada para permitir comparações entre grupos com diferentes totais de pessoas-tempo de observação, já que ela relativiza os casos pelo próprio total de pessoas-tempo de cada grupo, tornando essa comparação válida mesmo com totais diferentes."
       },
       {
         "letter": "D",
-        "text": "A razão de densidades de incidência de 2,67 indica, segundo o material, que a exposição ao solvente químico tem efeito protetor contra a doença hepática nessa coorte ocupacional.",
-        "rationale": "Incorreta. O material interpreta valores de razão de densidade de incidência maiores que 1, como o de 2,67 calculado nesse caso, como indicativos de maior risco associado a exposição, caracterizando fator de risco, e não efeito protetor, que corresponderia a um valor menor que 1."
+        "text": "A razão de densidades de incidência de 2,67 indica que a exposição ao solvente químico tem efeito protetor contra a doença hepática nessa coorte ocupacional.",
+        "rationale": "Incorreta. Valores de razão de densidade de incidência maiores que 1, como o de 2,67 calculado nesse caso, indicam maior risco associado à exposição, caracterizando fator de risco, e não efeito protetor, que corresponderia a um valor menor que 1."
       }
     ],
     "correctLetter": "A",
@@ -5588,27 +5588,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Interpretação crítica do valor de p isoladamente, sem considerar o intervalo de confiança",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Um estudante de medicina, ao ler um artigo científico, conclui que uma associação e clinicamente relevante apenas porque o valor de p encontrado foi menor que 0,05, sem observar o intervalo de confiança nem a magnitude do efeito relatado no estudo. Qual alternativa avalia corretamente essa conduta, segundo os princípios de interpretação de resultados estatísticos descritos no material?",
+    "prompt": "Um estudante de medicina, ao ler um artigo científico, conclui que uma associação é clinicamente relevante apenas porque o valor de p encontrado foi menor que 0,05, sem observar o intervalo de confiança nem a magnitude do efeito relatado no estudo. Qual alternativa avalia corretamente essa conduta, segundo os princípios de interpretação de resultados estatísticos?",
     "options": [
       {
         "letter": "A",
-        "text": "A conduta do estudante e incompleta, pois o material orienta que decisões importantes exigem mais do que a significância estatística isolada (valor de p), sendo necessário considerar também o intervalo de confiança, o tamanho do efeito e o contexto clínico do achado antes de qualquer conclusão sobre relevância.",
-        "rationale": "CORRETA. O material orienta explicitamente que decisões importantes exigem mais do que significância estatística isolada, recomendando o uso conjunto do intervalo de confiança, do tamanho do efeito e do contexto clínico, exatamente os elementos que o estudante deixou de observar ao se basear apenas no valor de p menor que 0,05."
+        "text": "A conduta do estudante é incompleta, pois decisões importantes exigem mais do que a significância estatística isolada (valor de p), sendo necessário considerar também o intervalo de confiança, o tamanho do efeito e o contexto clínico do achado antes de qualquer conclusão sobre relevância.",
+        "rationale": "CORRETA. Decisões importantes exigem mais do que significância estatística isolada, recomendando-se o uso conjunto do intervalo de confiança, do tamanho do efeito e do contexto clínico — exatamente os elementos que o estudante deixou de observar ao se basear apenas no valor de p menor que 0,05."
       },
       {
         "letter": "B",
-        "text": "A conduta do estudante e adequada, pois o valor de p menor que 0,05 e suficiente, isoladamente, para garantir tanto a significância estatística quanto a relevância clínica de qualquer achado de pesquisa, segundo o material.",
-        "rationale": "Incorreta. O material orienta justamente o contrário, que o valor de p isolado não e suficiente para avaliar a relevância clínica de um achado, sendo necessário também considerar o intervalo de confiança, a magnitude do efeito e o contexto clínico."
+        "text": "A conduta do estudante é adequada, pois o valor de p menor que 0,05 é suficiente, isoladamente, para garantir tanto a significância estatística quanto a relevância clínica de qualquer achado de pesquisa.",
+        "rationale": "Incorreta. Justamente o contrário: o valor de p isolado não é suficiente para avaliar a relevância clínica de um achado, sendo necessário também considerar o intervalo de confiança, a magnitude do efeito e o contexto clínico."
       },
       {
         "letter": "C",
-        "text": "O intervalo de confiança e o valor de p são informações redundantes segundo o material, que não recomendária observar ambos simultaneamente para a interpretação de um resultado de pesquisa.",
-        "rationale": "Incorreta. O material recomenda a observação conjunta do intervalo de confiança e de outras informações, como o tamanho do efeito e o valor de p, e não os trata como informações redundantes que dispensariam a análise conjunta."
+        "text": "O intervalo de confiança e o valor de p são informações redundantes, não sendo recomendável observar ambos simultaneamente para a interpretação de um resultado de pesquisa.",
+        "rationale": "Incorreta. Recomenda-se a observação conjunta do intervalo de confiança e de outras informações, como o tamanho do efeito e o valor de p; não são informações redundantes que dispensariam a análise conjunta."
       },
       {
         "letter": "D",
-        "text": "Um valor de p menor que 0,05 garante, segundo o material, que a associação encontrada representa necessariamente uma relação de causalidade entre a exposição e o desfecho estudado, independentemente de outros fatores.",
-        "rationale": "Incorreta. O material não equipara significância estatística a comprovação de causalidade; mesmo associações estatisticamente significativas exigem avaliação adicional de outros criterios antes de qualquer inferência causal, o que não e garantido apenas pelo valor de p."
+        "text": "Um valor de p menor que 0,05 garante que a associação encontrada representa necessariamente uma relação de causalidade entre a exposição e o desfecho estudado, independentemente de outros fatores.",
+        "rationale": "Incorreta. Significância estatística não equivale a comprovação de causalidade; mesmo associações estatisticamente significativas exigem avaliação adicional de outros critérios antes de qualquer inferência causal, o que não é garantido apenas pelo valor de p."
       }
     ],
     "correctLetter": "A",
@@ -5621,27 +5621,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Comparação entre risco atribuível percentual em duas exposições distintas para priorização de intervenção",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Um gestor de saúde compara duas exposições relacionadas ao cancer de bexiga em sua população: o tabagismo, com risco atribuível percentual de 50% entre os fumantes, e a exposição ocupacional a certos corantes industriais, com risco atribuível percentual de 30% entre os trabalhadores expostos. Apenas uma pequena fração da população geral trabalha com esses corantes, enquanto o tabagismo e mais prevalente. Qual alternativa avalia corretamente o uso dessas informações para priorização de politicas públicas, segundo os princípios gerais de medidas de associação descritos no material?",
+    "prompt": "Um gestor de saúde compara duas exposições relacionadas ao câncer de bexiga em sua população: o tabagismo, com risco atribuível percentual de 50% entre os fumantes, e a exposição ocupacional a certos corantes industriais, com risco atribuível percentual de 30% entre os trabalhadores expostos. Apenas uma pequena fração da população geral trabalha com esses corantes, enquanto o tabagismo é mais prevalente. Qual alternativa avalia corretamente o uso dessas informações para priorização de políticas públicas, segundo os princípios gerais de medidas de associação?",
     "options": [
       {
         "letter": "A",
         "text": "Embora o risco atribuível percentual indique a fração de casos evitáveis dentro do próprio grupo exposto (50% entre fumantes e 30% entre expostos aos corantes), a decisão sobre qual exposição priorizar para o impacto populacional mais amplo também deve considerar quantas pessoas na população geral estão efetivamente expostas a cada fator, ja que uma exposição mais prevalente, mesmo com risco atribuível percentual menor, pode gerar maior impacto absoluto em saúde pública.",
-        "rationale": "CORRETA. O risco atribuível percentual, tal como definido no material, mede a fração de casos evitáveis dentro do próprio grupo exposto, mas não incorpora diretamente a prevalência da exposição na população geral; para decisões de priorização com maior impacto populacional, e necessário considerar também quantas pessoas estão efetivamente expostas a cada fator, o que pode fazer com que uma exposição mais prevalente, como o tabagismo nesse caso, tenha maior relevância para politicas públicas do que sugeriria isoladamente o risco atribuível percentual entre os expostos."
+        "rationale": "CORRETA. O risco atribuível percentual mede a fração de casos evitáveis dentro do próprio grupo exposto, mas não incorpora diretamente a prevalência da exposição na população geral; para decisões de priorização com maior impacto populacional, é necessário considerar também quantas pessoas estão efetivamente expostas a cada fator, o que pode fazer com que uma exposição mais prevalente, como o tabagismo nesse caso, tenha maior relevância para políticas públicas do que sugeriria isoladamente o risco atribuível percentual entre os expostos."
       },
       {
         "letter": "B",
-        "text": "A exposição ocupacional aos corantes industriais deve ser sempre priorizada sobre o tabagismo para politicas públicas, ja que, segundo o material, o risco atribuível percentual e a única informação necessária para essa decisão, independentemente da prevalência de cada exposição na população.",
-        "rationale": "Incorreta. O material não trata o risco atribuível percentual como a única informação relevante para decisões de priorização; a prevalência da exposição na população geral também e um fator importante a considerar para o impacto absoluto de uma politica pública, o que pode inclusive favorecer a priorização do tabagismo, mais prevalente, sobre a exposição ocupacional mais restrita."
+        "text": "A exposição ocupacional aos corantes industriais deve ser sempre priorizada sobre o tabagismo para políticas públicas, já que o risco atribuível percentual é a única informação necessária para essa decisão, independentemente da prevalência de cada exposição na população.",
+        "rationale": "Incorreta. O risco atribuível percentual não é a única informação relevante para decisões de priorização; a prevalência da exposição na população geral também é um fator importante a considerar para o impacto absoluto de uma política pública, o que pode inclusive favorecer a priorização do tabagismo, mais prevalente, sobre a exposição ocupacional mais restrita."
       },
       {
         "letter": "C",
         "text": "O risco atribuível percentual de 50% entre fumantes e de 30% entre expostos aos corantes são valores diretamente comparáveis e suficientes, isoladamente, para determinar qual exposição causa mais casos de cancer de bexiga na população total do município.",
-        "rationale": "Incorreta. O risco atribuível percentual, tal como definido no material, e calculado dentro do próprio grupo exposto, e não incorpora automaticamente a prevalência da exposição na população total, o que significa que essa comparação isolada não e suficiente para determinar o impacto absoluto de cada exposição na população total do município."
+        "rationale": "Incorreta. O risco atribuível percentual é calculado dentro do próprio grupo exposto e não incorpora automaticamente a prevalência da exposição na população total, o que significa que essa comparação isolada não é suficiente para determinar o impacto absoluto de cada exposição na população total do município."
       },
       {
         "letter": "D",
-        "text": "Nenhuma das duas exposições descritas deveria orientar politicas públicas de prevenção do cancer de bexiga, segundo o material, que reservária essas decisões exclusivamente a criterios politicos e economicos desvinculados das medidas de associação epidemiológica.",
-        "rationale": "Incorreta. O material relaciona diretamente as medidas de associação, incluindo o risco atribuível percentual, a fundamentação de decisões de saúde pública e priorização de ações preventivas, e não as exclui desse processo em favor exclusivo de criterios politicos e economicos desvinculados dos dados epidemiológicos."
+        "text": "Nenhuma das duas exposições descritas deveria orientar políticas públicas de prevenção do câncer de bexiga, devendo essas decisões ficar reservadas exclusivamente a critérios políticos e econômicos desvinculados das medidas de associação epidemiológica.",
+        "rationale": "Incorreta. As medidas de associação, incluindo o risco atribuível percentual, relacionam-se diretamente à fundamentação de decisões de saúde pública e priorização de ações preventivas; não são excluídas desse processo em favor exclusivo de critérios políticos e econômicos desvinculados dos dados epidemiológicos."
       }
     ],
     "correctLetter": "A",
@@ -5654,27 +5654,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Reconhecimento de associação nula (RR próximo de 1) em estudo sobre uso de celular e cefaleia",
     "origem": "nova",
     "difficulty": "Intermediaria",
-    "prompt": "Um estudo de coorte investiga a associação entre uso intenso de celular e desenvolvimento de cefaleia crônica, encontrando um risco relativo de 1,04, com intervalo de confiança de 95% variando de 0,89 a 1,21. Qual alternativa interpreta corretamente esse resultado, segundo os princípios de intervalo de confiança e força de associação descritos no material?",
+    "prompt": "Um estudo de coorte investiga a associação entre uso intenso de celular e desenvolvimento de cefaleia crônica, encontrando um risco relativo de 1,04, com intervalo de confiança de 95% variando de 0,89 a 1,21. Qual alternativa interpreta corretamente esse resultado, segundo os princípios de intervalo de confiança e força de associação?",
     "options": [
       {
         "letter": "A",
         "text": "O risco relativo de 1,04 e muito próximo do valor nulo (1), e o intervalo de confiança de 0,89 a 1,21 inclui esse valor nulo, o que indica, em conjunto, ausência de evidência de associação estatisticamente significativa entre o uso intenso de celular e a cefaleia crônica nesse estudo.",
-        "rationale": "CORRETA. Um risco relativo próximo de 1 indica ausência de associação relevante, e o fato de o intervalo de confiança de 95% (0,89 a 1,21) incluir o valor nulo 1 confirma a ausência de significância estatística dessa associação, interpretação coerente com os princípios de intervalo de confiança e força de associação descritos no material."
+        "rationale": "CORRETA. Um risco relativo próximo de 1 indica ausência de associação relevante, e o fato de o intervalo de confiança de 95% (0,89 a 1,21) incluir o valor nulo 1 confirma a ausência de significância estatística dessa associação."
       },
       {
         "letter": "B",
-        "text": "Um risco relativo de 1,04 indica, segundo o material, uma associação protetora moderada entre o uso intenso de celular e a cefaleia crônica, reduzindo o risco em 4% entre os usuários intensos.",
+        "text": "Um risco relativo de 1,04 indica uma associação protetora moderada entre o uso intenso de celular e a cefaleia crônica, reduzindo o risco em 4% entre os usuários intensos.",
         "rationale": "Incorreta. Um risco relativo de 1,04 esta ligeiramente acima de 1, o que, se fosse estatisticamente significativo, indicária discreto aumento, e não redução, do risco; além disso, o intervalo de confiança incluindo o valor nulo indica que esse pequeno desvio não e estatisticamente significativo."
       },
       {
         "letter": "C",
-        "text": "O fato de o intervalo de confiança variar de 0,89 a 1,21 indica, segundo o material, uma associação estatisticamente significativa e clinicamente relevante entre uso de celular e cefaleia crônica, por se tratar de um intervalo relativamente estreito.",
-        "rationale": "Incorreta. Independentemente da amplitude do intervalo, o criterio central de significância estatística e se o intervalo inclui ou não o valor nulo (1); como esse intervalo inclui o valor 1, a associação não e considerada estatisticamente significativa, segundo os princípios descritos no material."
+        "text": "O fato de o intervalo de confiança variar de 0,89 a 1,21 indica uma associação estatisticamente significativa e clinicamente relevante entre uso de celular e cefaleia crônica, por se tratar de um intervalo relativamente estreito.",
+        "rationale": "Incorreta. Independentemente da amplitude do intervalo, o critério central de significância estatística é se o intervalo inclui ou não o valor nulo (1); como esse intervalo inclui o valor 1, a associação não é considerada estatisticamente significativa."
       },
       {
         "letter": "D",
-        "text": "Não e possível interpretar esse resultado sem informações adicionais sobre o valor de p, segundo o material, que não permitiria qualquer conclusão a partir apenas do risco relativo e do intervalo de confiança apresentados.",
-        "rationale": "Incorreta. O material permite interpretar a significância estatística diretamente a partir da observação de o intervalo de confiança incluir ou não o valor nulo, sem depender exclusivamente da apresentação separada de um valor de p para essa conclusão."
+        "text": "Não é possível interpretar esse resultado sem informações adicionais sobre o valor de p, não sendo possível qualquer conclusão a partir apenas do risco relativo e do intervalo de confiança apresentados.",
+        "rationale": "Incorreta. A significância estatística pode ser interpretada diretamente a partir da observação de o intervalo de confiança incluir ou não o valor nulo, sem depender exclusivamente da apresentação separada de um valor de p para essa conclusão."
       }
     ],
     "correctLetter": "A",
@@ -5701,12 +5701,12 @@ const QUESTIONS_DATABASE = [
       },
       {
         "letter": "C",
-        "text": "O coeficiente de incidência específica por sexo, segundo o material, deve ser calculado dividindo o número total de trabalhadores da industria pelos casos novos de cada sexo, e não o inverso dessa relação.",
-        "rationale": "Incorreta. O material define o coeficiente de incidência como o número de casos novos dividido pela população sob risco (nesse caso, o número de trabalhadores de cada sexo), e não o inverso dessa relação, que produziria um valor sem sentido epidemiológico como medida de risco."
+        "text": "O coeficiente de incidência específica por sexo deve ser calculado dividindo o número total de trabalhadores da indústria pelos casos novos de cada sexo, e não o inverso dessa relação.",
+        "rationale": "Incorreta. Coeficiente de incidência é o número de casos novos dividido pela população sob risco (nesse caso, o número de trabalhadores de cada sexo), e não o inverso dessa relação, que produziria um valor sem sentido epidemiológico como medida de risco."
       },
       {
         "letter": "D",
-        "text": "Não e possível calcular e comparar coeficientes de incidência específica entre grupos de tamanhos diferentes, como homens e mulheres nessa industria, segundo os princípios gerais de construção de indicadores descritos no material.",
+        "text": "Não é possível calcular e comparar coeficientes de incidência específica entre grupos de tamanhos diferentes, como homens e mulheres nessa indústria.",
         "rationale": "Incorreta. E exatamente a relativização pelo número de trabalhadores de cada sexo que permite comparações validas de risco entre grupos de tamanhos diferentes, o que sustenta, e não impede, essa comparação entre homens e mulheres nessa industria."
       }
     ],
@@ -5758,12 +5758,12 @@ const QUESTIONS_DATABASE = [
       },
       {
         "letter": "C",
-        "text": "A proporção de complicações deve ser calculada dividindo o total de cirurgias de cada hospital pelo número de complicações, e não o inverso, segundo os princípios gerais de indicadores relativizados descritos no material.",
+        "text": "A proporção de complicações deve ser calculada dividindo o total de cirurgias de cada hospital pelo número de complicações, e não o inverso.",
         "rationale": "Incorreta. Os princípios gerais de indicadores relativizados definem a proporção como o número de eventos (complicações) dividido pelo total que os inclui (cirurgias realizadas), e não o inverso dessa relação, que produziria um valor sem sentido como medida de taxa de complicações."
       },
       {
         "letter": "D",
-        "text": "Não e possível comparar hospitais com volumes de cirurgia tão diferentes (900 e 180 procedimentos), segundo os princípios de indicadores relativizados descritos no material, sendo necessário que ambos realizem exatamente o mesmo número de procedimentos.",
+        "text": "Não é possível comparar hospitais com volumes de cirurgia tão diferentes (900 e 180 procedimentos), sendo necessário que ambos realizem exatamente o mesmo número de procedimentos.",
         "rationale": "Incorreta. E justamente a relativização pelo volume de cirurgias de cada hospital que permite uma comparação valida de desempenho entre serviços de portes diferentes, sem exigir que ambos realizem exatamente o mesmo número de procedimentos no período."
       }
     ],
@@ -5801,27 +5801,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Interpretação de risco relativo menor que 1 em estudo sobre amamentação e infecção respiratória",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Uma coorte de recem-nascidos acompanhados por seis meses encontrou incidência de infecção respiratória aguda de 18% entre os que foram amamentados exclusivamente no peito por pelo menos quatro meses, e de 42% entre os que não foram amamentados exclusivamente por esse período. Qual alternativa calcula e interpreta corretamente o risco relativo dessa associação, segundo o material?",
+    "prompt": "Uma coorte de recém-nascidos acompanhados por seis meses encontrou incidência de infecção respiratória aguda de 18% entre os que foram amamentados exclusivamente no peito por pelo menos quatro meses, e de 42% entre os que não foram amamentados exclusivamente por esse período. Qual alternativa calcula e interpreta corretamente o risco relativo dessa associação?",
     "options": [
       {
         "letter": "A",
         "text": "O risco relativo e RR = 18/42 = 0,43, valor menor que 1, indicando que a amamentação exclusiva por pelo menos quatro meses teve efeito protetor, reduzindo o risco de infecção respiratória aguda em aproximadamente 57% entre os lactentes amamentados em comparação aos não amamentados dessa forma.",
-        "rationale": "CORRETA. Calculando o risco relativo como a incidência no grupo exposto (amamentados exclusivamente) dividida pela incidência no grupo não exposto, obtém-se RR=18/42=0,43, valor menor que 1, que o material interpreta como efeito protetor da exposição; a redução percentual do risco pode ser expressa como (1-0,43)x100=57%, uma redução expressiva do risco de infecção respiratória associada a amamentação exclusiva."
+        "rationale": "CORRETA. Calculando o risco relativo como a incidência no grupo exposto (amamentados exclusivamente) dividida pela incidência no grupo não exposto, obtém-se RR=18/42=0,43, valor menor que 1, interpretado como efeito protetor da exposição; a redução percentual do risco pode ser expressa como (1-0,43)x100=57%, uma redução expressiva do risco de infecção respiratória associada à amamentação exclusiva."
       },
       {
         "letter": "B",
         "text": "O risco relativo nesse caso deveria ser calculado como RR = 42/18 = 2,33, colocando a incidência dos não amamentados no numerador, o que inverteria a definição de exposição e não exposição estabelecida no próprio enunciado do caso.",
-        "rationale": "Incorreta. O material define o risco relativo como a incidência no grupo exposto (definido no caso como os amamentados exclusivamente) dividida pela incidência no grupo não exposto, e inverter essa relação contrária a própria definição de exposição estabelecida no enunciado desse caso específico."
+        "rationale": "Incorreta. Risco relativo é a incidência no grupo exposto (definido no caso como os amamentados exclusivamente) dividida pela incidência no grupo não exposto; inverter essa relação contraria a própria definição de exposição estabelecida no enunciado desse caso específico."
       },
       {
         "letter": "C",
-        "text": "Um RR igual a 0,43 indica, segundo o material, que a amamentação exclusiva aumenta o risco de infecção respiratória em 43% entre os lactentes amamentados, interpretação que corresponderia a um valor de RR próximo de 1,43, e não de 0,43.",
+        "text": "Um RR igual a 0,43 indica que a amamentação exclusiva aumenta o risco de infecção respiratória em 43% entre os lactentes amamentados, interpretação que corresponderia a um valor de RR próximo de 1,43, e não de 0,43.",
         "rationale": "Incorreta. Um risco relativo de 0,43 e substancialmente menor que 1, o que indica efeito protetor (redução de risco), e não aumento de risco; a interpretação de aumento de 43% corresponderia a um valor próximo de 1,43, distinto do valor de 0,43 calculado nesse caso."
       },
       {
         "letter": "D",
-        "text": "O risco relativo não pode ser calculado a partir de dados de uma coorte com apenas seis meses de acompanhamento, segundo o material, sendo necessário um período mínimo de doze meses para a validade desse cálculo.",
-        "rationale": "Incorreta. O material não estabelece um período mínimo fixo de doze meses para o cálculo do risco relativo em estudos de coorte; a validade desse cálculo depende da adequação do desenho ao desfecho estudado, e não de uma duração mínima específica e arbitrária como proposto nesta alternativa."
+        "text": "O risco relativo não pode ser calculado a partir de dados de uma coorte com apenas seis meses de acompanhamento, sendo necessário um período mínimo de doze meses para a validade desse cálculo.",
+        "rationale": "Incorreta. Não há período mínimo fixo de doze meses para o cálculo do risco relativo em estudos de coorte; a validade desse cálculo depende da adequação do desenho ao desfecho estudado, e não de uma duração mínima específica e arbitrária como proposto nesta alternativa."
       }
     ],
     "correctLetter": "A",
@@ -5852,27 +5852,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Síntese integrada de múltiplas medidas de associação a partir de uma mesma tabela de coorte sobre exposição ao asbesto",
     "origem": "nova",
     "difficulty": "Avancada",
-    "prompt": "Numa coorte industrial de 20 anos, trabalhadores expostos ao asbesto apresentaram incidência de mesotelioma de 50 por 10.000 pessoas-ano, e trabalhadores não expostos apresentaram incidência de 2 por 10.000 pessoas-ano. Um epidemiologista do trabalho precisa apresentar, num mesmo relatório, o risco relativo, o risco atribuível e o risco atribuível percentual dessa exposição. Qual alternativa apresenta corretamente as tres medidas, segundo o material?",
+    "prompt": "Numa coorte industrial de 20 anos, trabalhadores expostos ao asbesto apresentaram incidência de mesotelioma de 50 por 10.000 pessoas-ano, e trabalhadores não expostos apresentaram incidência de 2 por 10.000 pessoas-ano. Um epidemiologista do trabalho precisa apresentar, num mesmo relatório, o risco relativo, o risco atribuível e o risco atribuível percentual dessa exposição. Qual alternativa apresenta corretamente as três medidas?",
     "options": [
       {
         "letter": "A",
         "text": "Risco relativo = 50/2 = 25,0; risco atribuível = 50-2 = 48 casos adicionais por 10.000 pessoas-ano; risco atribuível percentual = (48/50) x 100 = 96%, indicando associação muito forte (25 vezes mais risco), com a grande maiória dos casos de mesotelioma entre expostos atribuível ao asbesto e potencialmente evitável na ausência dessa exposição.",
-        "rationale": "CORRETA. Aplicando as tres fórmulas do material as incidências apresentadas, risco relativo (incidência expostos / incidência não expostos) = 50/2 = 25,0; risco atribuível (diferença de incidências) = 50-2 = 48 casos adicionais por 10.000 pessoas-ano; e risco atribuível percentual (diferença dividida pela incidência nos expostos, x100) = (48/50)x100 = 96%; as tres medidas, em conjunto, mostram uma associação muito forte entre exposição ao asbesto e mesotelioma, com quase a totalidade dos casos entre expostos atribuível a essa exposição ocupacional."
+        "rationale": "CORRETA. Aplicando as três fórmulas às incidências apresentadas: risco relativo (incidência expostos / incidência não expostos) = 50/2 = 25,0; risco atribuível (diferença de incidências) = 50-2 = 48 casos adicionais por 10.000 pessoas-ano; e risco atribuível percentual (diferença dividida pela incidência nos expostos, x100) = (48/50)x100 = 96%; as três medidas, em conjunto, mostram uma associação muito forte entre exposição ao asbesto e mesotelioma, com quase a totalidade dos casos entre expostos atribuível a essa exposição ocupacional."
       },
       {
         "letter": "B",
-        "text": "As tres medidas descritas no material são equivalentes entre si e produzem sempre o mesmo valor numerico a partir dos mesmos dados de incidência, o que tornária desnecessário calcula-las separadamente nesse relatório.",
-        "rationale": "Incorreta. O material diferência claramente risco relativo (uma razão), risco atribuível (uma diferença absoluta) e risco atribuível percentual (uma proporção), medidas com fórmulas e interpretações distintas que raramente produzem o mesmo valor numerico, como evidenciado pelos valores de 25,0, 48 e 96% calculados nesse caso."
+        "text": "As três medidas descritas são equivalentes entre si e produzem sempre o mesmo valor numérico a partir dos mesmos dados de incidência, o que tornaria desnecessário calculá-las separadamente nesse relatório.",
+        "rationale": "Incorreta. Risco relativo (uma razão), risco atribuível (uma diferença absoluta) e risco atribuível percentual (uma proporção) são medidas com fórmulas e interpretações distintas que raramente produzem o mesmo valor numérico, como evidenciado pelos valores de 25,0, 48 e 96% calculados nesse caso."
       },
       {
         "letter": "C",
         "text": "O risco atribuível percentual nesse caso deveria ser calculado dividindo a diferença de incidências pela incidência nos não expostos, resultando em (48/2) x 100 = 2.400%, valor que representária a fração de casos atribuíveis entre os expostos ao asbesto.",
-        "rationale": "Incorreta. O material define o denominador do risco atribuível percentual especificamente como a incidência nos expostos, e não a incidência nos não expostos; usar o denominador incorreto produz um percentual sem sentido epidemiológico, muito acima do máximo teórico de 100% esperado para essa medida."
+        "rationale": "Incorreta. O denominador do risco atribuível percentual é especificamente a incidência nos expostos, e não a incidência nos não expostos; usar o denominador incorreto produz um percentual sem sentido epidemiológico, muito acima do máximo teórico de 100% esperado para essa medida."
       },
       {
         "letter": "D",
-        "text": "O risco relativo calculado nesse caso (25,0) representa o número de casos adicionais de mesotelioma por 10.000 pessoas-ano atribuíveis a exposição ao asbesto, confundindo esse conceito com a definição de risco atribuível descrita no material.",
-        "rationale": "Incorreta. O material atribui a interpretação de casos adicionais por unidade populacional ao risco atribuível (nesse caso, 48 casos por 10.000 pessoas-ano), e não ao risco relativo, que expressa quantas vezes maior e o risco (nesse caso, 25 vezes), conceitos distintos que essa alternativa confunde."
+        "text": "O risco relativo calculado nesse caso (25,0) representa o número de casos adicionais de mesotelioma por 10.000 pessoas-ano atribuíveis à exposição ao asbesto, confundindo esse conceito com a definição de risco atribuível.",
+        "rationale": "Incorreta. A interpretação de casos adicionais por unidade populacional cabe ao risco atribuível (nesse caso, 48 casos por 10.000 pessoas-ano), e não ao risco relativo, que expressa quantas vezes maior é o risco (nesse caso, 25 vezes) — conceitos distintos que essa alternativa confunde."
       }
     ],
     "correctLetter": "A",
@@ -5903,27 +5903,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Classificação dos estudos epidemiológicos quanto ao tipo operativo",
     "origem": "nova",
     "difficulty": "Intermediaria",
-    "prompt": "Um pesquisador planeja dois estudos distintos: no primeiro, ele apenas observa a ocorrência natural de uma doença numa população, sem qualquer interferência; no segundo, ele aloca deliberadamente um novo medicamento a um grupo de pacientes para avaliar seu efeito. Qual alternativa classifica corretamente esses dois estudos quanto ao tipo operativo, segundo o material?",
+    "prompt": "Um pesquisador planeja dois estudos distintos: no primeiro, ele apenas observa a ocorrência natural de uma doença numa população, sem qualquer interferência; no segundo, ele aloca deliberadamente um novo medicamento a um grupo de pacientes para avaliar seu efeito. Qual alternativa classifica corretamente esses dois estudos quanto ao tipo operativo?",
     "options": [
       {
         "letter": "A",
         "text": "O primeiro estudo e observacional, pois o pesquisador apenas observa o fenômeno sem interferir; o segundo e experimental ou de intervenção, pois o pesquisador aloca deliberadamente a exposição (o medicamento) aos participantes.",
-        "rationale": "CORRETA. O material classifica os estudos epidemiológicos quanto ao tipo operativo em observacionais, nos quais o pesquisador apenas observa o fenômeno sem interferir, e experimentais ou de intervenção, nos quais o pesquisador aloca deliberadamente a exposição aos participantes, exatamente a distinção entre os dois estudos planejados por esse pesquisador."
+        "rationale": "CORRETA. Os estudos epidemiológicos classificam-se, quanto ao tipo operativo, em observacionais, nos quais o pesquisador apenas observa o fenômeno sem interferir, e experimentais ou de intervenção, nos quais o pesquisador aloca deliberadamente a exposição aos participantes — exatamente a distinção entre os dois estudos planejados por esse pesquisador."
       },
       {
         "letter": "B",
-        "text": "Ambos os estudos descritos são classificados como observacionais, segundo o material, que não diferenciária estudos com alocação deliberada de exposição daqueles que apenas observam o fenômeno naturalmente.",
-        "rationale": "Incorreta. O material diferência claramente estudos observacionais de estudos experimentais ou de intervenção justamente pela presença ou ausência de alocação deliberada da exposição pelo pesquisador, não os classificando como equivalentes entre si."
+        "text": "Ambos os estudos descritos são classificados como observacionais, já que estudos com alocação deliberada de exposição não se diferenciariam daqueles que apenas observam o fenômeno naturalmente.",
+        "rationale": "Incorreta. Estudos observacionais diferem claramente de estudos experimentais ou de intervenção justamente pela presença ou ausência de alocação deliberada da exposição pelo pesquisador; não são classificados como equivalentes entre si."
       },
       {
         "letter": "C",
-        "text": "O primeiro estudo e experimental, e o segundo e observacional, invertendo a classificação correta descrita no material para esses dois tipos operativos de estudo.",
-        "rationale": "Incorreta. O material classifica como observacional o estudo em que o pesquisador apenas observa sem interferir, compatível com o primeiro estudo, e como experimental aquele em que há alocação deliberada da exposição, compatível com o segundo, e não a combinação invertida proposta nesta alternativa."
+        "text": "O primeiro estudo é experimental, e o segundo é observacional — invertendo a classificação correta desses dois tipos operativos de estudo.",
+        "rationale": "Incorreta. Classifica-se como observacional o estudo em que o pesquisador apenas observa sem interferir, compatível com o primeiro estudo, e como experimental aquele em que há alocação deliberada da exposição, compatível com o segundo — não a combinação invertida proposta nesta alternativa."
       },
       {
         "letter": "D",
-        "text": "A classificação quanto ao tipo operativo não e um criterio reconhecido pelo material para diferenciar estudos epidemiológicos, que os classificária apenas quanto a temporalidade e a finalidade.",
-        "rationale": "Incorreta. O material reconhece explicitamente o tipo operativo, isto e, a distinção entre observacional e experimental, como um dos criterios de classificação dos estudos epidemiológicos, ao lado de outros criterios como posição do investigador, temporalidade e finalidade."
+        "text": "A classificação quanto ao tipo operativo não é um critério válido para diferenciar estudos epidemiológicos, que se classificariam apenas quanto à temporalidade e à finalidade.",
+        "rationale": "Incorreta. O tipo operativo, isto é, a distinção entre observacional e experimental, é reconhecido como um dos critérios de classificação dos estudos epidemiológicos, ao lado de outros critérios como posição do investigador, temporalidade e finalidade."
       }
     ],
     "correctLetter": "A",
@@ -5936,27 +5936,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Diferenciação entre estudo descritivo e estudo analítico quanto a finalidade",
     "origem": "nova",
     "difficulty": "Intermediaria",
-    "prompt": "Um pesquisador realiza um primeiro estudo apenas para descrever a frequência de uma doença rara numa população específica, sem comparar grupos ou testar hipóteses de associação. Em um segundo estudo, ele testa especificamente se uma exposição esta associada a essa doença, comparando grupos expostos e não expostos. Qual alternativa diferência corretamente esses dois estudos quanto a finalidade, segundo o material?",
+    "prompt": "Um pesquisador realiza um primeiro estudo apenas para descrever a frequência de uma doença rara numa população específica, sem comparar grupos ou testar hipóteses de associação. Em um segundo estudo, ele testa especificamente se uma exposição está associada a essa doença, comparando grupos expostos e não expostos. Qual alternativa diferencia corretamente esses dois estudos quanto à finalidade?",
     "options": [
       {
         "letter": "A",
         "text": "O primeiro estudo e descritivo, pois apenas descreve a frequência do evento sem testar hipóteses de associação; o segundo e analítico, pois testa uma hipótese específica de associação entre exposição e desfecho, comparando grupos.",
-        "rationale": "CORRETA. O material diferência estudos descritivos, que descrevem a frequência e as características de um evento de saúde sem necessariamente testar hipóteses de associação, de estudos analíticos, que testam hipóteses específicas de associação entre exposição e desfecho, exatamente a distinção entre os dois estudos planejados por esse pesquisador."
+        "rationale": "CORRETA. Estudos descritivos, que descrevem a frequência e as características de um evento de saúde sem necessariamente testar hipóteses de associação, diferem de estudos analíticos, que testam hipóteses específicas de associação entre exposição e desfecho — exatamente a distinção entre os dois estudos planejados por esse pesquisador."
       },
       {
         "letter": "B",
-        "text": "Ambos os estudos descritos são classificados como descritivos, segundo o material, que não diferenciária estudos que apenas descrevem frequências daqueles que testam hipóteses de associação entre grupos.",
-        "rationale": "Incorreta. O material diferência claramente estudos descritivos de estudos analíticos justamente pela presença ou ausência de teste de hipótese de associação com comparação de grupos, não os classificando como equivalentes entre si."
+        "text": "Ambos os estudos descritos são classificados como descritivos, já que estudos que apenas descrevem frequências não se diferenciariam daqueles que testam hipóteses de associação entre grupos.",
+        "rationale": "Incorreta. Estudos descritivos diferem claramente de estudos analíticos justamente pela presença ou ausência de teste de hipótese de associação com comparação de grupos; não são classificados como equivalentes entre si."
       },
       {
         "letter": "C",
-        "text": "O primeiro estudo e analítico, e o segundo e descritivo, invertendo a classificação correta descrita no material para esses dois tipos de estudo quanto a finalidade.",
-        "rationale": "Incorreta. O material classifica como descritivo o estudo que apenas descreve a frequência sem testar hipóteses, compatível com o primeiro estudo, e como analítico aquele que testa uma hipótese de associação comparando grupos, compatível com o segundo, e não a combinação invertida proposta nesta alternativa."
+        "text": "O primeiro estudo é analítico, e o segundo é descritivo — invertendo a classificação correta desses dois tipos de estudo quanto à finalidade.",
+        "rationale": "Incorreta. Classifica-se como descritivo o estudo que apenas descreve a frequência sem testar hipóteses, compatível com o primeiro estudo, e como analítico aquele que testa uma hipótese de associação comparando grupos, compatível com o segundo — não a combinação invertida proposta nesta alternativa."
       },
       {
         "letter": "D",
-        "text": "Estudos descritivos, segundo o material, sempre exigem grupo controle para sua realização, assim como os estudos analíticos, o que tornária essa distinção entre os dois estudos do caso irrelevante quanto a essa exigência metodológica.",
-        "rationale": "Incorreta. O material descreve os estudos descritivos como aqueles que, classicamente, não exigem grupo controle, ao contrário dos estudos analíticos, que dependem de comparação entre grupos para testar hipóteses de associação, o que sustenta, e não torna irrelevante, essa distinção."
+        "text": "Estudos descritivos sempre exigem grupo controle para sua realização, assim como os estudos analíticos, o que tornaria essa distinção entre os dois estudos do caso irrelevante quanto a essa exigência metodológica.",
+        "rationale": "Incorreta. Estudos descritivos, classicamente, não exigem grupo controle, ao contrário dos estudos analíticos, que dependem de comparação entre grupos para testar hipóteses de associação — o que sustenta, e não torna irrelevante, essa distinção."
       }
     ],
     "correctLetter": "A",
@@ -5969,27 +5969,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "As tres variáveis clássicas da epidemiologia descritiva: tempo, lugar e pessoa",
     "origem": "nova",
     "difficulty": "Intermediaria",
-    "prompt": "Um estudo descritivo sobre uma doença respiratória caracteriza os casos segundo o mês de inicio dos sintomas, o bairro de residência dos pacientes, e a idade e o sexo de cada um deles. Qual alternativa relaciona corretamente essas características as variáveis clássicas da epidemiologia descritiva, segundo o material?",
+    "prompt": "Um estudo descritivo sobre uma doença respiratória caracteriza os casos segundo o mês de início dos sintomas, o bairro de residência dos pacientes, e a idade e o sexo de cada um deles. Qual alternativa relaciona corretamente essas características às variáveis clássicas da epidemiologia descritiva?",
     "options": [
       {
         "letter": "A",
         "text": "O mês de inicio dos sintomas corresponde a variável tempo; o bairro de residência corresponde a variável lugar; e a idade e o sexo correspondem a variável pessoa, as tres dimensões clássicas utilizadas para caracterizar a distribuição de um evento de saúde num estudo descritivo.",
-        "rationale": "CORRETA. O material descreve tempo, lugar e pessoa como as tres variáveis clássicas da epidemiologia descritiva, utilizadas para caracterizar a distribuição de um evento de saúde; o mês de inicio dos sintomas corresponde a tempo, o bairro de residência corresponde a lugar, e a idade e o sexo correspondem a características de pessoa, exatamente as tres dimensões descritas nesse estudo."
+        "rationale": "CORRETA. Tempo, lugar e pessoa são as três variáveis clássicas da epidemiologia descritiva, utilizadas para caracterizar a distribuição de um evento de saúde; o mês de início dos sintomas corresponde a tempo, o bairro de residência corresponde a lugar, e a idade e o sexo correspondem a características de pessoa — exatamente as três dimensões descritas nesse estudo."
       },
       {
         "letter": "B",
-        "text": "As tres características descritas correspondem todas a variável lugar, segundo o material, que não diferenciária tempo, lugar e pessoa como dimensões distintas da epidemiologia descritiva.",
-        "rationale": "Incorreta. O material diferência claramente tempo, lugar e pessoa como tres variáveis clássicas distintas da epidemiologia descritiva, cada uma capturando uma dimensão diferente da distribuição do evento de saúde, e não as trata como uma única categoria equivalente."
+        "text": "As três características descritas correspondem todas à variável lugar, já que tempo, lugar e pessoa não se diferenciariam como dimensões distintas da epidemiologia descritiva.",
+        "rationale": "Incorreta. Tempo, lugar e pessoa são três variáveis clássicas distintas da epidemiologia descritiva, cada uma capturando uma dimensão diferente da distribuição do evento de saúde; não são tratadas como uma única categoria equivalente."
       },
       {
         "letter": "C",
-        "text": "O mês de inicio dos sintomas corresponde a variável pessoa, e a idade e o sexo correspondem a variável tempo, invertendo a classificação correta dessas variáveis descrita no material.",
-        "rationale": "Incorreta. O material atribui o mês de inicio dos sintomas a variável tempo, e a idade e o sexo a variável pessoa, e não a combinação invertida proposta nesta alternativa."
+        "text": "O mês de início dos sintomas corresponde à variável pessoa, e a idade e o sexo correspondem à variável tempo — invertendo a classificação correta dessas variáveis.",
+        "rationale": "Incorreta. O mês de início dos sintomas corresponde à variável tempo, e a idade e o sexo, à variável pessoa — não a combinação invertida proposta nesta alternativa."
       },
       {
         "letter": "D",
-        "text": "A variável pessoa, segundo o material, se refere exclusivamente ao número total de pessoas afetadas pela doença, e não a características individuais como idade e sexo dos pacientes.",
-        "rationale": "Incorreta. O material relaciona a variável pessoa as características individuais dos casos, como idade, sexo e outras condições, e não apenas ao número total de pessoas afetadas, que e uma medida de frequência, e não uma variável descritiva de pessoa."
+        "text": "A variável pessoa se refere exclusivamente ao número total de pessoas afetadas pela doença, e não a características individuais como idade e sexo dos pacientes.",
+        "rationale": "Incorreta. A variável pessoa relaciona-se às características individuais dos casos, como idade, sexo e outras condições, e não apenas ao número total de pessoas afetadas, que é uma medida de frequência, e não uma variável descritiva de pessoa."
       }
     ],
     "correctLetter": "A",
@@ -6002,27 +6002,27 @@ const QUESTIONS_DATABASE = [
     "subcategory": "Diferenciação entre relato de caso e serie de casos quanto ao número de indivíduos descritos",
     "origem": "nova",
     "difficulty": "Intermediaria",
-    "prompt": "Um médico pública a descrição detalhada de um único paciente com uma manifestação rara de uma doença conhecida. Outro grupo de pesquisadores pública a descrição de vinte pacientes atendidos no mesmo serviço com uma apresentação clínica semelhante e incomum. Qual alternativa classifica corretamente essas duas publicações quanto ao tipo de estudo descritivo, segundo o material?",
+    "prompt": "Um médico publica a descrição detalhada de um único paciente com uma manifestação rara de uma doença conhecida. Outro grupo de pesquisadores publica a descrição de vinte pacientes atendidos no mesmo serviço com uma apresentação clínica semelhante e incomum. Qual alternativa classifica corretamente essas duas publicações quanto ao tipo de estudo descritivo?",
     "options": [
       {
         "letter": "A",
         "text": "A primeira publicação e um relato de caso, que descreve a experiência de um único paciente; a segunda e uma serie de casos, que reune a descrição de múltiplos pacientes com características clínicas semelhantes atendidos no mesmo serviço.",
-        "rationale": "CORRETA. O material classifica como relato de caso a descrição detalhada de um único paciente, e como serie de casos a reuniao da descrição de múltiplos pacientes com características clínicas semelhantes, exatamente a distinção entre as duas publicações descritas nesse caso."
+        "rationale": "CORRETA. Classifica-se como relato de caso a descrição detalhada de um único paciente, e como série de casos a reunião da descrição de múltiplos pacientes com características clínicas semelhantes — exatamente a distinção entre as duas publicações descritas nesse caso."
       },
       {
         "letter": "B",
-        "text": "Ambas as publicações descritas correspondem ao mesmo tipo de estudo, relato de caso, segundo o material, que não diferenciária a descrição de um único paciente da descrição de múltiplos pacientes semelhantes.",
-        "rationale": "Incorreta. O material diferência claramente relato de caso (um único paciente) de serie de casos (múltiplos pacientes semelhantes), não os classificando como o mesmo tipo de estudo apenas porque ambos são descritivos."
+        "text": "Ambas as publicações descritas correspondem ao mesmo tipo de estudo, relato de caso, já que a descrição de um único paciente não se diferenciaria da descrição de múltiplos pacientes semelhantes.",
+        "rationale": "Incorreta. Relato de caso (um único paciente) difere claramente de série de casos (múltiplos pacientes semelhantes); não são classificados como o mesmo tipo de estudo apenas porque ambos são descritivos."
       },
       {
         "letter": "C",
-        "text": "A primeira publicação e uma serie de casos, e a segunda e um relato de caso, invertendo a classificação correta descrita no material para esses dois tipos de estudo descritivo.",
-        "rationale": "Incorreta. O material atribui relato de caso a descrição de um único paciente, compatível com a primeira publicação, e serie de casos a descrição de múltiplos pacientes semelhantes, compatível com a segunda, e não a combinação invertida proposta nesta alternativa."
+        "text": "A primeira publicação é uma série de casos, e a segunda é um relato de caso — invertendo a classificação correta desses dois tipos de estudo descritivo.",
+        "rationale": "Incorreta. Relato de caso corresponde à descrição de um único paciente, compatível com a primeira publicação, e série de casos, à descrição de múltiplos pacientes semelhantes, compatível com a segunda — não a combinação invertida proposta nesta alternativa."
       },
       {
         "letter": "D",
-        "text": "Uma serie de casos, segundo o material, exige necessariamente centenas de pacientes para ser assim classificada, o que tornária a publicação com vinte pacientes descrita no caso insuficiente para essa categoria.",
-        "rationale": "Incorreta. O material não estabelece um número mínimo fixo de centenas de pacientes para a classificação como serie de casos; o criterio central e a reuniao de múltiplos casos com características semelhantes, o que e atendido pela publicação com vinte pacientes descrita no caso."
+        "text": "Uma série de casos exige necessariamente centenas de pacientes para ser assim classificada, o que tornaria a publicação com vinte pacientes descrita no caso insuficiente para essa categoria.",
+        "rationale": "Incorreta. Não há número mínimo fixo de centenas de pacientes para a classificação como série de casos; o critério central é a reunião de múltiplos casos com características semelhantes, o que é atendido pela publicação com vinte pacientes descrita no caso."
       }
     ],
     "correctLetter": "A",
