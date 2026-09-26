@@ -4473,22 +4473,22 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "A mortalidade proporcional por sexo e calculada dividindo os óbitos em determinado sexo pelo total de óbitos, multiplicado por 100; nesse caso, (3.400/4.000) x 100 = 85%, indicando que 85% dos óbitos por causas externas no período ocorreram no sexo masculino, achado compatível com a maior exposição discutida pelo epidemiologista, ainda que a mortalidade proporcional em si não meça diretamente essa exposição.",
+        "text": "A mortalidade proporcional por sexo é calculada dividindo os óbitos de um sexo pelo total de óbitos, multiplicado por 100; nesse caso, (3.400/4.000) x 100 = 85%, ou seja, 85% dos óbitos por causas externas do período ocorreram no sexo masculino.",
         "rationale": "CORRETA. Mortalidade proporcional por sexo é óbitos em determinado sexo dividido pelo total de óbitos, multiplicado por 100; o cálculo correto para esse caso é (3.400/4.000) x 100 = 85%, um achado descritivo compatível com a discussão do epidemiologista sobre maior exposição masculina a fatores de risco de causas externas, ainda que a própria mortalidade proporcional não meça diretamente o grau dessa exposição, apenas a participação relativa dos óbitos masculinos no total."
       },
       {
         "letter": "B",
-        "text": "O cálculo correto da mortalidade proporcional por sexo nesse caso seria de 3.400%, obtido ao multiplicar os óbitos masculinos diretamente pelo total de óbitos, sem a divisão correta.",
+        "text": "O cálculo correto da mortalidade proporcional por sexo nesse caso seria de 3.400%, obtido ao multiplicar diretamente o número de óbitos masculinos pelo total de óbitos do período, sem realizar a divisão exigida pela fórmula correta do indicador.",
         "rationale": "Incorreta. Mortalidade proporcional é uma divisão entre os óbitos de um grupo e o total de óbitos, multiplicada por 100, e não uma multiplicação direta entre esses valores, o que produziria um percentual sem sentido epidemiológico."
       },
       {
         "letter": "C",
-        "text": "A mortalidade proporcional por sexo mede diretamente o grau de exposição de homens a acidentes de trânsito e violência urbana, dispensando qualquer outra fonte de dado sobre fatores de risco.",
+        "text": "A mortalidade proporcional por sexo mede diretamente o grau de exposição de homens a acidentes de trânsito, violência urbana e ocupações de risco, dispensando qualquer outra fonte de dado sobre esses fatores de risco específicos.",
         "rationale": "Incorreta. Mortalidade proporcional é uma medida da participação relativa de uma característica no total de óbitos, e não uma medida direta do grau de exposição a fatores de risco específicos, que exigiria outras fontes de dados complementares."
       },
       {
         "letter": "D",
-        "text": "Não é possível calcular a mortalidade proporcional por sexo a partir dos dados apresentados no caso, sendo necessário conhecer também a população masculina total do município para esse cálculo específico.",
+        "text": "Não é possível calcular a mortalidade proporcional por sexo a partir dos dados apresentados no caso, sendo necessário conhecer também a população masculina total do município para realizar esse cálculo específico.",
         "rationale": "Incorreta. O cálculo da mortalidade proporcional por sexo exige apenas os óbitos do sexo específico e o total de óbitos, ambos disponíveis no caso, e não exige o conhecimento da população masculina total, que seria necessário para calcular o coeficiente de mortalidade específica por sexo, e não a mortalidade proporcional."
       }
     ],
@@ -4539,7 +4539,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "A elaboração de um diagnostico situacional a partir da combinação de múltiplos indicadores demográficos e epidemiológicos e coerente com o papel da epidemiologia de transformar dados em conhecimento e conhecimento em ações que promovam saúde com equidade, permitindo uma leitura mais completa das necessidades do território do que qualquer indicador isolado.",
+        "text": "A elaboração de um diagnóstico situacional combinando múltiplos indicadores demográficos e epidemiológicos é coerente com o papel da epidemiologia de transformar dados em conhecimento e ações que promovam saúde com equidade.",
         "rationale": "CORRETA. O papel da epidemiologia relaciona-se explicitamente à transformação de dados em conhecimento e de conhecimento em ações que promovam saúde com equidade, o que sustenta a conduta da equipe de reunir múltiplos indicadores demográficos (pirâmide etária) e epidemiológicos (mortalidade infantil, prevalência de doenças crônicas, cobertura vacinal, causas externas) para uma leitura mais completa e contextualizada das necessidades do território."
       },
       {
@@ -4572,7 +4572,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "A razão de prevalência compara a prevalência entre expostos e não expostos; nesse caso, prevalência nos expostos = 68/130 = 52,3%, prevalência nos não expostos = 12/210 = 5,7%, resultando em RP = 52,3/5,7 = 9,2, indicando que a prevalência da síndrome foi cerca de 9 vezes maior entre os que visitaram parentes fora da aldeia.",
+        "text": "A razão de prevalência compara a prevalência entre expostos e não expostos; nesse caso, 68/130 = 52,3% nos expostos e 12/210 = 5,7% nos não expostos, resultando em RP = 52,3/5,7 = 9,2.",
         "rationale": "CORRETA. Razão de prevalência é a prevalência nos expostos dividida pela prevalência nos não expostos; calculando, 68/130 = 52,3% e 12/210 = 5,7%, obtém-se RP = 52,3/5,7 = 9,2, indicando que a prevalência da síndrome foi aproximadamente 9 vezes maior entre os expostos a essa visita recente — associação bastante forte."
       },
       {
@@ -4632,7 +4632,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "A odds ratio e calculada como (A x D) / (B x C), em que A = casos expostos, B = casos não expostos, C = controles expostos e D = controles não expostos; nesse caso, A=60, B=90, C=20, D=130, resultando em OR = (60x130)/(90x20) = 7.800/1.800 = 4,33, indicando que a chance de exposição a solventes foi cerca de 4,3 vezes maior entre os casos do que entre os controles.",
+        "text": "A odds ratio é (A x D) / (B x C), com A = casos expostos, B = casos não expostos, C = controles expostos e D = controles não expostos; A=60, B=90, C=20, D=130, logo OR = (60x130)/(90x20) = 4,33.",
         "rationale": "CORRETA. Odds ratio é (A x D) / (B x C), em que A são os casos expostos, B os casos não expostos, C os controles expostos e D os controles não expostos; com A=60, B=150-60=90, C=20, D=150-20=130, o cálculo correto é OR = (60x130)/(90x20) = 7.800/1.800 = 4,33, indicando uma chance de exposição aproximadamente 4,3 vezes maior entre os casos — associação considerada forte."
       },
       {
@@ -4691,7 +4691,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "O risco relativo e calculado dividindo o risco (incidência) no grupo exposto pelo risco no grupo não exposto; nesse caso, risco nos sedentários = 288/2.400 = 12%, risco nos ativos = 96/2.400 = 4%, resultando em RR = 12/4 = 3,0, indicando que os sedentários tiveram o triplo do risco de desenvolver diabetes tipo 2 em comparação aos fisicamente ativos.",
+        "text": "O risco relativo é o risco (incidência) no grupo exposto dividido pelo risco no grupo não exposto; nesse caso, 288/2.400 = 12% nos sedentários e 96/2.400 = 4% nos ativos, resultando em RR = 12/4 = 3,0.",
         "rationale": "CORRETA. Risco relativo é o risco (incidência) no grupo exposto dividido pelo risco no grupo não exposto; calculando, 288/2.400 = 12% nos sedentários e 96/2.400 = 4% nos ativos, obtém-se RR = 12/4 = 3,0, indicando que o sedentarismo triplicou o risco de desenvolver diabetes tipo 2 nessa coorte ao longo dos oito anos de seguimento."
       },
       {
@@ -4748,12 +4748,12 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "RA = incidência nos expostos menos incidência nos não expostos = 40 - 8 = 32 casos adicionais de perda auditiva por 1.000 pessoas-ano devido a exposição ao ruído; RA% = (32/40) x 100 = 80%, indicando que 80% dos casos de perda auditiva entre os expostos são atribuíveis ao ruído e poderiam ser evitados na ausência dessa exposição.",
+        "text": "RA = incidência nos expostos menos incidência nos não expostos = 40 - 8 = 32 casos adicionais de perda auditiva por 1.000 pessoas-ano; RA% = (32/40) x 100 = 80%, ou seja, 80% dos casos entre expostos são atribuíveis ao ruído.",
         "rationale": "CORRETA. Risco atribuível é a diferença de incidência entre expostos e não expostos (40-8=32 casos adicionais por 1.000 pessoas-ano), e risco atribuível percentual é essa diferença dividida pela incidência nos expostos, multiplicada por 100 ((32/40)x100=80%), indicando a fração dos casos entre os expostos que é atribuível à exposição e que poderia ser evitada na sua ausência."
       },
       {
         "letter": "B",
-        "text": "RA é calculado dividindo a incidência nos expostos pela incidência nos não expostos, resultando em RA = 40/8 = 5,0, o mesmo cálculo e interpretação do risco relativo.",
+        "text": "RA é calculado dividindo a incidência nos expostos pela incidência nos não expostos, resultando em RA = 40/8 = 5,0, exatamente o mesmo cálculo e a mesma interpretação atribuída ao risco relativo nesse caso.",
         "rationale": "Incorreta. Risco atribuível, calculado como uma diferença de incidências (medida de impacto absoluto), difere claramente de risco relativo, calculado como uma razão de incidências (medida de força de associação); não são o mesmo cálculo com a mesma interpretação."
       },
       {
@@ -4799,7 +4799,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "Como o intervalo de confiança de 95% (1,2 a 9,6) não inclui o valor nulo 1, há evidência de associação estatisticamente significativa entre a exposição a agrotoxicos e a malformação congenita, mas a amplitude relativamente grande do intervalo indica alguma imprecisão na estimativa do efeito verdadeiro na população.",
+        "text": "Como o intervalo de confiança de 95% (1,2 a 9,6) não inclui o valor nulo 1, há associação estatisticamente significativa; a amplitude grande do intervalo indica alguma imprecisão na estimativa do efeito na população.",
         "rationale": "CORRETA. Quando o intervalo de confiança de 95% não inclui o valor nulo (1, no caso de medidas de razão como a odds ratio), há evidência de associação estatisticamente significativa, compatível com o valor de p menor que 0,05 apresentado; a amplitude relativamente grande do intervalo (de 1,2 a 9,6) indica maior incerteza sobre o tamanho exato do efeito verdadeiro na população, mesmo diante da significância estatística."
       },
       {
@@ -4854,7 +4854,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "A primeira análise, que avalia apenas a associação entre consumo de refrigerantes e obesidade, e uma análise bivariada; a segunda, que ajusta simultaneamente para renda familiar e atividade física como possíveis confundidoras, e uma análise multivariada, mais adequada para estimar o efeito independente da exposição quando há suspeita de confundimento.",
+        "text": "A primeira análise, que avalia apenas consumo de refrigerantes e obesidade, é bivariada; a segunda, que ajusta simultaneamente para renda familiar e atividade física, é multivariada, mais adequada quando há suspeita de confundimento.",
         "rationale": "CORRETA. Análise bivariada é aquela que avalia a associação entre duas variáveis de cada vez, sem considerar outras, adequada para a análise inicial e exploratória; e análise multivariada é aquela que avalia a associação entre exposição e desfecho considerando simultaneamente outras variáveis que podem atuar como confundidoras, sendo mais adequada quando há suspeita de confundimento — exatamente a lógica seguida pelo pesquisador ao incluir renda e atividade física na segunda análise."
       },
       {
@@ -4869,7 +4869,7 @@ const QUESTIONS_DATABASE = [
       },
       {
         "letter": "D",
-        "text": "A inclusão de renda familiar e atividade física na segunda análise caracteriza uma análise bivariada mais complexa, e não uma análise multivariada.",
+        "text": "A inclusão simultânea de renda familiar e atividade física na segunda análise caracteriza apenas uma análise bivariada mais complexa e detalhada, e não configura uma verdadeira análise multivariada.",
         "rationale": "Incorreta. O termo análise multivariada é reservado especificamente para a avaliação simultânea de exposição, desfecho e outras variáveis potencialmente confundidoras; essa inclusão de múltiplas variáveis não é tratada como uma forma mais complexa de análise bivariada."
       }
     ],
@@ -4887,7 +4887,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "A média, nesse caso, (3+4+4+5+5+5+6+7+45)/9 = 84/9 = 9,3 dias, e fortemente influenciada pelo valor extremo (outlier) de 45 dias, o que a torna pouco representativa do tempo de internação tipico da maiória dos pacientes dessa enfermária, sendo necessário considerar outras medidas ou o próprio valor extremo separadamente antes de generalizar.",
+        "text": "A média, nesse caso, (3+4+4+5+5+5+6+7+45)/9 = 9,3 dias, é fortemente influenciada pelo valor extremo de 45 dias, tornando-a pouco representativa do tempo de internação típico da maioria dos pacientes dessa enfermaria.",
         "rationale": "CORRETA. A média é sensível a valores extremos, resumindo os dados em um único número que pode não descrever bem a distribuição completa; nesse caso, a média calculada (84/9=9,3 dias) é distorcida pelo único paciente com 45 dias de internação, tornando-a pouco representativa do tempo típico da maioria dos outros oito pacientes, que permaneceram entre 3 e 7 dias."
       },
       {
@@ -4897,7 +4897,7 @@ const QUESTIONS_DATABASE = [
       },
       {
         "letter": "C",
-        "text": "O paciente com 45 dias de internação deve ser excluído do cálculo sem qualquer justificativa clínica, para que a média reflita corretamente o grupo estudado.",
+        "text": "O paciente com 45 dias de internação deve ser excluído do cálculo sem qualquer justificativa clínica documentada, apenas para que a média final reflita de forma mais adequada o grupo estudado.",
         "rationale": "Incorreta. Não se recomenda a exclusão automática e sem justificativa de valores extremos; recomenda-se verificar se há valores extremos e considerar outras medidas complementares antes de interpretar a média, e não simplesmente descartá-los do cálculo."
       },
       {
@@ -4950,17 +4950,17 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "O primeiro valor corresponde a uma medida de associação do tipo razão, como o risco relativo, que expressa a força relativa da associação; o segundo corresponde a uma medida de associação do tipo diferença, como o risco atribuível, que expressa o impacto absoluto da exposição em termos de casos adicionais.",
+        "text": "O primeiro valor é uma medida do tipo razão, como o risco relativo; o segundo é uma medida do tipo diferença, como o risco atribuível, que expressa o impacto absoluto da exposição em casos adicionais.",
         "rationale": "CORRETA. As medidas de associação do tipo razão, como o risco relativo e a odds ratio, comparam riscos ou chances de forma relativa (quantas vezes maior), e diferem das medidas do tipo diferença, como o risco atribuível, que comparam riscos de forma absoluta (quantos casos adicionais) — exatamente a distinção entre os dois valores apresentados pelo epidemiologista."
       },
       {
         "letter": "B",
-        "text": "Ambos os valores descritos correspondem ao mesmo tipo de medida de associação, já que medidas do tipo razão não se diferenciariam de medidas do tipo diferença.",
+        "text": "Ambos os valores descritos correspondem exatamente ao mesmo tipo de medida de associação epidemiológica, já que os conceitos de medida do tipo razão e medida do tipo diferença não se diferenciariam entre si na prática.",
         "rationale": "Incorreta. As medidas de associação do tipo razão (como risco relativo e odds ratio) diferem claramente das medidas do tipo diferença (como risco atribuível e risco atribuível percentual); não são equivalentes entre si."
       },
       {
         "letter": "C",
-        "text": "O primeiro valor corresponde ao risco atribuível, e o segundo corresponde ao risco relativo — invertendo a classificação correta dessas duas medidas de associação.",
+        "text": "O primeiro valor corresponde na verdade ao risco atribuível, e o segundo corresponde ao risco relativo, invertendo assim a classificação correta atribuída a essas duas medidas de associação.",
         "rationale": "Incorreta. Ao risco relativo, medida do tipo razão, é atribuída a expressão de quantas vezes o risco é maior, e ao risco atribuível, medida do tipo diferença, a expressão de quantos casos adicionais são atribuíveis à exposição — não a combinação invertida proposta nesta alternativa."
       },
       {
@@ -5016,7 +5016,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "No estudo de coorte, o risco relativo e a medida clássica de associação, calculada a partir da incidência em cada grupo; no estudo caso-controle, a odds ratio e a medida adequada, ja que a incidência geralmente não pode ser calculada diretamente; e no estudo transversal, a razão de prevalência e a medida adequada, comparando a prevalência do desfecho entre expostos e não expostos.",
+        "text": "No estudo de coorte, o risco relativo é a medida clássica, calculada pela incidência em cada grupo; no caso-controle, a odds ratio é a adequada, pois a incidência geralmente não pode ser calculada diretamente; e no transversal, usa-se a razão de prevalência.",
         "rationale": "CORRETA. Cada uma dessas medidas de associação relaciona-se explicitamente ao desenho de estudo mais apropriado: o risco relativo, aos estudos de coorte, nos quais a incidência pode ser calculada diretamente em cada grupo; a odds ratio, aos estudos caso-controle, nos quais geralmente não é possível calcular a incidência diretamente; e a razão de prevalência, aos estudos transversais, que comparam a prevalência do desfecho entre expostos e não expostos observados no mesmo momento."
       },
       {
@@ -5049,17 +5049,17 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "O primeiro número e um coeficiente ou taxa, pois relaciona um evento a população sob risco; o segundo e uma proporção ou índice, pois o numerador (intoxicações) esta contido no denominador (total de atendimentos); e o terceiro e uma razão, pois compara elementos (atendimentos masculinos e femininos) cujo numerador não esta contido no denominador.",
+        "text": "O primeiro número é um coeficiente/taxa, relacionando o evento à população sob risco; o segundo é uma proporção, com o numerador contido no denominador; e o terceiro é uma razão, sem essa inclusão.",
         "rationale": "CORRETA. Coerente com os princípios gerais de coeficiente ou taxa (evento relativizado pela população sob risco), proporção ou índice (numerador contido no denominador) e razão (elementos comparados cujo numerador não esta contido no denominador), essa classificação corresponde exatamente as tres medidas descritas pelo gestor do pronto-socorro."
       },
       {
         "letter": "B",
-        "text": "As três medidas descritas correspondem ao mesmo tipo de indicador, coeficiente ou taxa, já que esse conceito não se diferenciaria dos de proporção e razão.",
+        "text": "As três medidas descritas correspondem exatamente ao mesmo tipo de indicador, coeficiente ou taxa, já que esses conceitos de coeficiente, proporção e razão não se diferenciariam entre si na prática.",
         "rationale": "Incorreta. Coeficiente ou taxa, proporção ou índice, e razão são três tipos distintos de medidas relativizadas, cada uma com estrutura e interpretação próprias; não são conceitos equivalentes entre si."
       },
       {
         "letter": "C",
-        "text": "O primeiro número é uma razão, o segundo é um coeficiente, e o terceiro é uma proporção — invertendo as classificações corretas para esses três tipos de medida.",
+        "text": "O primeiro número corresponde na verdade a uma razão, o segundo a um coeficiente, e o terceiro a uma proporção, invertendo as classificações corretas atribuídas a esses três tipos de medida.",
         "rationale": "Incorreta. O conceito de coeficiente ou taxa aplica-se ao primeiro número (evento sobre população sob risco), o de proporção, ao segundo (numerador contido no denominador), e o de razão, ao terceiro (elementos comparados sem essa inclusão) — não a combinação invertida proposta nesta alternativa."
       },
       {
@@ -5082,12 +5082,12 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "Os tres estudos cujo intervalo de confiança não inclui o valor 1 mostram associação estatisticamente significativa entre o fármaco e o sangramento; os outros dois, embora não estatisticamente significativos isoladamente, apresentam estimativas na mesma direção, com limite inferior próximo de 1, sugerindo que a ausência de significância pode refletir menor precisão (amostras menores), e não necessariamente ausência real de associação.",
+        "text": "Os três estudos cujo intervalo não inclui 1 mostram associação significativa; os outros dois, com limite inferior próximo de 1, sugerem menor precisão (amostras menores), não necessariamente ausência de associação.",
         "rationale": "CORRETA. Um intervalo de confiança que não inclui o valor nulo (1) indica associação estatisticamente significativa; quando o intervalo inclui 1 mas o limite inferior fica próximo desse valor, isso sugere que o estudo pode ter tido menor precisão (frequentemente por amostra menor), sem necessariamente indicar ausência real de associação, especialmente quando a estimativa pontual segue na mesma direção dos demais estudos da revisão."
       },
       {
         "letter": "B",
-        "text": "Os dois estudos cujo intervalo de confiança inclui o valor 1 comprovam definitivamente que não há qualquer associação entre o fármaco e o sangramento gastrointestinal.",
+        "text": "Os dois estudos cujo intervalo de confiança inclui o valor 1 comprovam de forma definitiva e conclusiva que não existe absolutamente nenhuma associação entre esse fármaco anti-inflamatório e o sangramento gastrointestinal avaliado.",
         "rationale": "Incorreta. A inclusão do valor 1 no intervalo de confiança não é uma comprovação definitiva de ausência de associação; apenas indica que aquele estudo específico não atingiu significância estatística isoladamente, o que é diferente de provar definitivamente a inexistência do efeito."
       },
       {
@@ -5115,7 +5115,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "A taxa de ataque entre os que consumiram maionese e (54/90) x 100 = 60%; entre os que não consumiram e (6/60) x 100 = 10%; a razão entre essas taxas de ataque e 60/10 = 6,0, indicando que o risco de adoecer foi seis vezes maior entre os que consumiram maionese, o que aponta esse alimento como provável fonte da contaminação.",
+        "text": "A taxa de ataque entre os que consumiram maionese é (54/90) x 100 = 60%; entre os que não consumiram, (6/60) x 100 = 10%; a razão entre elas é 60/10 = 6,0, apontando a maionese como provável fonte da contaminação.",
         "rationale": "CORRETA. Aplicando a fórmula da taxa de ataque (casos/expostos x 100) a cada grupo, obtém-se (54/90)x100=60% entre os que consumiram maionese e (6/60)x100=10% entre os que não consumiram; a razão entre essas taxas (60/10=6,0) mostra um risco seis vezes maior entre os expostos a maionese, padrao clássico que aponta esse alimento como provável fonte da contaminação no surto."
       },
       {
@@ -5130,7 +5130,7 @@ const QUESTIONS_DATABASE = [
       },
       {
         "letter": "D",
-        "text": "A razão de 6,0 entre as taxas de ataque indica que a maionese tem efeito protetor contra a gastroenterite, reduzindo o risco de adoecimento entre os que a consumiram.",
+        "text": "A razão de 6,0 entre as taxas de ataque indica que o consumo de maionese tem efeito protetor contra a gastroenterite, reduzindo consideravelmente o risco de adoecimento entre os que a consumiram.",
         "rationale": "Incorreta. Uma razão de taxas de ataque maior que 1, como o valor de 6,0 calculado nesse caso, indica maior risco entre os expostos, caracterizando associação positiva e não efeito protetor, que corresponderia a uma razão menor que 1."
       }
     ],
@@ -5295,7 +5295,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "O risco relativo de 0,15 indica uma forte associação protetora, com os vacinados apresentando cerca de 85% menos risco de hospitalização em comparação aos não vacinados; o intervalo de confiança relativamente estreito (0,08 a 0,29), sem incluir o valor nulo 1, reforca tanto a significância estatística quanto a boa precisão dessa estimativa de efetividade.",
+        "text": "O risco relativo de 0,15 indica forte associação protetora (cerca de 85% menos risco entre vacinados); o intervalo estreito (0,08 a 0,29), sem incluir o valor nulo 1, reforça a significância e a precisão da estimativa.",
         "rationale": "CORRETA. Um risco relativo de 0,15 indica uma redução de aproximadamente 85% no risco entre os vacinados (1-0,15=0,85), caracterizando forte associação protetora; o intervalo de confiança de 0,08 a 0,29, relativamente estreito e que não inclui o valor nulo 1, reforça tanto a significância estatística da associação quanto a boa precisão dessa estimativa de efetividade vacinal."
       },
       {
@@ -5310,7 +5310,7 @@ const QUESTIONS_DATABASE = [
       },
       {
         "letter": "D",
-        "text": "Um intervalo de confiança de 0,08 a 0,29 é considerado amplo e impreciso, indicando incerteza significativa sobre a real efetividade da vacina nesse estudo.",
+        "text": "Um intervalo de confiança de 0,08 a 0,29 é considerado amplo e bastante impreciso nesse contexto, indicando incerteza significativa e relevante sobre a real efetividade da vacina avaliada nesse estudo.",
         "rationale": "Incorreta. Um intervalo de confiança de 0,08 a 0,29, com amplitude relativamente pequena em termos absolutos e distante do valor nulo, é interpretado como uma estimativa relativamente precisa, e não amplo e impreciso."
       }
     ],
@@ -5328,7 +5328,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "A diferença entre a incidência atual (25 por 100 mil) e a incidência estimada com uso consistente do cinto (10 por 100 mil) representa o risco atribuível a não adesão ao cinto de segurança na população geral do município, ou seja, 15 óbitos por 100 mil habitantes que poderiam potencialmente ser evitados com essa mudança comportamental, informação útil para dimensionar o impacto potencial da campanha.",
+        "text": "A diferença entre a incidência atual (25 por 100 mil) e a estimada com uso consistente do cinto (10 por 100 mil) representa o risco atribuível à não adesão ao cinto, ou seja, 15 óbitos por 100 mil habitantes potencialmente evitáveis com essa mudança comportamental.",
         "rationale": "CORRETA. Coerente com a lógica do risco atribuível, que mede o impacto absoluto de uma exposição (nesse caso, a não adesão ao cinto de segurança) subtraindo a incidência esperada na ausência dessa exposição da incidência observada, a diferença de 15 óbitos por 100 mil habitantes (25-10) representa o número de óbitos potencialmente evitáveis com a mudança de comportamento, informação diretamente útil para o gestor dimensionar o impacto potencial da campanha de conscientização."
       },
       {
@@ -5361,7 +5361,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "A razão de prevalência compara diretamente as prevalências (proporções) entre expostos e não expostos, enquanto a odds ratio compara as odds (chances) de exposição entre os grupos; embora relacionadas, essas duas medidas tem construção matemática distinta, e seus valores tendem a se aproximar apenas quando o desfecho estudado e raro na população.",
+        "text": "A razão de prevalência compara diretamente as prevalências entre expostos e não expostos, enquanto a odds ratio compara as odds de exposição; embora relacionadas, têm construção matemática distinta, aproximando-se apenas quando o desfecho é raro.",
         "rationale": "CORRETA. Razão de prevalência, que compara diretamente proporções (prevalências) entre expostos e não expostos, difere claramente de odds ratio, que compara odds (razões entre a proporção de ocorrência e a proporção de não ocorrência); embora relacionadas matematicamente, essas duas medidas têm fórmulas distintas, e seus valores numéricos coincidem de forma mais próxima apenas quando o desfecho é raro, explicando por que o pesquisador encontrou valores próximos, mas não idênticos, ao calcular ambas a partir dos mesmos dados."
       },
       {
@@ -5394,7 +5394,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "O risco relativo e RR = 45/5 = 9,0, indicando que fumantes tem nove vezes mais risco de cancer de laringe; o risco atribuível percentual e RA% = [(45-5)/45] x 100 = 88,9%, indicando que quase 89% dos casos de cancer de laringe entre fumantes poderiam ser evitados caso eles não fumassem, ambas leituras validas e complementares do mesmo conjunto de dados.",
+        "text": "O risco relativo é RR = 45/5 = 9,0 (nove vezes mais risco entre fumantes); o risco atribuível percentual é RA% = [(45-5)/45] x 100 = 88,9%, ou seja, quase 89% dos casos seriam evitáveis com a cessação — leituras complementares.",
         "rationale": "CORRETA. O risco relativo (incidência nos expostos dividida pela incidência nos não expostos) é RR=45/5=9,0, e o risco atribuível percentual (diferença de incidências dividida pela incidência nos expostos, multiplicada por 100) é RA%=[(45-5)/45]x100=88,9%; ambas as medidas são leituras válidas e complementares dos mesmos dados, uma enfatizando a força relativa da associação (nove vezes mais risco) e outra o impacto potencial evitável entre os fumantes (quase 89% dos casos)."
       },
       {
@@ -5535,7 +5535,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "A densidade de incidência entre expostos e 64/8.000 = 8,0 casos por 1.000 pessoas-ano; entre não expostos e 36/12.000 = 3,0 casos por 1.000 pessoas-ano; a razão de densidades de incidência e 8,0/3,0 = 2,67, indicando que os expostos ao solvente tiveram um risco, por unidade de tempo de exposição, cerca de 2,7 vezes maior de desenvolver a doença hepática.",
+        "text": "A densidade de incidência entre expostos é 64/8.000 = 8,0 por 1.000 pessoas-ano; entre não expostos, 36/12.000 = 3,0 por 1.000 pessoas-ano; a razão de densidades é 8,0/3,0 = 2,67, um risco cerca de 2,7 vezes maior entre os expostos.",
         "rationale": "CORRETA. Aplicando a fórmula de densidade de incidência (casos novos dividido pelo total de pessoas-tempo sob risco, multiplicado por uma constante) a cada grupo, obtém-se 64/8.000x1.000=8,0 por 1.000 pessoas-ano entre expostos e 36/12.000x1.000=3,0 por 1.000 pessoas-ano entre não expostos; a razão entre essas densidades (8,0/3,0=2,67) expressa quantas vezes maior foi o risco por unidade de tempo entre os expostos ao solvente, de forma analoga ao risco relativo, mas incorporando o tempo variável de observação de cada grupo."
       },
       {
@@ -5545,12 +5545,12 @@ const QUESTIONS_DATABASE = [
       },
       {
         "letter": "C",
-        "text": "Como os dois grupos têm números diferentes de pessoas-anos de observação (8.000 e 12.000), não seria possível compará-los por meio de uma razão de densidades de incidência, sendo necessário que ambos os grupos tivessem exatamente o mesmo total de pessoas-tempo.",
+        "text": "Como os dois grupos têm pessoas-anos diferentes (8.000 e 12.000), não seria possível compará-los por razão de densidades de incidência, exigindo-se que ambos tivessem exatamente o mesmo total de pessoas-tempo.",
         "rationale": "Incorreta. A densidade de incidência é justamente a medida indicada para permitir comparações entre grupos com diferentes totais de pessoas-tempo de observação, já que ela relativiza os casos pelo próprio total de pessoas-tempo de cada grupo, tornando essa comparação válida mesmo com totais diferentes."
       },
       {
         "letter": "D",
-        "text": "A razão de densidades de incidência de 2,67 indica que a exposição ao solvente químico tem efeito protetor contra a doença hepática nessa coorte ocupacional.",
+        "text": "A razão de densidades de incidência de 2,67 indica claramente que a exposição a esse solvente químico tem efeito protetor contra o desenvolvimento da doença hepática nessa coorte ocupacional avaliada.",
         "rationale": "Incorreta. Valores de razão de densidade de incidência maiores que 1, como o de 2,67 calculado nesse caso, indicam maior risco associado à exposição, caracterizando fator de risco, e não efeito protetor, que corresponderia a um valor menor que 1."
       }
     ],
@@ -5625,7 +5625,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "Embora o risco atribuível percentual indique a fração de casos evitáveis dentro do próprio grupo exposto (50% entre fumantes e 30% entre expostos aos corantes), a decisão sobre qual exposição priorizar para o impacto populacional mais amplo também deve considerar quantas pessoas na população geral estão efetivamente expostas a cada fator, ja que uma exposição mais prevalente, mesmo com risco atribuível percentual menor, pode gerar maior impacto absoluto em saúde pública.",
+        "text": "Embora o risco atribuível percentual indique a fração de casos evitáveis dentro do grupo exposto (50% entre fumantes, 30% entre expostos aos corantes), priorizar políticas exige considerar também quantas pessoas na população geral estão expostas, já que uma exposição mais prevalente pode gerar maior impacto absoluto.",
         "rationale": "CORRETA. O risco atribuível percentual mede a fração de casos evitáveis dentro do próprio grupo exposto, mas não incorpora diretamente a prevalência da exposição na população geral; para decisões de priorização com maior impacto populacional, é necessário considerar também quantas pessoas estão efetivamente expostas a cada fator, o que pode fazer com que uma exposição mais prevalente, como o tabagismo nesse caso, tenha maior relevância para políticas públicas do que sugeriria isoladamente o risco atribuível percentual entre os expostos."
       },
       {
@@ -5973,7 +5973,7 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "O mês de inicio dos sintomas corresponde a variável tempo; o bairro de residência corresponde a variável lugar; e a idade e o sexo correspondem a variável pessoa, as tres dimensões clássicas utilizadas para caracterizar a distribuição de um evento de saúde num estudo descritivo.",
+        "text": "O mês de início dos sintomas corresponde à variável tempo; o bairro de residência, à variável lugar; e a idade e o sexo, à variável pessoa — as três dimensões clássicas da epidemiologia descritiva.",
         "rationale": "CORRETA. Tempo, lugar e pessoa são as três variáveis clássicas da epidemiologia descritiva, utilizadas para caracterizar a distribuição de um evento de saúde; o mês de início dos sintomas corresponde a tempo, o bairro de residência corresponde a lugar, e a idade e o sexo correspondem a características de pessoa — exatamente as três dimensões descritas nesse estudo."
       },
       {
@@ -6039,22 +6039,22 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "Esse estudo corresponde a um estudo de prevalência, um tipo de estudo descritivo que estima a proporção de indivíduos afetados por uma condição num determinado momento, sem a finalidade analítica de testar hipóteses de associação entre grupos.",
+        "text": "Esse estudo corresponde a um estudo de prevalência, tipo de estudo descritivo que estima a proporção de indivíduos afetados por uma condição num momento específico, sem testar hipóteses de associação entre grupos.",
         "rationale": "CORRETA. Estudo de prevalência é um tipo de estudo descritivo, que estima a proporção de indivíduos afetados por uma condição num momento específico, sem a finalidade analítica de testar hipóteses de associação entre grupos expostos e não expostos — exatamente a característica do estudo descrito nesse caso."
       },
       {
         "letter": "B",
-        "text": "Esse estudo corresponde necessariamente a um estudo de coorte, já que envolve o acompanhamento de uma amostra representativa da população ao longo do tempo.",
+        "text": "Esse estudo corresponde necessariamente a um estudo de coorte, já que envolveria o acompanhamento longitudinal de uma amostra representativa da população ao longo de um período extenso de tempo.",
         "rationale": "Incorreta. O estudo descrito avalia a condição de saúde num único momento, sem acompanhamento longitudinal da amostra ao longo do tempo, o que descarta a classificação como estudo de coorte, caracterizado justamente por esse acompanhamento temporal."
       },
       {
         "letter": "C",
-        "text": "Esse estudo corresponde a um ensaio clínico randomizado por envolver uma amostra representativa da população selecionada de forma sistemática.",
+        "text": "Esse estudo corresponde a um ensaio clínico randomizado, por envolver uma amostra representativa da população selecionada de forma sistemática e criteriosa para a pesquisa.",
         "rationale": "Incorreta. Não há qualquer alocação de intervenção pelo pesquisador nem grupos de tratamento e controle definidos por randomização no estudo descrito, elementos centrais que caracterizam um ensaio clínico randomizado, o que descarta essa classificação."
       },
       {
         "letter": "D",
-        "text": "Estudos de prevalência são sempre classificados como estudos analíticos, e não descritivos, por exigirem cálculo de medidas de associação entre variáveis.",
+        "text": "Estudos de prevalência são sempre classificados como estudos analíticos, e nunca como descritivos, por exigirem necessariamente o cálculo formal de medidas de associação entre variáveis distintas.",
         "rationale": "Incorreta. O estudo de prevalência é classificado como um tipo de estudo descritivo quando sua finalidade é apenas estimar a frequência de uma condição, sem testar hipóteses de associação; a classificação como analítico dependeria da comparação formal entre grupos para testar uma hipótese de associação."
       }
     ],
@@ -6105,17 +6105,17 @@ const QUESTIONS_DATABASE = [
     "options": [
       {
         "letter": "A",
-        "text": "Esse estudo corresponde a um estudo ecológico descritivo, que apresenta indicadores agregados por unidade geográfica com finalidade descritiva, sem a comparação formal entre indicadores que caracterizária um estudo ecológico analítico voltado a testar uma hipótese de associação.",
+        "text": "Esse estudo corresponde a um estudo ecológico descritivo, que apresenta indicadores agregados por unidade geográfica com finalidade descritiva, sem a comparação formal que caracterizaria um estudo ecológico analítico.",
         "rationale": "CORRETA. Classifica-se como ecológico descritivo o estudo que apresenta indicadores agregados por unidade geográfica apenas com finalidade descritiva, sem testar formalmente uma hipótese de associação entre variáveis — distinguindo-se do estudo ecológico analítico, que compara formalmente indicadores agregados para investigar uma associação específica."
       },
       {
         "letter": "B",
-        "text": "Esse estudo corresponde necessariamente a um estudo transversal individual, já que apresenta dados relativos a um determinado período de tempo.",
+        "text": "Esse estudo corresponde necessariamente a um estudo transversal individual, já que apresenta dados relativos a um determinado e bem delimitado período de tempo de observação.",
         "rationale": "Incorreta. O estudo descrito trabalha com dados agregados por unidade geográfica (região ou unidade da federação), e não com dados individuais coletados diretamente de cada pessoa, o que caracteriza um estudo ecológico, e não um estudo transversal individual."
       },
       {
         "letter": "C",
-        "text": "Esse estudo corresponde a um estudo de coorte por envolver a comparação de taxas de mortalidade entre diferentes regiões do país ao longo do tempo.",
+        "text": "Esse estudo corresponde a um estudo de coorte, por envolver a comparação de taxas de mortalidade entre diferentes regiões do país que teriam sido acompanhadas ao longo de um período de tempo.",
         "rationale": "Incorreta. Não há acompanhamento longitudinal de indivíduos específicos desde uma exposição até um desfecho nesse estudo, que trabalha com indicadores agregados por região, característica que descarta a classificação como coorte em favor do estudo ecológico descritivo."
       },
       {
