@@ -1167,8 +1167,8 @@ const QUESTIONS_DATABASE = [
     "visual": {
       "type": "img",
       "file": "img-002.jpg",
-      "alt": "Diagrama do estudo transversal: população, amostra para o estudo, formação dos grupos por observação simultânea de exposição e doença, divididos em expostos e doentes, expostos e não doentes, não expostos e doentes, não expostos e não doentes",
-      "caption": "Diagrama do estudo de corte transversal"
+      "alt": "Diagrama de estudo: população, amostra para estudo, formação dos grupos por observação simultânea de exposição e doença, divididos em expostos e doentes, expostos e não doentes, não expostos e doentes, não expostos e não doentes",
+      "caption": "Esquema de um desenho de estudo epidemiológico"
     }
   },
   {
@@ -2253,8 +2253,8 @@ const QUESTIONS_DATABASE = [
     "visual": {
       "type": "img",
       "file": "img-009.jpg",
-      "alt": "Figura 2.3: Causas suficientes e causas componentes, segundo Rothman (1986). Tres discos representando causas suficientes I (A,B,C,D,E), II (A,B,F,G,H) e III (A,C,F,I,J), com o componente A destacado em todos os discos, representando a causa necessária",
-      "caption": "Figura 2.3 - Causas suficientes e causas componentes (Rothman, 1986), com a causa necessária A destacada"
+      "alt": "Figura 2.3: Causas suficientes e causas componentes, segundo Rothman (1986). Três discos representando as causas suficientes I (A, B, C, D, E), II (A, B, F, G, H) e III (A, C, F, I, J), com o componente A circulado em todos os discos",
+      "caption": "Figura 2.3 - Causas suficientes e causas componentes (Rothman, 1986)"
     }
   },
   {
@@ -3316,27 +3316,23 @@ const QUESTIONS_DATABASE = [
       "type": "table",
       "headers": [
         "Medida",
-        "Cálculo",
-        "Tipo"
+        "Cálculo"
       ],
       "rows": [
         [
           "Casos novos / população total",
-          "320 / 2.418.005 x 100.000",
-          "Coeficiente ou taxa"
+          "320 / 2.418.005 x 100.000"
         ],
         [
           "Óbitos pela doença / total de óbitos",
-          "45 / 4.500 x 100",
-          "Proporção ou índice"
+          "45 / 4.500 x 100"
         ],
         [
           "Mortalidade masculina / mortalidade feminina",
-          "777/100.000 / 433/100.000",
-          "Razão"
+          "777/100.000 / 433/100.000"
         ]
       ],
-      "caption": "Tres medidas relativizadas de saúde e sua classificação"
+      "caption": "Três medidas de saúde calculadas em um município"
     }
   },
   {
@@ -3605,20 +3601,20 @@ const QUESTIONS_DATABASE = [
     "visual": {
       "type": "table",
       "headers": [
-        "Indicador",
-        "Numerador",
-        "Denominador",
-        "Resultado"
+        "Dado",
+        "Valor"
       ],
       "rows": [
         [
-          "Mortalidade proporcional por causa",
-          "960 óbitos por doenças circulatórias",
-          "3.200 óbitos totais",
-          "30%"
+          "Óbitos por doenças do aparelho circulatório",
+          "960"
+        ],
+        [
+          "Óbitos por todas as causas",
+          "3.200"
         ]
       ],
-      "caption": "Mortalidade proporcional por causa em um município, 1 ano"
+      "caption": "Óbitos registrados em um município em um ano"
     }
   },
   {
@@ -3656,28 +3652,36 @@ const QUESTIONS_DATABASE = [
     "visual": {
       "type": "table",
       "headers": [
-        "Componente",
-        "Cálculo",
-        "Resultado"
+        "Dado",
+        "Valor"
       ],
       "rows": [
         [
-          "APVP (mortalidade prematura)",
-          "30 óbitos x (80 - 25 anos)",
-          "1.650 anos"
+          "Óbitos por suicídio",
+          "30"
         ],
         [
-          "YLD (incapacidade)",
-          "6.000 x 0,4 x 1 ano",
-          "2.400 anos"
+          "Idade média no óbito",
+          "25 anos"
         ],
         [
-          "DALY (carga total)",
-          "1.650 + 2.400",
-          "4.050 anos"
+          "Expectativa de vida padrão",
+          "80 anos"
+        ],
+        [
+          "Pessoas com transtorno depressivo",
+          "6.000"
+        ],
+        [
+          "Peso de incapacidade",
+          "0,4"
+        ],
+        [
+          "Duração média",
+          "1 ano"
         ]
       ],
-      "caption": "Cálculo de APVP, YLD e DALY para transtorno depressivo e suicidio em uma população"
+      "caption": "Suicídio e transtorno depressivo em uma população de 500.000 habitantes, em um ano"
     }
   },
   {
@@ -4047,33 +4051,28 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Faixa etária",
         "2010",
-        "2025",
-        "Variação"
+        "2025"
       ],
       "rows": [
         [
           "Menores de 5 anos",
           "20.000",
-          "15.000",
-          "-25%"
+          "15.000"
         ],
         [
           "20 a 59 anos",
           "120.000",
-          "150.000",
-          "+25%"
+          "150.000"
         ],
         [
           "60 anos ou mais",
           "20.000",
-          "50.000",
-          "+150%"
+          "50.000"
         ],
         [
           "Total",
           "200.000",
-          "260.000",
-          "+30%"
+          "260.000"
         ]
       ],
       "caption": "Variação populacional por faixa etária em um município, 2010-2025"
@@ -4182,21 +4181,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Município",
         "Óbitos infantis",
-        "Nascidos vivos",
-        "Coeficiente (por 1.000)"
+        "Nascidos vivos"
       ],
       "rows": [
         [
           "X",
           "24",
-          "1.600",
-          "15"
+          "1.600"
         ],
         [
           "Y",
           "60",
-          "5.000",
-          "12"
+          "5.000"
         ]
       ],
       "caption": "Comparação do coeficiente de mortalidade infantil entre dois municípios"
@@ -4603,23 +4599,20 @@ const QUESTIONS_DATABASE = [
         "Exposição (visita recente)",
         "Doentes",
         "Não doentes",
-        "Total",
-        "Prevalência"
+        "Total"
       ],
       "rows": [
         [
           "Sim",
           "68",
           "62",
-          "130",
-          "52,3%"
+          "130"
         ],
         [
           "Não",
           "12",
           "198",
-          "210",
-          "5,7%"
+          "210"
         ]
       ],
       "caption": "Síndrome respiratória aguda segundo visita recente a parentes fora da aldeia"
@@ -4721,21 +4714,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Grupo",
         "Casos de diabetes",
-        "Total acompanhado",
-        "Risco (incidência)"
+        "Total acompanhado"
       ],
       "rows": [
         [
           "Sedentários",
           "288",
-          "2.400",
-          "12%"
+          "2.400"
         ],
         [
           "Fisicamente ativos",
           "96",
-          "2.400",
-          "4%"
+          "2.400"
         ]
       ],
       "caption": "Coorte de oito anos: sedentarismo e incidência de diabetes tipo 2"
@@ -5145,21 +5135,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Exposição (maionese)",
         "Doentes",
-        "Total expostos",
-        "Taxa de ataque"
+        "Total expostos"
       ],
       "rows": [
         [
           "Consumiram",
           "54",
-          "90",
-          "60%"
+          "90"
         ],
         [
           "Não consumiram",
           "6",
-          "60",
-          "10%"
+          "60"
         ]
       ],
       "caption": "Taxa de ataque de gastroenterite segundo consumo de maionese num bufe self-service"
@@ -5268,21 +5255,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Uso de repelente",
         "Casos de dengue",
-        "Total",
-        "Prevalência"
+        "Total"
       ],
       "rows": [
         [
           "Uso regular",
           "15",
-          "300",
-          "5%"
+          "300"
         ],
         [
           "Sem uso regular",
           "60",
-          "300",
-          "20%"
+          "300"
         ]
       ],
       "caption": "Prevalência de dengue segundo uso regular de repelente numa comunidade"
@@ -5508,21 +5492,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Tipo sanguíneo",
         "Com enxaqueca",
-        "Total",
-        "Prevalência"
+        "Total"
       ],
       "rows": [
         [
           "Tipo O",
           "92",
-          "400",
-          "23%"
+          "400"
         ],
         [
           "Outros tipos",
           "88",
-          "400",
-          "22%"
+          "400"
         ]
       ],
       "caption": "Prevalência de enxaqueca segundo tipo sanguíneo"
@@ -5565,21 +5546,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Grupo",
         "Casos novos",
-        "Pessoas-ano de observação",
-        "Densidade de incidência (por 1.000 pessoas-ano)"
+        "Pessoas-ano de observação"
       ],
       "rows": [
         [
           "Expostos ao solvente",
           "64",
-          "8.000",
-          "8,0"
+          "8.000"
         ],
         [
           "Não expostos",
           "36",
-          "12.000",
-          "3,0"
+          "12.000"
         ]
       ],
       "caption": "Densidade de incidência de doença hepática segundo exposição ocupacional a solvente"
@@ -5721,21 +5699,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Sexo",
         "Casos novos de dermatite",
-        "Total de trabalhadores",
-        "Coeficiente de incidência"
+        "Total de trabalhadores"
       ],
       "rows": [
         [
           "Homens",
           "36",
-          "1.200",
-          "3,0%"
+          "1.200"
         ],
         [
           "Mulheres",
           "8",
-          "800",
-          "1,0%"
+          "800"
         ]
       ],
       "caption": "Incidência de dermatite ocupacional segundo sexo numa industria, um ano"
@@ -5778,21 +5753,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Hospital",
         "Complicações graves",
-        "Total de cirurgias",
-        "Proporção"
+        "Total de cirurgias"
       ],
       "rows": [
         [
           "A",
           "18",
-          "900",
-          "2,0%"
+          "900"
         ],
         [
           "B",
           "18",
-          "180",
-          "10,0%"
+          "180"
         ]
       ],
       "caption": "Complicações cirurgicas graves em dois hospitais, mesmo número absoluto e volumes diferentes"
@@ -10545,7 +10517,7 @@ const QUESTIONS_DATABASE = [
     "visual": {
       "type": "svg",
       "svg": "<svg viewBox=\"0 0 540 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"IBM Plex Sans, sans-serif\"><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"216\" stroke=\"#888\" stroke-width=\"1\"/><line x1=\"55\" y1=\"216\" x2=\"520\" y2=\"216\" stroke=\"#888\" stroke-width=\"1\"/><line x1=\"55\" y1=\"216.0\" x2=\"520\" y2=\"216.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"220.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">0%</text><line x1=\"55\" y1=\"167.0\" x2=\"520\" y2=\"167.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"171.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">12%</text><line x1=\"55\" y1=\"118.0\" x2=\"520\" y2=\"118.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"122.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">25%</text><line x1=\"55\" y1=\"69.0\" x2=\"520\" y2=\"69.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"73.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">38%</text><line x1=\"55\" y1=\"20.0\" x2=\"520\" y2=\"20.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"24.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">50%</text><rect x=\"73.6\" y=\"39.6\" width=\"55.8\" height=\"176.4\" fill=\"#B5433D\" rx=\"2\"/><text x=\"101.5\" y=\"34.6\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">45%</text><text x=\"101.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\"><1 ano</text><rect x=\"166.6\" y=\"137.6\" width=\"55.8\" height=\"78.4\" fill=\"#B5433D\" rx=\"2\"/><text x=\"194.5\" y=\"132.6\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">20%</text><text x=\"194.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">1-4 anos</text><rect x=\"259.6\" y=\"184.6\" width=\"55.8\" height=\"31.4\" fill=\"#B5433D\" rx=\"2\"/><text x=\"287.5\" y=\"179.6\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">8%</text><text x=\"287.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">5-19 anos</text><rect x=\"352.6\" y=\"157.2\" width=\"55.8\" height=\"58.8\" fill=\"#B5433D\" rx=\"2\"/><text x=\"380.5\" y=\"152.2\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">15%</text><text x=\"380.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">20-49 anos</text><rect x=\"445.6\" y=\"169.0\" width=\"55.8\" height=\"47.0\" fill=\"#B5433D\" rx=\"2\"/><text x=\"473.5\" y=\"164.0\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">12%</text><text x=\"473.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">50+ anos</text></svg>",
-      "caption": "Distribuição proporcional de óbitos por faixa etária - perfil desfavorável (Curva de Nelson de Moraes)"
+      "caption": "Distribuição proporcional de óbitos por faixa etária em um município"
     }
   },
   {
@@ -10583,7 +10555,7 @@ const QUESTIONS_DATABASE = [
     "visual": {
       "type": "svg",
       "svg": "<svg viewBox=\"0 0 540 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"IBM Plex Sans, sans-serif\"><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"216\" stroke=\"#888\" stroke-width=\"1\"/><line x1=\"55\" y1=\"216\" x2=\"520\" y2=\"216\" stroke=\"#888\" stroke-width=\"1\"/><line x1=\"55\" y1=\"216.0\" x2=\"520\" y2=\"216.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"220.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">0%</text><line x1=\"55\" y1=\"167.0\" x2=\"520\" y2=\"167.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"171.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">20%</text><line x1=\"55\" y1=\"118.0\" x2=\"520\" y2=\"118.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"122.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">40%</text><line x1=\"55\" y1=\"69.0\" x2=\"520\" y2=\"69.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"73.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">60%</text><line x1=\"55\" y1=\"20.0\" x2=\"520\" y2=\"20.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"24.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">80%</text><rect x=\"73.6\" y=\"208.7\" width=\"55.8\" height=\"7.3\" fill=\"#2F7D5B\" rx=\"2\"/><text x=\"101.5\" y=\"203.7\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">3%</text><text x=\"101.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\"><1 ano</text><rect x=\"166.6\" y=\"213.6\" width=\"55.8\" height=\"2.5\" fill=\"#2F7D5B\" rx=\"2\"/><text x=\"194.5\" y=\"208.6\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">1%</text><text x=\"194.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">1-4 anos</text><rect x=\"259.6\" y=\"206.2\" width=\"55.8\" height=\"9.8\" fill=\"#2F7D5B\" rx=\"2\"/><text x=\"287.5\" y=\"201.2\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">4%</text><text x=\"287.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">5-19 anos</text><rect x=\"352.6\" y=\"174.3\" width=\"55.8\" height=\"41.6\" fill=\"#2F7D5B\" rx=\"2\"/><text x=\"380.5\" y=\"169.3\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">17%</text><text x=\"380.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">20-49 anos</text><rect x=\"445.6\" y=\"32.2\" width=\"55.8\" height=\"183.8\" fill=\"#2F7D5B\" rx=\"2\"/><text x=\"473.5\" y=\"27.2\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">75%</text><text x=\"473.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">50+ anos</text></svg>",
-      "caption": "Distribuição proporcional de óbitos por faixa etária - perfil favorável (Curva de Nelson de Moraes)"
+      "caption": "Distribuição proporcional de óbitos por faixa etária em um município"
     }
   },
   {
@@ -10677,21 +10649,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Ano",
         "Óbitos totais",
-        "População",
-        "Coeficiente (por mil)"
+        "População"
       ],
       "rows": [
         [
           "Ano 1",
           "1.260",
-          "180.000",
-          "7"
+          "180.000"
         ],
         [
           "Ano 2",
           "900",
-          "180.000",
-          "5"
+          "180.000"
         ]
       ],
       "caption": "Coeficiente de mortalidade geral de um município em dois anos consecutivos"
@@ -10820,7 +10789,7 @@ const QUESTIONS_DATABASE = [
     "visual": {
       "type": "svg",
       "svg": "<svg viewBox=\"0 0 540 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"IBM Plex Sans, sans-serif\"><line x1=\"55\" y1=\"20\" x2=\"55\" y2=\"216\" stroke=\"#888\" stroke-width=\"1\"/><line x1=\"55\" y1=\"216\" x2=\"520\" y2=\"216\" stroke=\"#888\" stroke-width=\"1\"/><line x1=\"55\" y1=\"216.0\" x2=\"520\" y2=\"216.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"220.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">0%</text><line x1=\"55\" y1=\"167.0\" x2=\"520\" y2=\"167.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"171.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">12%</text><line x1=\"55\" y1=\"118.0\" x2=\"520\" y2=\"118.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"122.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">25%</text><line x1=\"55\" y1=\"69.0\" x2=\"520\" y2=\"69.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"73.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">38%</text><line x1=\"55\" y1=\"20.0\" x2=\"520\" y2=\"20.0\" stroke=\"#E5E5E5\" stroke-width=\"1\"/><text x=\"47\" y=\"24.0\" font-size=\"10\" text-anchor=\"end\" fill=\"#555\">50%</text><rect x=\"73.6\" y=\"157.2\" width=\"55.8\" height=\"58.8\" fill=\"#7A5A2E\" rx=\"2\"/><text x=\"101.5\" y=\"152.2\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">15%</text><text x=\"101.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\"><1 ano</text><rect x=\"166.6\" y=\"184.6\" width=\"55.8\" height=\"31.4\" fill=\"#7A5A2E\" rx=\"2\"/><text x=\"194.5\" y=\"179.6\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">8%</text><text x=\"194.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">1-4 anos</text><rect x=\"259.6\" y=\"188.6\" width=\"55.8\" height=\"27.4\" fill=\"#7A5A2E\" rx=\"2\"/><text x=\"287.5\" y=\"183.6\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">7%</text><text x=\"287.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">5-19 anos</text><rect x=\"352.6\" y=\"98.4\" width=\"55.8\" height=\"117.6\" fill=\"#7A5A2E\" rx=\"2\"/><text x=\"380.5\" y=\"93.4\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">30%</text><text x=\"380.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">20-49 anos</text><rect x=\"445.6\" y=\"59.2\" width=\"55.8\" height=\"156.8\" fill=\"#7A5A2E\" rx=\"2\"/><text x=\"473.5\" y=\"54.2\" font-size=\"10\" text-anchor=\"middle\" fill=\"#333\">40%</text><text x=\"473.5\" y=\"230\" font-size=\"9.5\" text-anchor=\"middle\" fill=\"#555\">50+ anos</text></svg>",
-      "caption": "Distribuição proporcional de óbitos por faixa etária - perfil intermediário/transicional"
+      "caption": "Distribuição proporcional de óbitos por faixa etária em um município"
     }
   },
   {
@@ -10893,21 +10862,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Município",
         "Nascidos vivos",
-        "População",
-        "Coeficiente de natalidade (por mil)"
+        "População"
       ],
       "rows": [
         [
           "P",
           "1.080",
-          "90.000",
-          "12"
+          "90.000"
         ],
         [
           "Q",
           "1.500",
-          "150.000",
-          "10"
+          "150.000"
         ]
       ],
       "caption": "Comparação do coeficiente de natalidade entre dois municípios"
@@ -11082,21 +11048,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Grupo",
         "Casos de trombose",
-        "Total acompanhado",
-        "Risco"
+        "Total acompanhado"
       ],
       "rows": [
         [
           "Usuárias do anticoncepcional",
           "45",
-          "1.500",
-          "3%"
+          "1.500"
         ],
         [
           "Não usuárias",
           "25",
-          "2.500",
-          "1%"
+          "2.500"
         ]
       ],
       "caption": "Coorte de dois anos: uso de anticoncepcional oral e trombose venosa profunda"
@@ -11139,21 +11102,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Grupo",
         "Casos de leucemia",
-        "Total acompanhado",
-        "Risco"
+        "Total acompanhado"
       ],
       "rows": [
         [
           "Expostos ao benzeno",
           "32",
-          "800",
-          "4%"
+          "800"
         ],
         [
           "Não expostos",
           "12",
-          "1.200",
-          "1%"
+          "1.200"
         ]
       ],
       "caption": "Coorte industrial de dez anos: exposição ao benzeno e incidência de leucemia"
@@ -11196,21 +11156,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Uso de telas (>4h/dia)",
         "Com miopia",
-        "Total",
-        "Prevalência"
+        "Total"
       ],
       "rows": [
         [
           "Uso elevado",
           "90",
-          "300",
-          "30%"
+          "300"
         ],
         [
           "Uso menor",
           "60",
-          "600",
-          "10%"
+          "600"
         ]
       ],
       "caption": "Prevalência de miopia segundo uso elevado de telas em crianças escolares"
@@ -11338,23 +11295,28 @@ const QUESTIONS_DATABASE = [
     "visual": {
       "type": "table",
       "headers": [
-        "Indicador",
-        "Cálculo",
-        "Resultado"
+        "Situação",
+        "Pacientes"
       ],
       "rows": [
         [
-          "Patogenicidade",
-          "100 doentes / 500 expostos",
-          "20%"
+          "Expostos ao agente",
+          "500"
         ],
         [
-          "Letalidade",
-          "15 óbitos / 100 doentes",
-          "15%"
+          "Desenvolveram sinais clínicos",
+          "100"
+        ],
+        [
+          "Evoluíram para forma grave",
+          "40"
+        ],
+        [
+          "Foram a óbito",
+          "15"
         ]
       ],
-      "caption": "Indicadores de um surto de infecção hospitalar: 500 expostos, 100 doentes, 40 formas graves, 15 óbitos"
+      "caption": "Surto de infecção hospitalar: evolução dos pacientes expostos ao agente"
     }
   },
   {
@@ -11427,21 +11389,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Uso de capacete",
         "TCE após acidente",
-        "Total acompanhado",
-        "Risco"
+        "Total acompanhado"
       ],
       "rows": [
         [
           "Uso regular",
           "24",
-          "600",
-          "4%"
+          "600"
         ],
         [
           "Sem uso regular",
           "100",
-          "500",
-          "20%"
+          "500"
         ]
       ],
       "caption": "Coorte de um ano: uso de capacete e traumatismo cranioencefalico (TCE) em motociclistas"
@@ -12824,24 +12783,18 @@ const QUESTIONS_DATABASE = [
       "headers": [
         "Agravo",
         "Casos",
-        "Óbitos",
-        "Letalidade",
-        "Coeficiente de mortalidade (por 100 mil)"
+        "Óbitos"
       ],
       "rows": [
         [
           "A",
           "8.000",
-          "40",
-          "0,5%",
-          "8"
+          "40"
         ],
         [
           "B",
           "150",
-          "45",
-          "30%",
-          "9"
+          "45"
         ]
       ],
       "caption": "Comparação entre letalidade e coeficiente de mortalidade de dois agravos numa população de 500.000 habitantes"
