@@ -13278,6 +13278,390 @@ const QUESTIONS_DATABASE = [
     ],
     "correctLetter": "C",
     "clinicalPointers": "Primeiro identifique o desenho do estudo pela forma como os participantes foram selecionados."
+  },
+  {
+    "id": 360,
+    "code": "MEDFA-C01",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Cálculo - Incidência acumulada e prevalência por 1.000 habitantes",
+    "difficulty": "Básica",
+    "prompt": "Em um município de 50.000 habitantes, foram registrados 250 casos novos de diabetes tipo 2 ao longo de um ano. Ao final desse ano, 1.000 pessoas viviam com a doença. Assinale a alternativa que apresenta corretamente a incidência acumulada e a prevalência ao final do ano.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Incidência de 5 por 1.000 habitantes e prevalência de 20 por 1.000 habitantes.",
+        "rationale": "CORRETA. Incidência = 250 ÷ 50.000 × 1.000 = 5 por 1.000. Prevalência = 1.000 ÷ 50.000 × 1.000 = 20 por 1.000."
+      },
+      {
+        "letter": "B",
+        "text": "Incidência de 20 por 1.000 habitantes e prevalência de 5 por 1.000 habitantes.",
+        "rationale": "Incorreta. Os valores estão invertidos: os casos novos (250) formam a incidência e os casos existentes (1.000), a prevalência."
+      },
+      {
+        "letter": "C",
+        "text": "Incidência de 5 por 1.000 habitantes e prevalência de 5 por 1.000 habitantes.",
+        "rationale": "Incorreta. A prevalência inclui todos os casos existentes (1.000), e não só os 250 casos novos."
+      },
+      {
+        "letter": "D",
+        "text": "Incidência de 0,5 por 1.000 habitantes e prevalência de 2 por 1.000 habitantes.",
+        "rationale": "Incorreta. 0,5 e 2 são os valores em percentual (por 100); por 1.000 habitantes, os valores são 5 e 20."
+      }
+    ],
+    "correctLetter": "A",
+    "clinicalPointers": "Casos novos no período vão para a incidência; todos os casos existentes vão para a prevalência. Depois ajuste a base para 1.000."
+  },
+  {
+    "id": 361,
+    "code": "MEDFA-C02",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Cálculo - Incidência na população sob risco",
+    "difficulty": "Intermediária",
+    "prompt": "Uma comunidade tem 10.000 habitantes. No início do ano, 500 deles já tinham diagnóstico de hepatite C crônica. Ao longo do ano, 190 pessoas foram diagnosticadas pela primeira vez com a doença. Qual é a incidência acumulada anual, por 1.000 habitantes sob risco?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "19 por 1.000",
+        "rationale": "Incorreta. 19 por 1.000 usa toda a população (10.000) como denominador, incluindo as 500 pessoas que já tinham a doença e, portanto, não estavam sob risco de adoecer."
+      },
+      {
+        "letter": "B",
+        "text": "20 por 1.000",
+        "rationale": "CORRETA. População sob risco = 10.000 − 500 = 9.500. Incidência = 190 ÷ 9.500 × 1.000 = 20 por 1.000."
+      },
+      {
+        "letter": "C",
+        "text": "69 por 1.000",
+        "rationale": "Incorreta. 69 por 1.000 soma casos antigos e novos (690 ÷ 10.000), o que se aproxima de uma prevalência, e não da incidência."
+      },
+      {
+        "letter": "D",
+        "text": "2 por 1.000",
+        "rationale": "Incorreta. 2 é o valor em percentual (190 ÷ 9.500 = 0,02 = 2%); por 1.000, o resultado é 20."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "Quem já tinha a doença no início do período pode desenvolvê-la de novo? Ajuste o denominador."
+  },
+  {
+    "id": 362,
+    "code": "MEDFA-C03",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Cálculo - Prevalência ao final do período (entradas e saídas)",
+    "difficulty": "Avançada",
+    "prompt": "Em uma população de 12.000 habitantes, havia 300 pessoas com tuberculose em 1º de janeiro. Durante o ano, surgiram 120 casos novos; 60 pacientes receberam alta por cura e 20 morreram. Considerando a população de 12.000 habitantes, qual é a prevalência de tuberculose em 31 de dezembro, por 1.000 habitantes?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cerca de 35 por 1.000",
+        "rationale": "Incorreta. 35 por 1.000 soma os casos antigos e novos (420) sem retirar os que saíram por cura ou óbito."
+      },
+      {
+        "letter": "B",
+        "text": "Cerca de 10 por 1.000",
+        "rationale": "Incorreta. 10 por 1.000 corresponde apenas aos casos novos (120 ÷ 12.000), ou seja, à incidência."
+      },
+      {
+        "letter": "C",
+        "text": "Cerca de 25 por 1.000",
+        "rationale": "Incorreta. 25 por 1.000 corresponde à prevalência de 1º de janeiro (300 ÷ 12.000), sem as mudanças do ano."
+      },
+      {
+        "letter": "D",
+        "text": "Cerca de 28 por 1.000",
+        "rationale": "CORRETA. Casos em 31/12 = 300 + 120 (novos) − 60 (curados) − 20 (óbitos) = 340. Prevalência = 340 ÷ 12.000 × 1.000 ≈ 28,3 por 1.000."
+      }
+    ],
+    "correctLetter": "D",
+    "clinicalPointers": "A prevalência é um 'estoque': entram os casos novos e saem os que curaram ou morreram."
+  },
+  {
+    "id": 363,
+    "code": "MEDFA-C04",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Cálculo - Taxa de letalidade",
+    "difficulty": "Básica",
+    "prompt": "Em um ano, um hospital de referência atendeu 1.200 casos de dengue grave, dos quais 36 evoluíram para óbito. Qual foi a letalidade da dengue grave nesse serviço?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0,3%",
+        "rationale": "Incorreta. 0,3% corresponderia a cerca de 4 óbitos em 1.200 casos; houve um erro de uma casa decimal."
+      },
+      {
+        "letter": "B",
+        "text": "3%",
+        "rationale": "CORRETA. Letalidade = óbitos pela doença ÷ casos da doença × 100 = 36 ÷ 1.200 × 100 = 3%."
+      },
+      {
+        "letter": "C",
+        "text": "30%",
+        "rationale": "Incorreta. 30% corresponderia a 360 óbitos; o cálculo correto (36 ÷ 1.200 = 0,03) dá 3%."
+      },
+      {
+        "letter": "D",
+        "text": "36%",
+        "rationale": "Incorreta. 36 é o número absoluto de óbitos, não uma taxa; é preciso dividir pelo número de casos."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "Na letalidade, o denominador são as pessoas que tiveram a doença."
+  },
+  {
+    "id": 364,
+    "code": "MEDFA-C05",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Cálculo - Letalidade x mortalidade",
+    "difficulty": "Intermediária",
+    "prompt": "Em um município de 200.000 habitantes, foram confirmados 800 casos de leptospirose em um ano, com 40 óbitos pela doença. Assinale a alternativa que apresenta corretamente a letalidade e o coeficiente de mortalidade por leptospirose.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Letalidade de 20 por 100.000 habitantes e mortalidade de 5%.",
+        "rationale": "Incorreta. Os indicadores estão trocados: a letalidade usa os casos (40 ÷ 800 = 5%) e a mortalidade usa a população (40 ÷ 200.000 = 20 por 100.000)."
+      },
+      {
+        "letter": "B",
+        "text": "Letalidade de 0,4% e mortalidade de 5 por 100.000 habitantes.",
+        "rationale": "Incorreta. 0,4% é a proporção de casos na população (800 ÷ 200.000), e não a letalidade; e a mortalidade é 20, e não 5, por 100.000."
+      },
+      {
+        "letter": "C",
+        "text": "Letalidade de 5% e mortalidade de 20 por 100.000 habitantes.",
+        "rationale": "CORRETA. Letalidade = 40 ÷ 800 × 100 = 5% (gravidade entre os doentes). Mortalidade = 40 ÷ 200.000 × 100.000 = 20 por 100.000 (risco de morrer pela doença na população)."
+      },
+      {
+        "letter": "D",
+        "text": "Letalidade e mortalidade iguais, de 5% cada uma no período.",
+        "rationale": "Incorreta. Os denominadores são diferentes (casos e população), então os dois indicadores não coincidem."
+      }
+    ],
+    "correctLetter": "C",
+    "clinicalPointers": "Os dois indicadores têm o mesmo numerador (óbitos). A diferença está no denominador de cada um."
+  },
+  {
+    "id": 365,
+    "code": "MEDFA-C06",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Cálculo - Comparação de letalidade entre surtos",
+    "difficulty": "Intermediária",
+    "prompt": "Dois surtos de meningite meningocócica ocorreram em cidades vizinhas. No surto A, houve 600 casos e 30 óbitos; no surto B, 1.500 casos e 45 óbitos. Sobre a gravidade da doença nos dois surtos, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "O surto B foi mais grave, pois teve 15 óbitos a mais que o surto A.",
+        "rationale": "Incorreta. O número absoluto de óbitos depende do número de casos; para comparar gravidade, usa-se a letalidade."
+      },
+      {
+        "letter": "B",
+        "text": "O surto A teve maior letalidade (5%) que o surto B (3%).",
+        "rationale": "CORRETA. Letalidade A = 30 ÷ 600 × 100 = 5%; letalidade B = 45 ÷ 1.500 × 100 = 3%. Proporcionalmente, morreram mais doentes no surto A."
+      },
+      {
+        "letter": "C",
+        "text": "Os dois surtos tiveram a mesma letalidade, de 5%.",
+        "rationale": "Incorreta. A letalidade do surto B é 45 ÷ 1.500 = 3%, e não 5%."
+      },
+      {
+        "letter": "D",
+        "text": "O surto B teve maior letalidade (5%) que o surto A (3%).",
+        "rationale": "Incorreta. Os valores estão trocados: 30 ÷ 600 = 5% (A) e 45 ÷ 1.500 = 3% (B)."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "Compare proporções, e não números absolutos de óbitos."
+  },
+  {
+    "id": 366,
+    "code": "MEDFA-C07",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Cálculo - Incidência por 100.000 comparando municípios",
+    "difficulty": "Intermediária",
+    "prompt": "No mesmo ano, o município A (300.000 habitantes) registrou 90 casos novos de hanseníase, e o município B (150.000 habitantes) registrou 60 casos novos. Qual alternativa compara corretamente o risco de adoecer nos dois municípios?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "O risco é maior em A, que teve 30 casos a mais que B.",
+        "rationale": "Incorreta. O número absoluto de casos depende do tamanho da população; o risco é comparado pela incidência."
+      },
+      {
+        "letter": "B",
+        "text": "O risco é igual nos dois, já que a diferença de casos é compensada pela população.",
+        "rationale": "Incorreta. As incidências são diferentes: 30 por 100.000 em A e 40 por 100.000 em B."
+      },
+      {
+        "letter": "C",
+        "text": "O risco é maior em B: 40 por 100.000, contra 30 por 100.000 em A.",
+        "rationale": "CORRETA. A = 90 ÷ 300.000 × 100.000 = 30 por 100.000; B = 60 ÷ 150.000 × 100.000 = 40 por 100.000. Apesar de ter menos casos, B tem maior incidência."
+      },
+      {
+        "letter": "D",
+        "text": "O risco é maior em A: 40 por 100.000, contra 30 por 100.000 em B.",
+        "rationale": "Incorreta. Os valores estão trocados entre os municípios."
+      }
+    ],
+    "correctLetter": "C",
+    "clinicalPointers": "Transforme os números absolutos em taxas com a mesma base antes de comparar."
+  },
+  {
+    "id": 367,
+    "code": "DEMOG-C01",
+    "category": "Demografia e Indicadores de Saúde",
+    "subcategory": "Cálculo - Coeficiente de mortalidade infantil",
+    "difficulty": "Básica",
+    "prompt": "Em um ano, um município registrou 2.400 nascidos vivos e 36 óbitos de crianças menores de 1 ano. A população total do município era de 180.000 habitantes. Qual é o coeficiente de mortalidade infantil?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1,5 por 1.000 nascidos vivos",
+        "rationale": "Incorreta. 1,5 é o valor por 100 (36 ÷ 2.400 = 0,015 = 1,5%); o coeficiente é expresso por 1.000 nascidos vivos."
+      },
+      {
+        "letter": "B",
+        "text": "15 por 1.000 nascidos vivos",
+        "rationale": "CORRETA. CMI = óbitos de menores de 1 ano ÷ nascidos vivos × 1.000 = 36 ÷ 2.400 × 1.000 = 15 por 1.000 nascidos vivos."
+      },
+      {
+        "letter": "C",
+        "text": "0,2 por 1.000 habitantes",
+        "rationale": "Incorreta. Usa a população total como denominador; o coeficiente de mortalidade infantil usa os nascidos vivos."
+      },
+      {
+        "letter": "D",
+        "text": "150 por 1.000 nascidos vivos",
+        "rationale": "Incorreta. Houve um erro de uma casa decimal: 36 ÷ 2.400 = 0,015, que × 1.000 dá 15."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "O denominador do coeficiente de mortalidade infantil não é a população total."
+  },
+  {
+    "id": 368,
+    "code": "DEMOG-C02",
+    "category": "Demografia e Indicadores de Saúde",
+    "subcategory": "Cálculo - Variação percentual de uma taxa (aumento)",
+    "difficulty": "Intermediária",
+    "prompt": "A incidência de tuberculose em uma cidade passou de 25 por 100.000 habitantes em 2021 para 35 por 100.000 habitantes em 2024. Qual foi a variação percentual da incidência no período?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Aumento de 10%",
+        "rationale": "Incorreta. 10 é a diferença absoluta (35 − 25 = 10 por 100.000), e não a variação percentual."
+      },
+      {
+        "letter": "B",
+        "text": "Aumento de cerca de 28,6%",
+        "rationale": "Incorreta. 28,6% resulta de dividir a diferença pelo valor final (10 ÷ 35); a base correta é o valor inicial."
+      },
+      {
+        "letter": "C",
+        "text": "Aumento de 40%",
+        "rationale": "CORRETA. Variação percentual = (valor final − valor inicial) ÷ valor inicial × 100 = (35 − 25) ÷ 25 × 100 = 40%."
+      },
+      {
+        "letter": "D",
+        "text": "Aumento de 140%",
+        "rationale": "Incorreta. 140% é a razão 35 ÷ 25 (1,4) multiplicada por 100; a variação é 1,4 − 1 = 0,4, ou seja, 40%."
+      }
+    ],
+    "correctLetter": "C",
+    "clinicalPointers": "Compare a diferença com o valor de partida."
+  },
+  {
+    "id": 369,
+    "code": "DEMOG-C03",
+    "category": "Demografia e Indicadores de Saúde",
+    "subcategory": "Cálculo - Variação percentual de uma taxa (redução)",
+    "difficulty": "Intermediária",
+    "prompt": "O coeficiente de mortalidade infantil de um estado caiu de 20 por 1.000 nascidos vivos em 2015 para 15 por 1.000 nascidos vivos em 2025. Qual foi a variação percentual do coeficiente no período?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Redução de 25%",
+        "rationale": "CORRETA. Variação = (15 − 20) ÷ 20 × 100 = −5 ÷ 20 × 100 = −25%, ou seja, redução de 25%."
+      },
+      {
+        "letter": "B",
+        "text": "Redução de 5%",
+        "rationale": "Incorreta. 5 é a queda absoluta (5 óbitos por 1.000 nascidos vivos), e não a variação percentual."
+      },
+      {
+        "letter": "C",
+        "text": "Redução de cerca de 33%",
+        "rationale": "Incorreta. 33% resulta de dividir a queda pelo valor final (5 ÷ 15); a base correta é o valor inicial (20)."
+      },
+      {
+        "letter": "D",
+        "text": "Redução de 75%",
+        "rationale": "Incorreta. 75% é a razão 15 ÷ 20; o coeficiente final equivale a 75% do inicial, o que corresponde a uma queda de 25%."
+      }
+    ],
+    "correctLetter": "A",
+    "clinicalPointers": "Mesmo em quedas, a variação percentual usa o valor inicial como base."
+  },
+  {
+    "id": 370,
+    "code": "MEDFA-C08",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Cálculo - Cálculo da odds ratio em caso-controle",
+    "difficulty": "Intermediária",
+    "prompt": "Um estudo caso-controle investigou a associação entre uso prolongado de anti-inflamatórios e úlcera péptica. Entre 100 casos com úlcera, 60 relataram uso prolongado; entre 200 controles sem úlcera, 40 relataram esse uso. Qual é a odds ratio (OR) e sua interpretação?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "OR = 3; a chance de exposição foi três vezes maior entre os casos.",
+        "rationale": "Incorreta. 3 é a razão entre as proporções de expostos (60% ÷ 20%); a odds ratio compara chances: (60 ÷ 40) ÷ (40 ÷ 160)."
+      },
+      {
+        "letter": "B",
+        "text": "OR = 6; a chance de exposição foi seis vezes maior entre os casos.",
+        "rationale": "CORRETA. OR = (a × d) ÷ (b × c) = (60 × 160) ÷ (40 × 40) = 9.600 ÷ 1.600 = 6. A chance de ter usado anti-inflamatório foi 6 vezes maior entre os casos."
+      },
+      {
+        "letter": "C",
+        "text": "OR = 0,17; o uso de anti-inflamatório protege contra a úlcera.",
+        "rationale": "Incorreta. 0,17 é o inverso da OR (1 ÷ 6), obtido ao trocar a posição de casos e controles; a associação encontrada é de risco, não de proteção."
+      },
+      {
+        "letter": "D",
+        "text": "OR = 1,5; não há associação relevante entre as variáveis.",
+        "rationale": "Incorreta. 1,5 é apenas a chance de exposição entre os casos (60 ÷ 40); a OR compara essa chance com a dos controles (40 ÷ 160 = 0,25)."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "Monte a tabela 2×2: casos e controles nas colunas, expostos e não expostos nas linhas. Depois compare as chances de exposição."
+  },
+  {
+    "id": 371,
+    "code": "MEDFA-C09",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Cálculo - Risco relativo em coorte",
+    "difficulty": "Intermediária",
+    "prompt": "Em uma coorte, 1.000 trabalhadores expostos à sílica foram acompanhados por 10 anos, e 50 desenvolveram doença pulmonar. Entre 2.000 trabalhadores não expostos, 20 desenvolveram a doença. Qual é o risco relativo (RR) e sua interpretação?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RR = 2,5; o risco nos expostos foi 2,5 vezes o dos não expostos.",
+        "rationale": "Incorreta. 2,5 resulta de dividir os números absolutos de casos (50 ÷ 20), sem considerar que os grupos têm tamanhos diferentes."
+      },
+      {
+        "letter": "B",
+        "text": "RR = 40; houve 40 casos a mais entre os expostos.",
+        "rationale": "Incorreta. 40 por 1.000 é o risco atribuível (50 − 10 por 1.000), uma diferença de riscos, e não o risco relativo."
+      },
+      {
+        "letter": "C",
+        "text": "RR = 0,2; a exposição à sílica é um fator de proteção.",
+        "rationale": "Incorreta. 0,2 é o inverso do RR (10 ÷ 50), obtido ao inverter numerador e denominador."
+      },
+      {
+        "letter": "D",
+        "text": "RR = 5; o risco nos expostos foi 5 vezes o dos não expostos.",
+        "rationale": "CORRETA. Incidência nos expostos = 50 ÷ 1.000 = 50 por 1.000; nos não expostos = 20 ÷ 2.000 = 10 por 1.000. RR = 50 ÷ 10 = 5."
+      }
+    ],
+    "correctLetter": "D",
+    "clinicalPointers": "Calcule primeiro a incidência em cada grupo; os grupos não têm o mesmo tamanho."
   }
 ];
 </script>
