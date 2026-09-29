@@ -12849,6 +12849,435 @@ const QUESTIONS_DATABASE = [
     ],
     "correctLetter": "B",
     "clinicalPointers": "Uma doença rara pode ter letalidade muito alta (gravidade por caso) e, ainda assim, um coeficiente de mortalidade muito baixo (carga populacional), quando o número absoluto de casos e pequeno em relação à população total; confundir essas duas medidas leva a conclusões equivocadas sobre a real magnitude do problema de saúde pública."
+  },
+  {
+    "id": 347,
+    "code": "MEDFA-R01",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Revisão do professor - Incidência acumulada e prevalência por 1.000 habitantes",
+    "origem": "revisao_professor",
+    "difficulty": "Básica",
+    "prompt": "Em uma população de 20.000 habitantes, foram identificados 400 casos novos de determinada doença durante um ano. Ao final desse mesmo ano, havia 600 pessoas vivendo com a doença. Considerando os dados apresentados, assinale a alternativa correta.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A incidência acumulada foi de 30 casos por 1.000 habitantes e a prevalência foi de 20 casos por 1.000 habitantes.",
+        "rationale": "Incorreta. Os valores estão invertidos: os 400 casos novos formam a incidência (20 por 1.000), e as 600 pessoas vivendo com a doença formam a prevalência (30 por 1.000)."
+      },
+      {
+        "letter": "B",
+        "text": "A incidência acumulada foi de 20 casos por 1.000 habitantes e a prevalência foi de 30 casos por 1.000 habitantes.",
+        "rationale": "CORRETA. Incidência acumulada = casos novos ÷ população = 400 ÷ 20.000 = 0,02 × 1.000 = 20 por 1.000. Prevalência = casos existentes ÷ população = 600 ÷ 20.000 = 0,03 × 1.000 = 30 por 1.000."
+      },
+      {
+        "letter": "C",
+        "text": "A incidência acumulada foi de 20 casos por 1.000 habitantes e a prevalência também foi de 20 casos por 1.000 habitantes.",
+        "rationale": "Incorreta. A incidência está certa, mas a prevalência considera todos os casos existentes no momento (600), e não só os casos novos: 600 ÷ 20.000 × 1.000 = 30 por 1.000."
+      },
+      {
+        "letter": "D",
+        "text": "A incidência acumulada foi de 2 casos por 1.000 habitantes e a prevalência foi de 3 casos por 1.000 habitantes.",
+        "rationale": "Incorreta. 2 e 3 são os valores em percentual (por 100). Para expressar por 1.000 habitantes, multiplica-se a proporção por 1.000: 0,02 × 1.000 = 20 e 0,03 × 1.000 = 30."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "Separe os casos que surgiram no período dos casos existentes no fim do período, e atenção à base: por 1.000, e não por 100."
+  },
+  {
+    "id": 348,
+    "code": "MEDFA-R02",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Revisão do professor - Taxa de letalidade em surto",
+    "origem": "revisao_professor",
+    "difficulty": "Básica",
+    "prompt": "Durante um surto de determinada doença infecciosa, foram confirmados 2.500 casos. Desses, 50 evoluíram para óbito. Qual é a taxa de letalidade dessa doença nesse surto?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0,2%",
+        "rationale": "Incorreta. 0,2% corresponde a 5 óbitos em 2.500 casos; aqui foram 50 óbitos."
+      },
+      {
+        "letter": "B",
+        "text": "2%",
+        "rationale": "CORRETA. Letalidade = óbitos pela doença ÷ casos da doença × 100 = 50 ÷ 2.500 × 100 = 2%."
+      },
+      {
+        "letter": "C",
+        "text": "5%",
+        "rationale": "Incorreta. 5% seria 125 óbitos entre 2.500 casos; o cálculo correto (50 ÷ 2.500) dá 2%."
+      },
+      {
+        "letter": "D",
+        "text": "20%",
+        "rationale": "Incorreta. 20% seria 500 óbitos; houve um erro de uma casa decimal no cálculo (50 ÷ 2.500 = 0,02)."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "A letalidade mede a gravidade da doença entre quem a teve: o denominador são os casos, não a população."
+  },
+  {
+    "id": 349,
+    "code": "DESCR-R01",
+    "category": "Estudos Descritivos",
+    "subcategory": "Revisão do professor - Classificação de estudo descritivo",
+    "origem": "revisao_professor",
+    "difficulty": "Básica",
+    "prompt": "Um município identificou aumento no número de casos de dengue e realizou um estudo para descrever a distribuição dos casos segundo idade, sexo, bairro de residência e mês de ocorrência, sem investigar fatores associados ao desenvolvimento da doença. Esse estudo é classificado como:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Estudo de coorte prospectivo",
+        "rationale": "Incorreta. A coorte acompanha expostos e não expostos ao longo do tempo para comparar a ocorrência do desfecho, o que não foi feito."
+      },
+      {
+        "letter": "B",
+        "text": "Estudo caso-controle retrospectivo",
+        "rationale": "Incorreta. O caso-controle compara doentes e não doentes quanto à exposição passada; aqui não houve grupo de comparação nem investigação de exposição."
+      },
+      {
+        "letter": "C",
+        "text": "Estudo ecológico analítico",
+        "rationale": "Incorreta. O estudo ecológico analítico relaciona indicadores de grupos a possíveis fatores; aqui não se investigaram fatores associados."
+      },
+      {
+        "letter": "D",
+        "text": "Estudo epidemiológico descritivo",
+        "rationale": "CORRETA. O estudo descreve a distribuição dos casos segundo pessoa (idade, sexo), lugar (bairro) e tempo (mês), sem testar hipóteses de associação: é descritivo."
+      }
+    ],
+    "correctLetter": "D",
+    "clinicalPointers": "Observe se o estudo apenas descreve os casos ou se compara grupos para testar alguma associação."
+  },
+  {
+    "id": 350,
+    "code": "DESCR-R02",
+    "category": "Estudos Descritivos",
+    "subcategory": "Revisão do professor - Finalidade da análise por pessoa, tempo e lugar",
+    "origem": "revisao_professor",
+    "difficulty": "Básica",
+    "prompt": "Uma equipe de vigilância epidemiológica analisou os casos de tuberculose registrados em uma cidade entre 2020 e 2025. Os pesquisadores observaram que a maior frequência ocorreu entre homens de 40 a 59 anos, que houve concentração de casos em determinados bairros e que o número de notificações apresentou variações ao longo dos anos. A principal finalidade dessa análise é:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Identificar a eficácia de um novo tratamento para tuberculose.",
+        "rationale": "Incorreta. Avaliar eficácia de tratamento exige um estudo experimental (ensaio clínico), com intervenção e grupo controle."
+      },
+      {
+        "letter": "B",
+        "text": "Estabelecer causalidade entre fatores de risco e tuberculose.",
+        "rationale": "Incorreta. A análise apenas descreve o padrão dos casos; estabelecer causalidade exige estudos analíticos."
+      },
+      {
+        "letter": "C",
+        "text": "Descrever a distribuição do agravo segundo pessoa, tempo e lugar.",
+        "rationale": "CORRETA. Sexo e idade (pessoa), bairros (lugar) e variação ao longo dos anos (tempo) são as três variáveis clássicas da epidemiologia descritiva."
+      },
+      {
+        "letter": "D",
+        "text": "Comparar o risco individual entre expostos e não expostos.",
+        "rationale": "Incorreta. Comparar risco entre expostos e não expostos é próprio de estudos analíticos, como a coorte."
+      }
+    ],
+    "correctLetter": "C",
+    "clinicalPointers": "Classifique cada achado descrito (quem, onde, quando) e pense no tipo de análise que eles compõem."
+  },
+  {
+    "id": 351,
+    "code": "DESCR-R03",
+    "category": "Estudos Descritivos",
+    "subcategory": "Revisão do professor - Estudo descritivo e inferência causal",
+    "origem": "revisao_professor",
+    "difficulty": "Intermediária",
+    "prompt": "Um pesquisador realizou um estudo descritivo mostrando que determinado bairro apresentou uma prevalência de hipertensão maior que a observada em outros bairros da cidade. Com base nesse resultado, ele concluiu que morar naquele bairro é uma causa da hipertensão. Considerando os princípios da epidemiologia, a conclusão do pesquisador é:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Adequada, pois diferenças de prevalência entre bairros comprovam causalidade sempre que a diferença entre eles é grande.",
+        "rationale": "Incorreta. Diferenças de prevalência podem refletir idade, renda, acesso a serviços e outros fatores; a magnitude da diferença não comprova causa."
+      },
+      {
+        "letter": "B",
+        "text": "Adequada, desde que o estudo tenha uma amostra grande e representativa da população de todos os bairros.",
+        "rationale": "Incorreta. Uma amostra grande aumenta a precisão, mas não muda o desenho: um estudo descritivo continua sem permitir inferência causal."
+      },
+      {
+        "letter": "C",
+        "text": "Inadequada, pois estudos descritivos são úteis para gerar hipóteses, mas geralmente não permitem estabelecer relação causal.",
+        "rationale": "CORRETA. Estudos descritivos levantam hipóteses; testar se morar no bairro causa hipertensão exige estudos analíticos com grupo de comparação e controle de confundidores."
+      },
+      {
+        "letter": "D",
+        "text": "Inadequada apenas porque a hipertensão, por ser uma doença crônica, não pode ser estudada epidemiologicamente.",
+        "rationale": "Incorreta. Doenças crônicas, como a hipertensão, são estudadas pela epidemiologia; o problema está no desenho do estudo."
+      }
+    ],
+    "correctLetter": "C",
+    "clinicalPointers": "Pense no que cada tipo de estudo é capaz de demonstrar, e não apenas no tamanho da diferença encontrada."
+  },
+  {
+    "id": 352,
+    "code": "OBSERV-R01",
+    "category": "Estudos Observacionais",
+    "subcategory": "Revisão do professor - Identificação de estudo caso-controle",
+    "origem": "revisao_professor",
+    "difficulty": "Básica",
+    "prompt": "Pesquisadores desejam investigar se o tabagismo está associado ao desenvolvimento de câncer de pulmão. Para isso, selecionaram 300 pessoas com diagnóstico de câncer de pulmão (casos) e 600 pessoas sem câncer de pulmão (controles). Em seguida, verificaram, por meio de entrevistas e prontuários, o histórico de tabagismo dos participantes. Sobre esse estudo, assinale a alternativa CORRETA.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "É um estudo de coorte, pois os participantes foram acompanhados para identificar novos casos.",
+        "rationale": "Incorreta. Ninguém foi acompanhado: os participantes foram selecionados já com ou sem a doença."
+      },
+      {
+        "letter": "B",
+        "text": "É um estudo caso-controle, no qual se parte do desfecho e se investiga retrospectivamente a exposição.",
+        "rationale": "CORRETA. Os grupos foram definidos pelo desfecho (com e sem câncer) e a exposição (tabagismo) foi buscada no passado: é um caso-controle."
+      },
+      {
+        "letter": "C",
+        "text": "É um estudo transversal, pois exposição e desfecho foram avaliados em um único momento.",
+        "rationale": "Incorreta. No transversal, a amostra não é escolhida pelo desfecho; aqui os pesquisadores fixaram 300 casos e 600 controles."
+      },
+      {
+        "letter": "D",
+        "text": "Esse desenho permite calcular diretamente a incidência do câncer de pulmão entre fumantes e não fumantes.",
+        "rationale": "Incorreta. Como o número de casos e controles é fixado pelo pesquisador, o caso-controle não permite calcular incidência; a medida usada é a odds ratio."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "Veja por qual critério os participantes foram selecionados: pela exposição ou pela doença?"
+  },
+  {
+    "id": 353,
+    "code": "OBSERV-R02",
+    "category": "Estudos Observacionais",
+    "subcategory": "Revisão do professor - Identificação de estudo de coorte",
+    "origem": "revisao_professor",
+    "difficulty": "Básica",
+    "prompt": "Um grupo de 5.000 trabalhadores expostos a determinado produto químico e outro grupo de 5.000 trabalhadores não expostos foram acompanhados durante 10 anos. Ao final do período, os pesquisadores compararam a ocorrência de uma determinada doença entre os dois grupos. Sobre esse estudo, assinale a alternativa CORRETA.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Trata-se de um estudo caso-controle, pois compara a ocorrência da doença entre indivíduos doentes e não doentes ao final dos dez anos de seguimento.",
+        "rationale": "Incorreta. No caso-controle, os grupos são formados pela presença ou ausência da doença; aqui, foram formados pela exposição."
+      },
+      {
+        "letter": "B",
+        "text": "Trata-se de um estudo transversal, pois a exposição ao produto e a doença foram avaliadas na mesma população de trabalhadores ao longo do período.",
+        "rationale": "Incorreta. O transversal avalia exposição e desfecho num único momento; aqui houve acompanhamento de 10 anos."
+      },
+      {
+        "letter": "C",
+        "text": "Trata-se de um estudo de coorte, no qual os participantes foram classificados segundo a exposição e acompanhados para observar a ocorrência do desfecho.",
+        "rationale": "CORRETA. Os grupos foram definidos pela exposição (expostos e não expostos) e seguidos no tempo para comparar a incidência da doença: é uma coorte."
+      },
+      {
+        "letter": "D",
+        "text": "A principal medida de associação utilizada obrigatoriamente é a odds ratio, já que os dois grupos têm o mesmo tamanho.",
+        "rationale": "Incorreta. Na coorte, a medida típica é o risco relativo (razão entre as incidências); a odds ratio é a medida própria do caso-controle."
+      }
+    ],
+    "correctLetter": "C",
+    "clinicalPointers": "Observe como os grupos foram formados no início do estudo e o que aconteceu com eles ao longo do tempo."
+  },
+  {
+    "id": 354,
+    "code": "EXPER-R01",
+    "category": "Estudos Experimentais",
+    "subcategory": "Revisão do professor - Ensaio clínico randomizado duplo-cego",
+    "origem": "revisao_professor",
+    "difficulty": "Básica",
+    "prompt": "Um grupo de pesquisadores deseja avaliar a eficácia de uma nova vacina contra determinada doença infecciosa. Para isso, seleciona 4.000 indivíduos que não tiveram a doença e os distribui aleatoriamente em dois grupos: 2.000 recebem a nova vacina e 2.000 recebem placebo. Nem os participantes nem os pesquisadores responsáveis pela avaliação dos desfechos sabem qual intervenção cada participante recebeu. Após 2 anos de acompanhamento, a ocorrência da doença é comparada entre os dois grupos. Com base nessa situação, assinale a alternativa CORRETA.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Trata-se de um estudo caso-controle, pois os pesquisadores comparam, ao final do seguimento, os indivíduos que desenvolveram ou não a doença.",
+        "rationale": "Incorreta. Os grupos não foram formados pela doença; foram formados por sorteio para receber vacina ou placebo."
+      },
+      {
+        "letter": "B",
+        "text": "Trata-se de um estudo transversal, pois os grupos são avaliados durante um período determinado e comparados entre si.",
+        "rationale": "Incorreta. O transversal é um retrato em um único momento, sem intervenção; aqui houve intervenção e seguimento de 2 anos."
+      },
+      {
+        "letter": "C",
+        "text": "Trata-se de um ensaio clínico randomizado, caracterizado pela alocação aleatória dos participantes e pela intervenção controlada pelo pesquisador.",
+        "rationale": "CORRETA. O pesquisador aplica a intervenção (vacina ou placebo), a alocação é aleatória e há mascaramento duplo (participantes e avaliadores): é um ensaio clínico randomizado duplo-cego."
+      },
+      {
+        "letter": "D",
+        "text": "Trata-se de um estudo de coorte observacional, pois os participantes vacinados e não vacinados são acompanhados durante dois anos.",
+        "rationale": "Incorreta. Na coorte observacional o pesquisador não decide quem é exposto; aqui ele sorteou e aplicou a intervenção."
+      }
+    ],
+    "correctLetter": "C",
+    "clinicalPointers": "Quem decidiu quem recebeu a vacina, e de que forma essa decisão foi tomada?"
+  },
+  {
+    "id": 355,
+    "code": "DEMOG-R01",
+    "category": "Demografia e Indicadores de Saúde",
+    "subcategory": "Revisão do professor - Variação percentual de taxa de mortalidade e interpretação",
+    "origem": "revisao_professor",
+    "difficulty": "Intermediária",
+    "prompt": "A equipe de vigilância epidemiológica de um município identificou que a taxa de mortalidade por doenças cerebrovasculares (AVC) aumentou progressivamente nos últimos três anos: 42/100.000 habitantes em 2021, 58/100.000 em 2022 e 71/100.000 em 2023. A análise por subgrupos mostrou que o aumento foi concentrado em mulheres negras com mais de 50 anos, residentes em dois bairros com baixa cobertura de saneamento, renda per capita inferior a 0,7 salário mínimo e baixa cobertura do acompanhamento de hipertensos na atenção primária. Considerando os dados apresentados, qual alternativa apresenta corretamente a variação percentual da taxa de mortalidade por AVC entre 2021 e 2023 e sua interpretação epidemiológica?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A taxa aumentou 29%, indicando uma elevação moderada da mortalidade, provavelmente relacionada apenas ao envelhecimento populacional, sem relação com a distribuição dos casos nos bairros.",
+        "rationale": "Incorreta. 29 é a diferença absoluta (71 − 42 = 29 por 100 mil), e não a variação percentual; além disso, a concentração em um grupo e território específicos não se explica apenas pelo envelhecimento."
+      },
+      {
+        "letter": "B",
+        "text": "A taxa aumentou aproximadamente 69%, indicando aumento expressivo da mortalidade por AVC, que deve ser interpretado conjuntamente com a concentração dos casos em determinado grupo populacional e território e com a baixa cobertura do acompanhamento da hipertensão.",
+        "rationale": "CORRETA. Variação percentual = (71 − 42) ÷ 42 × 100 = 29 ÷ 42 × 100 ≈ 69%. O aumento se concentra em um grupo com vulnerabilidades sociais e territoriais e baixo acompanhamento da hipertensão, o que orienta ações de equidade."
+      },
+      {
+        "letter": "C",
+        "text": "A taxa aumentou aproximadamente 41%, indicando que o risco de morte por AVC aumentou exatamente na mesma proporção entre mulheres negras residentes nos bairros analisados e no restante da população do município ao longo dos três anos analisados.",
+        "rationale": "Incorreta. 41% resulta de dividir a diferença pelo valor final (29 ÷ 71); a base correta é o valor inicial (42). E o aumento foi concentrado em um subgrupo, não igual para todos."
+      },
+      {
+        "letter": "D",
+        "text": "A taxa aumentou aproximadamente 169%, demonstrando que houve mais que o dobro de mortes por AVC entre 2021 e 2023 no município e confirmando que a baixa cobertura do acompanhamento da hipertensão foi a causa isolada desse aumento entre as mulheres dos dois bairros.",
+        "rationale": "Incorreta. 169% é a razão 71 ÷ 42 (1,69), não a variação; a taxa não chegou a dobrar. E dados descritivos não confirmam causa."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "Variação percentual compara a diferença com o valor de partida. Depois, veja qual interpretação respeita o que dados descritivos permitem concluir."
+  },
+  {
+    "id": 356,
+    "code": "CONC-R01",
+    "category": "Conceitos Fundamentais",
+    "subcategory": "Revisão do professor - Objeto de estudo da epidemiologia",
+    "origem": "revisao_professor",
+    "difficulty": "Básica",
+    "prompt": "A Epidemiologia é uma ciência fundamental para compreender os problemas de saúde de uma população. Assinale a alternativa que melhor representa seu objeto de estudo.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "O diagnóstico e o tratamento individual das doenças em ambiente hospitalar, com foco na conduta clínica mais adequada para cada paciente atendido no serviço.",
+        "rationale": "Incorreta. O diagnóstico e o tratamento de cada paciente são objeto da clínica; a epidemiologia estuda populações."
+      },
+      {
+        "letter": "B",
+        "text": "A distribuição e os determinantes dos eventos relacionados à saúde nas populações, além da aplicação desse conhecimento para o controle dos problemas de saúde.",
+        "rationale": "CORRETA. É a definição clássica: estudo da distribuição e dos determinantes dos eventos de saúde em populações e a aplicação desse conhecimento no controle dos problemas de saúde."
+      },
+      {
+        "letter": "C",
+        "text": "Exclusivamente a identificação dos agentes causadores de doenças infecciosas e dos seus mecanismos de transmissão entre as pessoas de uma comunidade.",
+        "rationale": "Incorreta. A epidemiologia não se restringe a doenças infecciosas: estuda também doenças crônicas, agravos e outros eventos de saúde."
+      },
+      {
+        "letter": "D",
+        "text": "Apenas a análise dos fatores genéticos relacionados às doenças, investigando como esses fatores se transmitem entre as gerações de uma mesma família.",
+        "rationale": "Incorreta. Fatores genéticos são apenas um entre muitos determinantes; a epidemiologia considera também fatores sociais, ambientais e comportamentais."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "Lembre a definição clássica de epidemiologia: ela olha para indivíduos ou para populações?"
+  },
+  {
+    "id": 357,
+    "code": "DEMOG-R02",
+    "category": "Demografia e Indicadores de Saúde",
+    "subcategory": "Revisão do professor - Exemplo de indicador de saúde",
+    "origem": "revisao_professor",
+    "difficulty": "Básica",
+    "prompt": "Os indicadores de saúde são utilizados para descrever e acompanhar as condições de saúde de uma população. Qual das alternativas apresenta um exemplo de indicador de saúde?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Número de consultas realizadas por um único médico.",
+        "rationale": "Incorreta. É um dado de produção de um profissional, que não descreve a saúde de uma população."
+      },
+      {
+        "letter": "B",
+        "text": "Taxa de mortalidade infantil.",
+        "rationale": "CORRETA. A taxa de mortalidade infantil relaciona óbitos de menores de 1 ano aos nascidos vivos e é um dos indicadores clássicos das condições de saúde e de vida de uma população."
+      },
+      {
+        "letter": "C",
+        "text": "Nome dos pacientes atendidos em uma unidade de saúde.",
+        "rationale": "Incorreta. É um dado de identificação individual, não um indicador."
+      },
+      {
+        "letter": "D",
+        "text": "Número de funcionários de uma clínica particular.",
+        "rationale": "Incorreta. É um dado administrativo de um serviço, que não mede a saúde da população."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "Um indicador de saúde expressa uma condição da população, geralmente como uma medida que permite comparação."
+  },
+  {
+    "id": 358,
+    "code": "DEMOG-R03",
+    "category": "Demografia e Indicadores de Saúde",
+    "subcategory": "Revisão do professor - Indicador adequado: coeficiente de mortalidade infantil",
+    "origem": "revisao_professor",
+    "difficulty": "Básica",
+    "prompt": "Em determinado município, foram registrados 18 óbitos de crianças menores de 1 ano e 1.500 nascidos vivos durante um ano. O indicador mais adequado para avaliar essa situação é:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Taxa de incidência acumulada no ano.",
+        "rationale": "Incorreta. A incidência mede casos novos de uma doença na população em risco, não óbitos de menores de 1 ano em relação aos nascidos vivos."
+      },
+      {
+        "letter": "B",
+        "text": "Coeficiente de mortalidade infantil.",
+        "rationale": "CORRETA. Óbitos de menores de 1 ano ÷ nascidos vivos × 1.000 = 18 ÷ 1.500 × 1.000 = 12 por mil nascidos vivos: é o coeficiente de mortalidade infantil."
+      },
+      {
+        "letter": "C",
+        "text": "Taxa de prevalência no período.",
+        "rationale": "Incorreta. A prevalência mede casos existentes de uma doença em um momento, não óbitos."
+      },
+      {
+        "letter": "D",
+        "text": "Coeficiente de letalidade infantil.",
+        "rationale": "Incorreta. A letalidade relaciona óbitos por uma doença aos casos dessa doença; aqui o denominador são os nascidos vivos, o que caracteriza a mortalidade infantil."
+      }
+    ],
+    "correctLetter": "B",
+    "clinicalPointers": "Observe o numerador (quem morreu) e o denominador (nascidos vivos) informados."
+  },
+  {
+    "id": 359,
+    "code": "MEDFA-R03",
+    "category": "Medidas de Frequência e Associação",
+    "subcategory": "Revisão do professor - Medida de associação em estudo caso-controle",
+    "origem": "revisao_professor",
+    "difficulty": "Intermediária",
+    "prompt": "Pesquisadores realizaram um estudo para investigar fatores associados ao desenvolvimento de câncer de pulmão. Foram selecionados 200 pacientes com câncer de pulmão (casos) e 400 indivíduos sem câncer de pulmão (controles). Os participantes foram entrevistados sobre o histórico de tabagismo. Entre os casos, 160 eram fumantes, enquanto entre os controles, 200 eram fumantes. Qual é a medida de associação mais apropriada para esse estudo?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Risco relativo (RR)",
+        "rationale": "Incorreta. O RR exige incidências, que não podem ser calculadas quando o pesquisador fixa o número de casos e controles."
+      },
+      {
+        "letter": "B",
+        "text": "Razão de prevalências (RP)",
+        "rationale": "Incorreta. A RP é a medida típica do estudo transversal, e não do caso-controle."
+      },
+      {
+        "letter": "C",
+        "text": "Odds ratio (OR)",
+        "rationale": "CORRETA. Em estudos caso-controle, a medida de associação é a odds ratio. Aqui: OR = (160 × 200) ÷ (40 × 200) = 32.000 ÷ 8.000 = 4, ou seja, a chance de exposição ao tabagismo foi 4 vezes maior entre os casos."
+      },
+      {
+        "letter": "D",
+        "text": "Incidência acumulada",
+        "rationale": "Incorreta. Incidência é medida de frequência, não de associação, e não pode ser calculada nesse desenho."
+      }
+    ],
+    "correctLetter": "C",
+    "clinicalPointers": "Primeiro identifique o desenho do estudo pela forma como os participantes foram selecionados."
   }
 ];
 </script>
